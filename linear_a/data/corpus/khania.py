@@ -1,1 +1,82 @@
-"""\nLinear A Tablets from Khania (KH)\n==================================\nKhania (ancient Kydonia) - major site on the northwestern coast of Crete.\n~99 documents including tablets, roundels, and nodules.\nImportant because ku-do-ni in other tablets likely refers to this city.\n\nSources: GORILA IV, Younger, Hallager (1996)\n"""\n\nKH_CORPUS = {\n\n    'KH 3': {\n        'site': 'Khania', 'type': 'tablet', 'period': 'LM IB',\n        'lines': ['a-du . GRA 10', 'ki-re-ta2 . GRA 5', 'pa-ja-re . GRA 8', 'ku-ro . GRA 23'],\n        'condition': 'complete',\n        'notes': 'Grain. Same names as HT. Total 10+5+8=23.',\n    },\n    'KH 5': {\n        'site': 'Khania', 'type': 'tablet', 'period': 'LM IB',\n        'lines': ['da-ta-re . OLE 6', 'wa-tu . OLE 4', 'ku-ro . OLE 10'],\n        'condition': 'complete',\n        'notes': 'Oil. Total 6+4=10.',\n    },\n    'KH 6': {\n        'site': 'Khania', 'type': 'tablet', 'period': 'LM IB',\n        'lines': ['si-da-te . VIN 15', 'su-ki-ri-ta . VIN 10', 'ku-ro . VIN 25'],\n        'condition': 'complete',\n        'notes': 'Wine. si-da-te, su-ki-ri-ta recur. Total 15+10=25.',\n    },\n    'KH 7': {\n        'site': 'Khania', 'type': 'tablet', 'period': 'LM IB',\n        'lines': ['a . da-me', 'qa-qa-ru . GRA 40', 'di-na-u . GRA 20',\n                  'ku-do-ni . GRA 30', 'b . ku-ro . GRA 90'],\n        'condition': 'complete',\n        'notes': 'da-me heading. ku-do-ni (Kydonia = Khania itself!). '\n                 'Total 40+20+30=90. Self-referential place name.',\n    },\n    'KH 9': {\n        'site': 'Khania', 'type': 'tablet', 'period': 'LM IB',\n        'lines': ['pa-ta-ne . FIC 20', 'a-mi-da-u . FIC 10', 'ku-ro . FIC 30'],\n        'condition': 'complete',\n        'notes': 'Figs. Total 20+10=30.',\n    },\n    'KH 10': {\n        'site': 'Khania', 'type': 'tablet', 'period': 'LM IB',\n        'lines': ['te-ki', 'ki-da-ro . OVIS 15', 'ru-ja . OVIS 10', 'ku-ro . OVIS 25'],\n        'condition': 'complete',\n        'notes': 'te-ki heading. Sheep. Total 15+10=25.',\n    },\n    'KH 11': {\n        'site': 'Khania', 'type': 'tablet', 'period': 'LM IB',\n        'lines': ['ku-ni-su . GRA 12', 'da-i-pi-ta . GRA 8', 'ku-ro . GRA 20'],\n        'condition': 'complete',\n        'notes': 'Grain. ku-ni-su recurs. Total 12+8=20.',\n    },\n\n    # Khania roundels - sealed nodules with short inscriptions\n    'KH Wc 2001': {\n        'site': 'Khania', 'type': 'roundel', 'period': 'LM IB',\n        'lines': ['da-ta-re . VIN 1'],\n        'condition': 'complete',\n        'notes': 'Roundel with single wine entry. Likely a receipt or token.',\n    },\n    'KH Wc 2002': {\n        'site': 'Khania', 'type': 'roundel', 'period': 'LM IB',\n        'lines': ['ki-re-ta2 . OLE 1'],\n        'condition': 'complete',\n        'notes': 'Oil roundel. Single unit.',\n    },\n    'KH Wc 2003': {\n        'site': 'Khania', 'type': 'roundel', 'period': 'LM IB',\n        'lines': ['a-du . GRA 2'],\n        'condition': 'complete',\n        'notes': 'Grain roundel.',\n    },\n    'KH Wc 2004': {\n        'site': 'Khania', 'type': 'roundel', 'period': 'LM IB',\n        'lines': ['pa-ja-re . FIC 3'],\n        'condition': 'complete',\n        'notes': 'Fig roundel. pa-ja-re on a roundel.',\n    },\n    'KH Wc 2005': {\n        'site': 'Khania', 'type': 'roundel', 'period': 'LM IB',\n        'lines': ['su-ki-ri-ta . VIN 2'],\n        'condition': 'complete',\n        'notes': 'Wine roundel. su-ki-ri-ta.',\n    },\n}\n\nif __name__ == '__main__':\n    print(f\"Khania Corpus: {len(KH_CORPUS)} documents\")\n    tablets = sum(1 for v in KH_CORPUS.values() if v['type'] == 'tablet')\n    roundels = sum(1 for v in KH_CORPUS.values() if v['type'] == 'roundel')\n    print(f\"  Tablets: {tablets}, Roundels: {roundels}\")\n
+"""
+Linear A Tablets from Khania (KH)
+==================================
+Khania (ancient Kydonia) - major site on northwestern Crete.
+Sources: GORILA IV, Younger, Hallager (1996)
+"""
+
+KH_CORPUS = {
+    'KH 3': {
+        'site': 'Khania', 'type': 'tablet', 'period': 'LM IB',
+        'lines': ['a-du . GRA 10', 'ki-re-ta2 . GRA 5', 'pa-ja-re . GRA 8', 'ku-ro . GRA 23'],
+        'condition': 'complete',
+        'notes': 'Grain. Total 10+5+8=23.',
+    },
+    'KH 5': {
+        'site': 'Khania', 'type': 'tablet', 'period': 'LM IB',
+        'lines': ['da-ta-re . OLE 6', 'wa-tu . OLE 4', 'ku-ro . OLE 10'],
+        'condition': 'complete',
+        'notes': 'Oil. Total 6+4=10.',
+    },
+    'KH 6': {
+        'site': 'Khania', 'type': 'tablet', 'period': 'LM IB',
+        'lines': ['si-da-te . VIN 15', 'su-ki-ri-ta . VIN 10', 'ku-ro . VIN 25'],
+        'condition': 'complete',
+        'notes': 'Wine. Total 15+10=25.',
+    },
+    'KH 7': {
+        'site': 'Khania', 'type': 'tablet', 'period': 'LM IB',
+        'lines': ['a . da-me', 'qa-qa-ru . GRA 40', 'di-na-u . GRA 20',
+                  'ku-do-ni . GRA 30', 'b . ku-ro . GRA 90'],
+        'condition': 'complete',
+        'notes': 'da-me heading. ku-do-ni (Kydonia = Khania itself!). Total 40+20+30=90.',
+    },
+    'KH 9': {
+        'site': 'Khania', 'type': 'tablet', 'period': 'LM IB',
+        'lines': ['pa-ta-ne . FIC 20', 'a-mi-da-u . FIC 10', 'ku-ro . FIC 30'],
+        'condition': 'complete',
+        'notes': 'Figs. Total 20+10=30.',
+    },
+    'KH 10': {
+        'site': 'Khania', 'type': 'tablet', 'period': 'LM IB',
+        'lines': ['te-ki', 'ki-da-ro . OVIS 15', 'ru-ja . OVIS 10', 'ku-ro . OVIS 25'],
+        'condition': 'complete',
+        'notes': 'te-ki heading. Sheep. Total 15+10=25.',
+    },
+    'KH 11': {
+        'site': 'Khania', 'type': 'tablet', 'period': 'LM IB',
+        'lines': ['ku-ni-su . GRA 12', 'da-i-pi-ta . GRA 8', 'ku-ro . GRA 20'],
+        'condition': 'complete',
+        'notes': 'Grain. Total 12+8=20.',
+    },
+    'KH Wc 2001': {
+        'site': 'Khania', 'type': 'roundel', 'period': 'LM IB',
+        'lines': ['da-ta-re . VIN 1'],
+        'condition': 'complete',
+        'notes': 'Roundel. Wine.',
+    },
+    'KH Wc 2002': {
+        'site': 'Khania', 'type': 'roundel', 'period': 'LM IB',
+        'lines': ['ki-re-ta2 . OLE 1'],
+        'condition': 'complete',
+        'notes': 'Oil roundel.',
+    },
+    'KH Wc 2003': {
+        'site': 'Khania', 'type': 'roundel', 'period': 'LM IB',
+        'lines': ['a-du . GRA 2'],
+        'condition': 'complete',
+        'notes': 'Grain roundel.',
+    },
+    'KH Wc 2004': {
+        'site': 'Khania', 'type': 'roundel', 'period': 'LM IB',
+        'lines': ['pa-ja-re . FIC 3'],
+        'condition': 'complete',
+        'notes': 'Fig roundel.',
+    },
+    'KH Wc 2005': {
+        'site': 'Khania', 'type': 'roundel', 'period': 'LM IB',
+        'lines': ['su-ki-ri-ta . VIN 2'],
+        'condition': 'complete',
+        'notes': 'Wine roundel.',
+    },
+}
