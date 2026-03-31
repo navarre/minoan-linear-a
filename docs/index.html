@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Linear A Decipherment Project</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-content">
+    <div class="title-block">
+      <h1>𐘇 Linear A Decipherment Project</h1>
+      <p class="subtitle">Computational analysis of Europe's oldest undeciphered writing system</p>
+    </div>
+    <div class="header-stats">
+      <div class="header-stat"><span class="stat-num">127</span><span class="stat-label">Inscriptions</span></div>
+      <div class="header-stat"><span class="stat-num">87</span><span class="stat-label">Syllabograms</span></div>
+      <div class="header-stat"><span class="stat-num">23</span><span class="stat-label">Sites</span></div>
+      <div class="header-stat"><span class="stat-num">2/6</span><span class="stat-label">Benchmarks</span></div>
+    </div>
+  </div>
+</header>
+
+<nav>
+  <a href="#overview">Overview</a>
+  <a href="#progress">Progress</a>
+  <a href="#corpus">Corpus</a>
+  <a href="#benchmarks">Benchmarks</a>
+  <a href="#signs">Signs</a>
+  <a href="#sites">Sites</a>
+</nav>
+
+<main>
+
+<!-- OVERVIEW -->
+<section id="overview" class="section">
+  <h2>What is Linear A?</h2>
+  <div class="overview-grid">
+    <div class="overview-card">
+      <h3>The Script</h3>
+      <p>Linear A was used in Bronze Age Crete from approximately <strong>1700&ndash;1450 BCE</strong>. It is the primary writing system of the <strong>Minoan civilization</strong>, predating the deciphered Linear B (Mycenaean Greek) by centuries.</p>
+      <p>Despite over a century of scholarship, <strong>Linear A remains undeciphered</strong>. The underlying language is unknown&mdash;it is not Greek, and its language family has never been conclusively identified.</p>
+    </div>
+    <div class="overview-card">
+      <h3>Our Approach</h3>
+      <p>This project applies <strong>computational methods</strong> to the corpus of ~1,400 known inscriptions. Rather than guessing translations, we build from the ground up:</p>
+      <ul>
+        <li>Statistical frequency analysis</li>
+        <li>Positional pattern detection</li>
+        <li>Cross-site comparison</li>
+        <li>Hypothesis testing with confidence scores</li>
+      </ul>
+      <p><em>Reproducibility over revelation. The math doesn&rsquo;t lie.</em></p>
+    </div>
+    <div class="overview-card">
+      <h3>The Corpus</h3>
+      <p>Inscriptions survive on <strong>clay tablets, stone vessels, roundels,</strong> and other objects found across Crete and the Aegean. Two major categories:</p>
+      <ul>
+        <li><strong>Administrative:</strong> Accounting tablets recording commodities, quantities, and totals (mainly from Haghia Triada)</li>
+        <li><strong>Religious:</strong> Libation formulas on stone vessels from peak sanctuaries and caves</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- PROGRESS TRACKER -->
+<section id="progress" class="section">
+  <h2>Decipherment Progress</h2>
+  <p class="section-intro">A six-level framework measuring verifiable progress, from replicating known results to systematic translation.</p>
+  <div class="levels-grid">
+    <div class="level-card active">
+      <div class="level-header">
+        <span class="level-badge l1">L1</span>
+        <h3>Replication</h3>
+        <span class="level-status in-progress">In Progress</span>
+      </div>
+      <p>Independently rediscover known findings from raw data.</p>
+      <div class="progress-bar"><div class="progress-fill" style="width: 29%"></div></div>
+      <span class="progress-text">2 of 7 checkpoints</span>
+      <ul class="checkpoint-list">
+        <li class="done">ku-ro = "total" confirmed from positional analysis</li>
+        <li class="done">po-to-ku-ro = "grand total" confirmed from composite analysis</li>
+        <li>ki-ro = "deficit/owed" &mdash; evidence found, not yet formally benchmarked</li>
+        <li>Libation formula detection &mdash; pending</li>
+        <li>HT administrative structure detection &mdash; pending</li>
+        <li>Sign frequency distribution match &mdash; pending</li>
+        <li>Word boundary sign preferences &mdash; pending</li>
+      </ul>
+    </div>
+    <div class="level-card">
+      <div class="level-header">
+        <span class="level-badge l2">L2</span>
+        <h3>Novel Discovery</h3>
+        <span class="level-status not-started">Not Started</span>
+      </div>
+      <p>Find at least one pattern not yet published in scholarship.</p>
+      <div class="progress-bar"><div class="progress-fill" style="width: 0%"></div></div>
+      <span class="progress-text">0 of 7 checkpoints</span>
+    </div>
+    <div class="level-card">
+      <div class="level-header">
+        <span class="level-badge l3">L3</span>
+        <h3>Cross-Paper Synthesis</h3>
+        <span class="level-status not-started">Not Started</span>
+      </div>
+      <p>Connect insights across multiple published sources that authors missed.</p>
+      <div class="progress-bar"><div class="progress-fill" style="width: 0%"></div></div>
+      <span class="progress-text">0 of 6 checkpoints</span>
+    </div>
+    <div class="level-card">
+      <div class="level-header">
+        <span class="level-badge l4">L4</span>
+        <h3>Disproof</h3>
+        <span class="level-status not-started">Not Started</span>
+      </div>
+      <p>Statistically disprove at least one published hypothesis (p &lt; 0.05).</p>
+      <div class="progress-bar"><div class="progress-fill" style="width: 0%"></div></div>
+      <span class="progress-text">0 of 6 checkpoints</span>
+    </div>
+    <div class="level-card">
+      <div class="level-header">
+        <span class="level-badge l5">L5</span>
+        <h3>Translation</h3>
+        <span class="level-status not-started">Not Started</span>
+      </div>
+      <p>Produce at least one high-confidence reading of a phrase or sentence.</p>
+      <div class="progress-bar"><div class="progress-fill" style="width: 0%"></div></div>
+      <span class="progress-text">0 of 6 checkpoints</span>
+    </div>
+    <div class="level-card">
+      <div class="level-header">
+        <span class="level-badge l6">L6</span>
+        <h3>Scale</h3>
+        <span class="level-status not-started">Not Started</span>
+      </div>
+      <p>Systematic progress across the full corpus (10&ndash;25%).</p>
+      <div class="progress-bar"><div class="progress-fill" style="width: 0%"></div></div>
+      <span class="progress-text">0 of 10 checkpoints</span>
+    </div>
+  </div>
+</section>
+
+<!-- CORPUS STATS -->
+<section id="corpus" class="section">
+  <h2>Corpus Overview</h2>
+  <div class="stats-row">
+    <div class="stat-card">
+      <div class="stat-big">127</div>
+      <div class="stat-desc">Inscriptions Digitized</div>
+      <div class="stat-context">of ~1,400 known</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-big">346</div>
+      <div class="stat-desc">Lines of Text</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-big">376</div>
+      <div class="stat-desc">Total Words</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-big">66</div>
+      <div class="stat-desc">Unique Words</div>
+    </div>
+  </div>
+
+  <div class="corpus-details">
+    <div class="corpus-col">
+      <h3>By Document Type</h3>
+      <div class="bar-chart">
+        <div class="bar-row"><span class="bar-label">Tablets</span><div class="bar-track"><div class="bar-fill" style="width: 65%"></div></div><span class="bar-val">83</span></div>
+        <div class="bar-row"><span class="bar-label">Libation Tables</span><div class="bar-track"><div class="bar-fill" style="width: 15%"></div></div><span class="bar-val">19</span></div>
+        <div class="bar-row"><span class="bar-label">Roundels</span><div class="bar-track"><div class="bar-fill" style="width: 12%"></div></div><span class="bar-val">15</span></div>
+        <div class="bar-row"><span class="bar-label">Stone Vessels</span><div class="bar-track"><div class="bar-fill" style="width: 8%"></div></div><span class="bar-val">10</span></div>
+      </div>
+    </div>
+    <div class="corpus-col">
+      <h3>By Period</h3>
+      <div class="bar-chart">
+        <div class="bar-row"><span class="bar-label">LM IB (~1480-1425)</span><div class="bar-track"><div class="bar-fill" style="width: 64%"></div></div><span class="bar-val">81</span></div>
+        <div class="bar-row"><span class="bar-label">LM IA (~1600-1480)</span><div class="bar-track"><div class="bar-fill" style="width: 19%"></div></div><span class="bar-val">24</span></div>
+        <div class="bar-row"><span class="bar-label">MM III (~1700-1600)</span><div class="bar-track"><div class="bar-fill" style="width: 11%"></div></div><span class="bar-val">14</span></div>
+        <div class="bar-row"><span class="bar-label">MM III-LM IA</span><div class="bar-track"><div class="bar-fill" style="width: 6%"></div></div><span class="bar-val">7</span></div>
+        <div class="bar-row"><span class="bar-label">MM II (~1800-1700)</span><div class="bar-track"><div class="bar-fill" style="width: 1%"></div></div><span class="bar-val">1</span></div>
+      </div>
+    </div>
+    <div class="corpus-col">
+      <h3>Most Frequent Words</h3>
+      <div class="bar-chart">
+        <div class="bar-row"><span class="bar-label">ku-ro</span><div class="bar-track"><div class="bar-fill highlight" style="width: 100%"></div></div><span class="bar-val">80</span></div>
+        <div class="bar-row"><span class="bar-label">a-ta-i-*301-wa-ja</span><div class="bar-track"><div class="bar-fill" style="width: 26%"></div></div><span class="bar-val">21</span></div>
+        <div class="bar-row"><span class="bar-label">a-du</span><div class="bar-track"><div class="bar-fill" style="width: 21%"></div></div><span class="bar-val">17</span></div>
+        <div class="bar-row"><span class="bar-label">ja-sa-sa-ra-me</span><div class="bar-track"><div class="bar-fill" style="width: 19%"></div></div><span class="bar-val">15</span></div>
+        <div class="bar-row"><span class="bar-label">pa-ja-re</span><div class="bar-track"><div class="bar-fill" style="width: 19%"></div></div><span class="bar-val">15</span></div>
+        <div class="bar-row"><span class="bar-label">ki-re-ta2</span><div class="bar-track"><div class="bar-fill" style="width: 19%"></div></div><span class="bar-val">15</span></div>
+        <div class="bar-row"><span class="bar-label">su-ki-ri-ta</span><div class="bar-track"><div class="bar-fill" style="width: 14%"></div></div><span class="bar-val">11</span></div>
+        <div class="bar-row"><span class="bar-label">da-ta-re</span><div class="bar-track"><div class="bar-fill" style="width: 14%"></div></div><span class="bar-val">11</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BENCHMARKS -->
+<section id="benchmarks" class="section">
+  <h2>Benchmark Results</h2>
+  <p class="section-intro">Replication benchmarks test whether our computational tools can independently recover findings that scholars have already established.</p>
+  <div class="benchmark-grid">
+    <div class="benchmark-card">
+      <div class="benchmark-header">
+        <span class="bench-status success">Provisional Success</span>
+        <span class="bench-level">Level 1</span>
+      </div>
+      <h3>ku-ro as Summation Marker</h3>
+      <p>Can we recover that <code>ku-ro</code> means "total" using only positional and numerical analysis?</p>
+      <div class="bench-results">
+        <div class="bench-stat">
+          <span class="bench-num">74</span>
+          <span class="bench-desc">occurrences as first token in quantity-bearing lines</span>
+        </div>
+        <div class="bench-stat">
+          <span class="bench-num">5.3&times;</span>
+          <span class="bench-desc">more frequent than the next candidate (a-du: 14)</span>
+        </div>
+      </div>
+      <div class="bench-examples">
+        <h4>Example Lines</h4>
+        <code>HT 1&ensp; ku-ro . GRA 33</code>
+        <code>HT 6&ensp; ku-ro . GRA 13 . OLE 1 . VIN 2</code>
+        <code>HT 17 ku-ro . FIC 60</code>
+      </div>
+      <p class="bench-note">ku-ro appears in a stable position before commodity + number expressions across dozens of tablets. The statistical signal is overwhelming.</p>
+    </div>
+
+    <div class="benchmark-card">
+      <div class="benchmark-header">
+        <span class="bench-status success">Provisional Success</span>
+        <span class="bench-level">Level 1</span>
+      </div>
+      <h3>po-to-ku-ro as Grand Total</h3>
+      <p>Does <code>po-to-ku-ro</code> function as an extended summation expression related to <code>ku-ro</code>?</p>
+      <div class="bench-results">
+        <div class="bench-stat">
+          <span class="bench-num">2</span>
+          <span class="bench-desc">occurrences in quantity-bearing lines</span>
+        </div>
+        <div class="bench-stat">
+          <span class="bench-num">100%</span>
+          <span class="bench-desc">structural alignment with ku-ro pattern</span>
+        </div>
+      </div>
+      <div class="bench-examples">
+        <h4>Evidence</h4>
+        <code>HT 93 po-to-ku-ro . GRA 576</code>
+        <code>HT 99 po-to-ku-ro . GRA 60</code>
+      </div>
+      <p class="bench-note">Both occurrences show identical structural behavior to ku-ro: line-initial position, followed by commodity + number. The larger quantities (576) suggest a "grand total" function. Sample size is small but structurally clear.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SIGN CATALOG -->
+<section id="signs" class="section">
+  <h2>Sign Inventory</h2>
+  <div class="stats-row">
+    <div class="stat-card small">
+      <div class="stat-big">87</div>
+      <div class="stat-desc">Syllabograms</div>
+    </div>
+    <div class="stat-card small">
+      <div class="stat-big">32</div>
+      <div class="stat-desc">Logograms</div>
+    </div>
+    <div class="stat-card small">
+      <div class="stat-big">5</div>
+      <div class="stat-desc">Numerals</div>
+    </div>
+    <div class="stat-card small">
+      <div class="stat-big">10</div>
+      <div class="stat-desc">Fractions</div>
+    </div>
+  </div>
+
+  <h3>Syllabogram Confidence Levels</h3>
+  <p>Phonetic values are hypothesized by mapping Linear A signs to visually similar Linear B counterparts (which are deciphered).</p>
+  <div class="confidence-grid">
+    <div class="conf-card high">
+      <div class="conf-count">44</div>
+      <div class="conf-label">High Confidence</div>
+      <div class="conf-desc">Clear Linear B parallel with consistent usage patterns</div>
+      <div class="sign-samples">da, ro, pa, te, to, na, di, a, se, po, me, sa, ta, ra, i, ja, ka, ku&hellip;</div>
+    </div>
+    <div class="conf-card medium">
+      <div class="conf-count">14</div>
+      <div class="conf-label">Medium Confidence</div>
+      <div class="conf-desc">Probable Linear B match but some uncertainty remains</div>
+      <div class="sign-samples">u, zo, qi, mi, a2, wi, je, ta2, ju, ze, we, ra2, qe&hellip;</div>
+    </div>
+    <div class="conf-card low">
+      <div class="conf-count">6</div>
+      <div class="conf-label">Low Confidence</div>
+      <div class="conf-desc">Tentative mapping, limited evidence</div>
+      <div class="sign-samples">mo, pa3, zu, twe, two&hellip;</div>
+    </div>
+    <div class="conf-card none">
+      <div class="conf-count">23</div>
+      <div class="conf-label">Undeciphered</div>
+      <div class="conf-desc">No known phonetic value &mdash; unique to Linear A</div>
+      <div class="sign-samples">*49, *82, *86, *100, *301&ndash;*318&hellip;</div>
+    </div>
+  </div>
+
+  <h3>Key Recurring Sequences</h3>
+  <div class="sequences-table">
+    <table>
+      <thead><tr><th>Sequence</th><th>Freq</th><th>Context</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr><td><code>ku-ro</code></td><td>80</td><td>Administrative</td><td>Almost certainly "total" &mdash; appears at end of lists before sum</td></tr>
+        <tr class="highlight-row"><td><code>ja-sa-sa-ra-me</code></td><td>15</td><td>Libation formula</td><td>Most famous recurring phrase. Possibly a deity name or prayer.</td></tr>
+        <tr><td><code>ki-ro</code></td><td>12</td><td>Administrative</td><td>Likely "deficit" or "owed" &mdash; cf. Linear B ki-ri-to</td></tr>
+        <tr class="highlight-row"><td><code>a-ta-i-*301-wa-ja</code></td><td>21</td><td>Libation formula</td><td>Opening phrase of the standard libation formula</td></tr>
+        <tr><td><code>i-da-ma-te</code></td><td>7</td><td>Libation formula</td><td>Possibly Mount Ida (i-da) + "mother" (ma-te)?</td></tr>
+        <tr class="highlight-row"><td><code>da-me</code></td><td>8</td><td>Administrative</td><td>Possibly "total" or a type of assessment</td></tr>
+        <tr><td><code>a-di-ki-te</code></td><td>3</td><td>Libation formula</td><td>Possibly = Dikte/Dikta, mountain of Zeus&rsquo; birth</td></tr>
+        <tr class="highlight-row"><td><code>po-to-ku-ro</code></td><td>3</td><td>Administrative</td><td>"Grand total" &mdash; po-to may be an intensifier</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- SITES -->
+<section id="sites" class="section">
+  <h2>Inscription Sites</h2>
+  <p class="section-intro">Linear A inscriptions have been found across Crete and the wider Aegean, from palace archives to mountain-top sanctuaries.</p>
+
+  <div class="sites-grid">
+    <div class="site-card major">
+      <h3>Haghia Triada</h3>
+      <div class="site-count">52 inscriptions</div>
+      <p>South-central Crete. The richest source of Linear A, yielding ~150 tablets (42 digitized). Primarily administrative/accounting documents recording commodities, personnel, and totals.</p>
+    </div>
+    <div class="site-card">
+      <h3>Zakros</h3>
+      <div class="site-count">14 inscriptions</div>
+      <p>Eastern Crete palace. Administrative tablets and ritual inscriptions.</p>
+    </div>
+    <div class="site-card">
+      <h3>Khania</h3>
+      <div class="site-count">12 inscriptions</div>
+      <p>Western Crete. Administrative records showing connections to other palace centers.</p>
+    </div>
+    <div class="site-card">
+      <h3>Phaistos</h3>
+      <div class="site-count">10 inscriptions</div>
+      <p>South-central Crete palace. Administrative tablets from the neopalatial period.</p>
+    </div>
+    <div class="site-card">
+      <h3>Ioukhtas</h3>
+      <div class="site-count">6 inscriptions</div>
+      <p>Peak sanctuary above Archanes. Stone libation tables with ritual formulas.</p>
+    </div>
+    <div class="site-card">
+      <h3>Syme Viannou</h3>
+      <div class="site-count">4 inscriptions</div>
+      <p>Mountain sanctuary in eastern Crete. Libation vessels spanning several centuries.</p>
+    </div>
+    <div class="site-card">
+      <h3>Other Sites</h3>
+      <div class="site-count">29 inscriptions</div>
+      <p>Knossos, Archanes, Malia, Petras, Psychro Cave, Palaikastro, Tylissos, and Aegean islands (Thera, Kea, Miletos).</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="footer-content">
+    <div class="footer-left">
+      <p><strong>Linear A Decipherment Project</strong></p>
+      <p>Reproducibility over revelation. Confidence scores on everything. The math doesn&rsquo;t lie.</p>
+    </div>
+    <div class="footer-right">
+      <p>Data sources: GORILA (Godart &amp; Olivier), J. Younger&rsquo;s Linear A Texts, published scholarship</p>
+      <p>Built with care in Crete &bull; <a href="https://github.com/navarre/minoan-linear-a">GitHub</a></p>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
