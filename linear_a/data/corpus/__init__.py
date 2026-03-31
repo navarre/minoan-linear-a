@@ -66,6 +66,12 @@ try:
 except ImportError:
     pass
 
+try:
+    from .recent_discoveries import RECENT_CORPUS
+    _merge(RECENT_CORPUS)
+except ImportError:
+    pass
+
 
 # === HELPER FUNCTIONS ===
 
