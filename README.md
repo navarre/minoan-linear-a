@@ -1,3 +1,3 @@
-This is a project from a novice intrested in the subject, that wants to use the latest AI every time there is a new version to do the impossible: Decipher Liner A
+The goal is to create a central public repository for anyone to use and understand Linear A using the very latest AI methods.
 
-Why? Because I live in Crete and love histiory.
+Why? I'm a database developer and AI trainer and moved to Crete 4 years ago, and I love the puzzle and challenge of these ancient languages.
