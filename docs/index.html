@@ -257,100 +257,115 @@
 
 <!-- PROGRESS TRACKER -->
 <section id="progress" class="section">
-  <h2>Decipherment Progress</h2>
-  <p class="section-intro">A six-level framework measuring verifiable progress, from replicating known results to systematic translation.</p>
+  <h2>Project Goals</h2>
+  <p class="section-intro">Five milestones toward building the most complete computational resource for Linear A research.</p>
   <div class="levels-grid">
     <div class="level-card active">
       <div class="level-header">
-        <span class="level-badge l1">L1</span>
-        <h3>Replication</h3>
+        <span class="level-badge l1">M1</span>
+        <h3>Corpus Infrastructure</h3>
         <span class="level-status in-progress">In Progress</span>
       </div>
-      <p>Independently rediscover known findings from raw data.</p>
-      <div class="progress-bar"><div class="progress-fill" style="width: 86%"></div></div>
-      <span class="progress-text">6 of 7 checkpoints</span>
+      <p>Build the definitive searchable, structured corpus from all available sources.</p>
+      <div class="progress-bar"><div class="progress-fill" style="width: 60%"></div></div>
+      <span class="progress-text">5 of 8 checkpoints</span>
+      <ul class="checkpoint-list">
+        <li class="done">Full corpus acquired: ~1,400 inscriptions from imported website + FileMaker (773 docs, 5,714 signs)</li>
+        <li class="done">Extraction pipeline proven across 3 sites (HT 24a, ZA 26a, ARKH 6)</li>
+        <li class="done">Sign inventory reconciled: 106 syllabograms, single canonical source of truth</li>
+        <li class="done">129 inscriptions in structured Python format with metadata</li>
+        <li class="done">Knossos ivory scepter (2024) cataloged &mdash; awaiting full transcription</li>
+        <li>Convert all ~1,400 inscriptions to structured format</li>
+        <li>Integrate SVG bounding boxes and crop images from imported site</li>
+        <li>Searchable web interface for the full corpus</li>
+      </ul>
+    </div>
+    <div class="level-card active">
+      <div class="level-header">
+        <span class="level-badge l2">M2</span>
+        <h3>Validate &amp; Discover</h3>
+        <span class="level-status in-progress">In Progress</span>
+      </div>
+      <p>Independently confirm known results, then find new patterns no one has published.</p>
+      <div class="progress-bar"><div class="progress-fill" style="width: 55%"></div></div>
+      <span class="progress-text">8 of 14 checkpoints</span>
       <ul class="checkpoint-list">
         <li class="done">ku-ro = "total" confirmed (74 occurrences, 5.3&times; next candidate)</li>
         <li class="done">ki-ro = "deficit" confirmed &mdash; always follows ku-ro with smaller value</li>
         <li class="done">po-to-ku-ro = "grand total" confirmed from composite analysis</li>
-        <li class="done">Libation formula: 3-tier structure detected (core &rarr; ja-sa-sa-ra-me &rarr; i-da-ma-te), 100% ritual-exclusive tokens</li>
-        <li class="done">HT tablets identified as administrative/accounting from structure alone</li>
-        <li class="done">Sign frequency validates Zipf&rsquo;s law (exponent 1.103, R&sup2;=0.901)</li>
-        <li>Word boundary sign preferences &mdash; pending</li>
+        <li class="done">Libation formula: 3-tier structure (core &rarr; ja-sa-sa-ra-me &rarr; i-da-ma-te), 100% ritual-exclusive</li>
+        <li class="done">HT administrative structure detected from data alone</li>
+        <li class="done">Zipf&rsquo;s law validated (exponent 1.103, R&sup2;=0.901) &mdash; confirms natural language</li>
+        <li class="done">Morphological patterns: productive prefixes (a-, da-, ku-) and suffixes (-te, -ja, -me, -ro)</li>
+        <li class="done">Paradigmatic sets: ta-na/ta-na-te/ta-na-su (same root, different case endings)</li>
+        <li>Word boundary sign preferences</li>
+        <li>Identify dialect variation between sites</li>
+        <li>Detect word classes (nouns vs. verbs vs. names) from distribution</li>
+        <li>New numerical relationships in accounting tablets</li>
+        <li>Sign co-occurrence constraints revealing phonotactic rules</li>
+        <li>Unrecognized compound words or word families</li>
       </ul>
     </div>
     <div class="level-card active">
       <div class="level-header">
-        <span class="level-badge l2">L2</span>
-        <h3>Novel Discovery</h3>
+        <span class="level-badge l3">M3</span>
+        <h3>Grammar &amp; Vocabulary</h3>
         <span class="level-status in-progress">In Progress</span>
       </div>
-      <p>Find at least one pattern not yet published in scholarship.</p>
-      <div class="progress-bar"><div class="progress-fill" style="width: 29%"></div></div>
-      <span class="progress-text">2 of 7 checkpoints</span>
+      <p>Build a working grammar sketch and expand the readable vocabulary.</p>
+      <div class="progress-bar"><div class="progress-fill" style="width: 35%"></div></div>
+      <span class="progress-text">4 of 11 checkpoints</span>
       <ul class="checkpoint-list">
-        <li class="done">Morphological patterns: productive prefixes (a-, da-, ku-) and suffixes (-te, -ja, -me)</li>
-        <li class="done">Paradigmatic sets identified (ta-na/ta-na-te/ta-na-su)</li>
-        <li>Additional novel patterns under investigation</li>
+        <li class="done">14 words read: 5 confident, 6 probable, 3 speculative</li>
+        <li class="done">Libation formula interpreted: &ldquo;[I] dedicate [this to] My Lady, Mother of Ida&rdquo;</li>
+        <li class="done">Luwian <em>ishassara</em> + possessive -me synthesis for ja-sa-sa-ra-me</li>
+        <li class="done">Language isolate hypothesis scored 0.774 vs Semitic 0.226, Anatolian 0.190</li>
+        <li>Expand glossary to 50+ words with confidence scores</li>
+        <li>Complete case system analysis (-te, -ja, -me, -ro)</li>
+        <li>Verb morphology identification</li>
+        <li>Number marking patterns</li>
+        <li>Word order rules beyond administrative texts</li>
+        <li>Resolve sign *301 (appears in libation formula, most important unsolved sign)</li>
+        <li>Loanword identification: which words entered Greek/Linear B?</li>
       </ul>
     </div>
     <div class="level-card active">
       <div class="level-header">
-        <span class="level-badge l3">L3</span>
-        <h3>Cross-Paper Synthesis</h3>
-        <span class="level-status in-progress">In Progress</span>
-      </div>
-      <p>Connect insights across multiple published sources that authors missed.</p>
-      <div class="progress-bar"><div class="progress-fill" style="width: 17%"></div></div>
-      <span class="progress-text">1 of 6 checkpoints</span>
-      <ul class="checkpoint-list">
-        <li class="done">Luwian <em>ishassara</em> + possessive morpheme synthesis for ja-sa-sa-ra-me</li>
-        <li>Additional cross-paper connections under investigation</li>
-      </ul>
-    </div>
-    <div class="level-card active">
-      <div class="level-header">
-        <span class="level-badge l4">L4</span>
-        <h3>Disproof</h3>
-        <span class="level-status in-progress">In Progress</span>
-      </div>
-      <p>Statistically disprove at least one published hypothesis.</p>
-      <div class="progress-bar"><div class="progress-fill" style="width: 17%"></div></div>
-      <span class="progress-text">1 of 6 checkpoints</span>
-      <ul class="checkpoint-list">
-        <li class="done">Language isolate scored 0.774 vs Semitic 0.226 &mdash; strong evidence against Semitic hypothesis</li>
-        <li>Formal p-value testing pending</li>
-      </ul>
-    </div>
-    <div class="level-card active">
-      <div class="level-header">
-        <span class="level-badge l5">L5</span>
+        <span class="level-badge l5">M4</span>
         <h3>Translation</h3>
         <span class="level-status in-progress">In Progress</span>
       </div>
-      <p>Produce high-confidence readings of phrases or sentences.</p>
-      <div class="progress-bar"><div class="progress-fill" style="width: 33%"></div></div>
-      <span class="progress-text">2 of 6 checkpoints</span>
+      <p>Translate complete inscriptions with evidence chains and confidence scores on every word.</p>
+      <div class="progress-bar"><div class="progress-fill" style="width: 20%"></div></div>
+      <span class="progress-text">2 of 8 checkpoints</span>
       <ul class="checkpoint-list">
-        <li class="done">Libation formula translated with confidence scores per word</li>
-        <li class="done">14 words read: 5 confident, 6 probable, 3 speculative</li>
-        <li>Full tablet translation pending</li>
+        <li class="done">Libation formula translated with per-word confidence</li>
+        <li class="done">Administrative entries readable: name + commodity + number + total</li>
+        <li>Translate a complete short accounting tablet end-to-end</li>
+        <li>Translate a complete roundel inscription</li>
+        <li>Identify at least 3 divine names with probable meanings</li>
+        <li>Transcribe and analyze the ivory scepter (119 signs)</li>
+        <li>Translate ritual text from the scepter ring</li>
+        <li>Produce a reading of a non-administrative, non-formulaic text</li>
       </ul>
     </div>
     <div class="level-card">
       <div class="level-header">
-        <span class="level-badge l6">L6</span>
-        <h3>Scale</h3>
-        <span class="level-status not-started">Early</span>
+        <span class="level-badge l6">M5</span>
+        <h3>Publication</h3>
+        <span class="level-status not-started">Planned</span>
       </div>
-      <p>Systematic progress across the full corpus (10&ndash;25%).</p>
-      <div class="progress-bar"><div class="progress-fill" style="width: 20%"></div></div>
-      <span class="progress-text">2 of 10 checkpoints</span>
+      <p>Produce publishable-quality results that advance the field.</p>
+      <div class="progress-bar"><div class="progress-fill" style="width: 5%"></div></div>
+      <span class="progress-text">0 of 7 checkpoints</span>
       <ul class="checkpoint-list">
-        <li class="done">Full corpus digitized: ~1,400 inscriptions from imported website + FileMaker database (773 docs, 5,714 signs)</li>
-        <li class="done">Extraction proof: imported website data successfully parsed into structured corpus format (HT 24a, ZA 26a, ARKH 6 pilots)</li>
-        <li class="done">Sign inventory reconciled to 106 syllabograms (canonical single source of truth)</li>
-        <li>Converting all imported site data into Python corpus format &mdash; in progress</li>
+        <li>Comprehensive online corpus browser (superset of SigLA)</li>
+        <li>Full grammar sketch: word order, case system, verb morphology</li>
+        <li>Glossary of 50+ words with multi-method evidence</li>
+        <li>Language typology paper with statistical framework</li>
+        <li>At least 5 complete inscription translations</li>
+        <li>Methodology paper: computational approaches to undeciphered scripts</li>
+        <li>Open dataset and tools for other researchers</li>
       </ul>
     </div>
   </div>
@@ -428,6 +443,7 @@
     <div class="stat-card small"><div class="stat-big">731</div><div class="stat-desc">Document Faces</div></div>
   </div>
   <p class="bench-note">Top sites by document count: HT (373), KH (213), PH (63), ZA (44), KN (31), MA (20), ARKH (10).</p>
+  <p style="margin-top:0.8rem"><strong>Browse all inscriptions now:</strong> <a href="https://sigla.phis.me/" target="_blank" style="color:var(--accent)">SigLA &mdash; The Signs of Linear A</a> &mdash; searchable database with sign drawings, SVG coordinates, and per-document analysis. <a href="https://sigla.phis.me/map.html" target="_blank" style="color:var(--accent)">Map view</a> &bull; <a href="https://sigla.phis.me/sign-list.html" target="_blank" style="color:var(--accent)">Sign list</a> &bull; <a href="https://sigla.phis.me/kind/Tablet/" target="_blank" style="color:var(--accent)">All tablets</a></p>
 </div>
 
 <!-- SIGN CATALOG -->
