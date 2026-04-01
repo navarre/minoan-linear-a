@@ -16,7 +16,7 @@
     </div>
     <div class="header-stats">
       <div class="header-stat"><span class="stat-num">129</span><span class="stat-label">Inscriptions</span></div>
-      <div class="header-stat"><span class="stat-num">87</span><span class="stat-label">Syllabograms</span></div>
+      <div class="header-stat"><span class="stat-num">106</span><span class="stat-label">Syllabograms</span></div>
       <div class="header-stat"><span class="stat-num">23</span><span class="stat-label">Sites</span></div>
       <div class="header-stat"><span class="stat-num">14</span><span class="stat-label">Words Read</span></div>
     </div>
@@ -344,11 +344,13 @@
         <span class="level-status not-started">Early</span>
       </div>
       <p>Systematic progress across the full corpus (10&ndash;25%).</p>
-      <div class="progress-bar"><div class="progress-fill" style="width: 10%"></div></div>
-      <span class="progress-text">1 of 10 checkpoints</span>
+      <div class="progress-bar"><div class="progress-fill" style="width: 20%"></div></div>
+      <span class="progress-text">2 of 10 checkpoints</span>
       <ul class="checkpoint-list">
-        <li class="done">127 of ~1,400 inscriptions digitized (9%)</li>
-        <li>Full corpus digitization ongoing</li>
+        <li class="done">129 of ~1,400 inscriptions digitized (incl. 2024 ivory scepter)</li>
+        <li class="done">Extraction proof: imported website data successfully parsed into structured corpus format (HT 24a pilot)</li>
+        <li>Sign inventory reconciled to 106 syllabograms (canonical single source of truth)</li>
+        <li>Full corpus digitization from imported site (~372 HT documents) &mdash; in progress</li>
       </ul>
     </div>
   </div>
@@ -431,7 +433,7 @@
   <h2>Sign Inventory</h2>
   <div class="stats-row">
     <div class="stat-card small">
-      <div class="stat-big">87</div>
+      <div class="stat-big">106</div>
       <div class="stat-desc">Syllabograms</div>
     </div>
     <div class="stat-card small">
@@ -449,32 +451,44 @@
   </div>
 
   <h3>Syllabogram Confidence Levels</h3>
-  <p>Phonetic values are hypothesized by mapping Linear A signs to visually similar Linear B counterparts (which are deciphered).</p>
+  <p>Phonetic values are hypothesized by mapping Linear A signs to visually similar Linear B counterparts (which are deciphered). Reconciled from two independent inventories with bug fixes and 20 newly cataloged signs.</p>
   <div class="confidence-grid">
     <div class="conf-card high">
-      <div class="conf-count">44</div>
+      <div class="conf-count">57</div>
       <div class="conf-label">High Confidence</div>
       <div class="conf-desc">Clear Linear B parallel with consistent usage patterns</div>
-      <div class="sign-samples">da, ro, pa, te, to, na, di, a, se, po, me, sa, ta, ra, i, ja, ka, ku&hellip;</div>
+      <div class="sign-samples">da, de, di, do, du, ja, je, jo, ka, ke, ki, ko, ku, ma, me, mi, mo, mu, na, ne, ni, no, nu, pa, pe, pi, po, pu, ra, re, ri, ro, ru, sa, se, si, so, su, ta, te, ti, to, tu, wa, we, wi, wo, za, ze, zo, a, e, i, o, u, qa, qe</div>
     </div>
     <div class="conf-card medium">
-      <div class="conf-count">14</div>
+      <div class="conf-count">16</div>
       <div class="conf-label">Medium Confidence</div>
       <div class="conf-desc">Probable Linear B match but some uncertainty remains</div>
-      <div class="sign-samples">u, zo, qi, mi, a2, wi, je, ta2, ju, ze, we, ra2, qe&hellip;</div>
+      <div class="sign-samples">ju, qi, qo, pu2, a2, a3, au, ra3, ro2, ra2, pa3, zu, nwa, twe, ta2, dwe</div>
     </div>
     <div class="conf-card low">
-      <div class="conf-count">6</div>
+      <div class="conf-count">11</div>
       <div class="conf-label">Low Confidence</div>
       <div class="conf-desc">Tentative mapping, limited evidence</div>
-      <div class="sign-samples">mo, pa3, zu, twe, two&hellip;</div>
+      <div class="sign-samples">pi2, *34, *35, *47, *48, *49, pte, *63, *64, *82, *83, *84</div>
     </div>
     <div class="conf-card none">
-      <div class="conf-count">23</div>
+      <div class="conf-count">22</div>
       <div class="conf-label">Undeciphered</div>
       <div class="conf-desc">No known phonetic value &mdash; unique to Linear A</div>
-      <div class="sign-samples">*49, *82, *86, *100, *301&ndash;*318&hellip;</div>
+      <div class="sign-samples">A301&ndash;A310, A312, A314&ndash;A318 (GORILA A-series)</div>
     </div>
+  </div>
+
+  <div class="corpus-note">
+    <h3>Reconciliation Changelog</h3>
+    <p>The sign inventory was reconciled from two independent data files, fixing several errors in the Ventris grid mapping:</p>
+    <ul style="font-size:0.85rem;color:var(--text2);margin:0.5rem 0 0 1.2rem">
+      <li><code>AB67</code>: was <em>ka</em> (error) &rarr; corrected to <strong>ki</strong> (B067 = ki in Ventris grid)</li>
+      <li><code>AB47</code>: was <em>ki</em> (error) &rarr; corrected to <strong>unknown</strong> (no Linear B parallel)</li>
+      <li><code>AB22</code>: was <em>mi</em> &rarr; corrected to <strong>pi2</strong> (distinct from AB73, the standard mi)</li>
+      <li><code>AB86</code>: was unassigned &rarr; <strong>nwa</strong> (medium confidence, per Younger)</li>
+      <li>20 signs added from second inventory: AB12/so, AB14/do, AB15/mo, AB32/qo, AB33/ra3, AB36/jo, AB42/wo, AB43/a3, AB52/no, AB62/pte, AB68/ro2, AB71/dwe, AB72/pe, and more</li>
+    </ul>
   </div>
 
   <h3>Key Recurring Sequences</h3>
