@@ -1,0 +1,305 @@
+{
+  "subset_id": "zakros-za26a-proof",
+  "subset_scope": "single-document pilot within Zakros",
+  "why_this_subset": "ZA 26a is compact enough for line-by-line verification but still contains eight occurrence records, four word pages, one logogram, and one uncertain final sign, so it tests both clean extraction and uncertainty handling.",
+  "source_snapshot_root": "imported/lineara-website/site",
+  "source_location_context": {
+    "location_name": "Zakros",
+    "reported_document_count": 44,
+    "source_page": "imported/lineara-website/site/location/Zakros/index.html"
+  },
+  "document": {
+    "document_id": "ZA_26a",
+    "schema_concept": "Document",
+    "document_code": "ZA 26a",
+    "kind": {
+      "label": "Tablet",
+      "source_slug": "Tablet"
+    },
+    "location": {
+      "label": "Zakros",
+      "source_slug": "Zakros"
+    },
+    "period": {
+      "label": "LM IB",
+      "source_slug": "LM IB"
+    },
+    "dimensions_cm": {
+      "width_cm": 4.1,
+      "height_cm": 2.9,
+      "thickness_cm": 0.7
+    },
+    "corpus_url": "https://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=3&ce=540ecor2uudeumpibfksblm7ss9s2lsi&sp=226",
+    "drawing_image": "imported/lineara-website/site/document/ZA 26a/ZA 26a.png",
+    "reported_sign_count": 8,
+    "reported_word_count": 4,
+    "source_page": "imported/lineara-website/site/document/ZA 26a/index.html"
+  },
+  "sign_occurrences": [
+    {
+      "attestation_id": "ZA_26a_occ_1",
+      "schema_concept": "SignOccurrence",
+      "occurrence_number": 1,
+      "display_label": "#1: si",
+      "sign_code": "AB41",
+      "display_reading": "si",
+      "role": "Syllabogram",
+      "certainty_note": "certain_or_editorially_supplied",
+      "bbox_on_document_image": {
+        "x": 158,
+        "y": 127,
+        "width": 260,
+        "height": 230
+      },
+      "source_page": "imported/lineara-website/site/document/ZA 26a/index.html",
+      "source_occurrence_page": "imported/lineara-website/site/document/ZA 26a/index-1.html",
+      "source_crop_image": "imported/lineara-website/site/document/ZA 26a/ZA 26a_1.png"
+    },
+    {
+      "attestation_id": "ZA_26a_occ_2",
+      "schema_concept": "SignOccurrence",
+      "occurrence_number": 2,
+      "display_label": "#2: te",
+      "sign_code": "AB04",
+      "display_reading": "te",
+      "role": "Syllabogram",
+      "certainty_note": "certain_or_editorially_supplied",
+      "bbox_on_document_image": {
+        "x": 448,
+        "y": 95,
+        "width": 141,
+        "height": 250
+      },
+      "source_page": "imported/lineara-website/site/document/ZA 26a/index.html",
+      "source_occurrence_page": "imported/lineara-website/site/document/ZA 26a/index-2.html",
+      "source_crop_image": "imported/lineara-website/site/document/ZA 26a/ZA 26a_2.png"
+    },
+    {
+      "attestation_id": "ZA_26a_occ_3",
+      "schema_concept": "SignOccurrence",
+      "occurrence_number": 3,
+      "display_label": "#3: di",
+      "sign_code": "AB07",
+      "display_reading": "di",
+      "role": "Syllabogram",
+      "certainty_note": "certain_or_editorially_supplied",
+      "bbox_on_document_image": {
+        "x": 803,
+        "y": 161,
+        "width": 112,
+        "height": 237
+      },
+      "source_page": "imported/lineara-website/site/document/ZA 26a/index.html",
+      "source_occurrence_page": "imported/lineara-website/site/document/ZA 26a/index-3.html",
+      "source_crop_image": "imported/lineara-website/site/document/ZA 26a/ZA 26a_3.png"
+    },
+    {
+      "attestation_id": "ZA_26a_occ_4",
+      "schema_concept": "SignOccurrence",
+      "occurrence_number": 4,
+      "display_label": "#4: di",
+      "sign_code": "AB07",
+      "display_reading": "di",
+      "role": "Syllabogram",
+      "certainty_note": "certain_or_editorially_supplied",
+      "bbox_on_document_image": {
+        "x": 983,
+        "y": 172,
+        "width": 130,
+        "height": 264
+      },
+      "source_page": "imported/lineara-website/site/document/ZA 26a/index.html",
+      "source_occurrence_page": "imported/lineara-website/site/document/ZA 26a/index-4.html",
+      "source_crop_image": "imported/lineara-website/site/document/ZA 26a/ZA 26a_4.png"
+    },
+    {
+      "attestation_id": "ZA_26a_occ_5",
+      "schema_concept": "SignOccurrence",
+      "occurrence_number": 5,
+      "display_label": "#5: AB21/OVISf",
+      "sign_code": "AB21f",
+      "display_reading": "AB21/OVISf",
+      "role": "Logogram",
+      "certainty_note": "certain_or_editorially_supplied",
+      "bbox_on_document_image": {
+        "x": 102,
+        "y": 365,
+        "width": 227,
+        "height": 227
+      },
+      "source_page": "imported/lineara-website/site/document/ZA 26a/index.html",
+      "source_occurrence_page": "imported/lineara-website/site/document/ZA 26a/index-5.html",
+      "source_crop_image": "imported/lineara-website/site/document/ZA 26a/ZA 26a_5.png"
+    },
+    {
+      "attestation_id": "ZA_26a_occ_6",
+      "schema_concept": "SignOccurrence",
+      "occurrence_number": 6,
+      "display_label": "#6: ja",
+      "sign_code": "AB57",
+      "display_reading": "ja",
+      "role": "Syllabogram",
+      "certainty_note": "certain_or_editorially_supplied",
+      "bbox_on_document_image": {
+        "x": 676,
+        "y": 390,
+        "width": 130,
+        "height": 283
+      },
+      "source_page": "imported/lineara-website/site/document/ZA 26a/index.html",
+      "source_occurrence_page": "imported/lineara-website/site/document/ZA 26a/index-6.html",
+      "source_crop_image": "imported/lineara-website/site/document/ZA 26a/ZA 26a_6.png"
+    },
+    {
+      "attestation_id": "ZA_26a_occ_7",
+      "schema_concept": "SignOccurrence",
+      "occurrence_number": 7,
+      "display_label": "#7: ki",
+      "sign_code": "AB67",
+      "display_reading": "ki",
+      "role": "Syllabogram",
+      "certainty_note": "certain_or_editorially_supplied",
+      "bbox_on_document_image": {
+        "x": 901,
+        "y": 415,
+        "width": 212,
+        "height": 299
+      },
+      "source_page": "imported/lineara-website/site/document/ZA 26a/index.html",
+      "source_occurrence_page": "imported/lineara-website/site/document/ZA 26a/index-7.html",
+      "source_crop_image": "imported/lineara-website/site/document/ZA 26a/ZA 26a_7.png"
+    },
+    {
+      "attestation_id": "ZA_26a_occ_8",
+      "schema_concept": "SignOccurrence",
+      "occurrence_number": 8,
+      "display_label": "#8: [?]",
+      "sign_code": null,
+      "display_reading": null,
+      "role": "Syllabogram",
+      "certainty_note": "unknown_or_unread",
+      "bbox_on_document_image": {
+        "x": 541,
+        "y": 674,
+        "width": 273,
+        "height": 175
+      },
+      "source_page": "imported/lineara-website/site/document/ZA 26a/index.html",
+      "source_occurrence_page": "imported/lineara-website/site/document/ZA 26a/index-8.html",
+      "source_crop_image": "imported/lineara-website/site/document/ZA 26a/ZA 26a_8.png"
+    }
+  ],
+  "sequences": [
+    {
+      "sequence_id": "ZA_26a_seq_1",
+      "schema_concept": "Sequence",
+      "sequence_number_within_document": 1,
+      "display_reading": "si-te",
+      "normalized_pattern": "AB41-AB04",
+      "reported_sign_count": 2,
+      "selected_word_bboxes": [
+        {
+          "x": 158,
+          "y": 127,
+          "width": 260,
+          "height": 230
+        },
+        {
+          "x": 448,
+          "y": 95,
+          "width": 141,
+          "height": 250
+        }
+      ],
+      "matched_occurrence_numbers_by_bbox": [
+        1,
+        2
+      ],
+      "source_page": "imported/lineara-website/site/document/ZA 26a/index-word-0.html",
+      "matching_method": "Matched selected word SVG rects from index-word-N.html to occurrence rects in index.html by exact x/y/width/height equality."
+    },
+    {
+      "sequence_id": "ZA_26a_seq_2",
+      "schema_concept": "Sequence",
+      "sequence_number_within_document": 2,
+      "display_reading": "di-di-[",
+      "normalized_pattern": "AB07-AB07",
+      "reported_sign_count": 2,
+      "selected_word_bboxes": [
+        {
+          "x": 803,
+          "y": 161,
+          "width": 112,
+          "height": 237
+        },
+        {
+          "x": 983,
+          "y": 172,
+          "width": 130,
+          "height": 264
+        }
+      ],
+      "matched_occurrence_numbers_by_bbox": [
+        3,
+        4
+      ],
+      "source_page": "imported/lineara-website/site/document/ZA 26a/index-word-1.html",
+      "matching_method": "Matched selected word SVG rects from index-word-N.html to occurrence rects in index.html by exact x/y/width/height equality."
+    },
+    {
+      "sequence_id": "ZA_26a_seq_3",
+      "schema_concept": "Sequence",
+      "sequence_number_within_document": 3,
+      "display_reading": "ja-ki[",
+      "normalized_pattern": "AB57-AB67",
+      "reported_sign_count": 2,
+      "selected_word_bboxes": [
+        {
+          "x": 676,
+          "y": 390,
+          "width": 130,
+          "height": 283
+        },
+        {
+          "x": 901,
+          "y": 415,
+          "width": 212,
+          "height": 299
+        }
+      ],
+      "matched_occurrence_numbers_by_bbox": [
+        6,
+        7
+      ],
+      "source_page": "imported/lineara-website/site/document/ZA 26a/index-word-2.html",
+      "matching_method": "Matched selected word SVG rects from index-word-N.html to occurrence rects in index.html by exact x/y/width/height equality."
+    },
+    {
+      "sequence_id": "ZA_26a_seq_4",
+      "schema_concept": "Sequence",
+      "sequence_number_within_document": 4,
+      "display_reading": "][?][",
+      "normalized_pattern": "[?]",
+      "reported_sign_count": 1,
+      "selected_word_bboxes": [
+        {
+          "x": 541,
+          "y": 674,
+          "width": 273,
+          "height": 175
+        }
+      ],
+      "matched_occurrence_numbers_by_bbox": [
+        8
+      ],
+      "source_page": "imported/lineara-website/site/document/ZA 26a/index-word-3.html",
+      "matching_method": "Matched selected word SVG rects from index-word-N.html to occurrence rects in index.html by exact x/y/width/height equality."
+    }
+  ],
+  "ambiguities_and_limits": [
+    "Occurrence 8 is displayed as \"[?]\" on the sign page and remains unknown in structured form.",
+    "Sequence display strings preserve bracket notation from the site (for example \"di-di-[\" and \"][?][\"); these are source-facing renderings, not normalized editorial expansions.",
+    "The logogram occurrence (#5) is carried as source sign code \"AB21f\" with display reading \"AB21/OVISf\"; that duality should be preserved rather than flattened.",
+    "Sequence-to-occurrence linkage is derived by exact bounding-box equality across pages, even when the match is exact and mechanically reproducible."
+  ]
+}
