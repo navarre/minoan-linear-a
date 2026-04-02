@@ -103,114 +103,113 @@
 <!-- PROGRESS TRACKER -->
 <section id="progress" class="section">
   <h2>Project Goals</h2>
-  <p class="section-intro">Five milestones toward building the most complete computational resource for Linear A research.</p>
   <div class="levels-grid">
     <div class="level-card active">
       <div class="level-header">
-        <span class="level-badge l1">M1</span>
-        <h3>Corpus Infrastructure</h3>
-        <span class="level-status in-progress">In Progress</span>
+        <span class="level-badge l1">1</span>
+        <h3>Unified Corpus</h3>
+        <span class="level-status in-progress" style="background:#1a3a2a;color:#4a9">Mostly Done</span>
       </div>
-      <p>Build the definitive searchable, structured corpus from all available sources.</p>
-      <div class="progress-bar"><div class="progress-fill" style="width: 60%"></div></div>
-      <span class="progress-text">5 of 8 checkpoints</span>
+      <p>Every known Linear A inscription in one structured, tagged, searchable dataset.</p>
       <ul class="checkpoint-list">
-        <li class="done">Full corpus acquired: 1,880 documents merged from SigLA + lineara.xyz (7,574 signs per RILA 2025)</li>
-        <li class="done">Extraction pipeline proven across 3 sites (HT 24a, ZA 26a, ARKH 6)</li>
-        <li class="done">Sign inventory reconciled: 106 syllabograms, single canonical source of truth</li>
-        <li class="done">129 inscriptions in structured Python format with metadata</li>
-        <li class="done">Knossos ivory scepter (2024) cataloged &mdash; awaiting full transcription</li>
-        <li>Convert all ~1,400 inscriptions to structured format</li>
-        <li>Integrate SVG bounding boxes and crop images from imported site</li>
-        <li>Searchable web interface for the full corpus</li>
-      </ul>
-    </div>
-    <div class="level-card active">
-      <div class="level-header">
-        <span class="level-badge l2">M2</span>
-        <h3>Validate &amp; Discover</h3>
-        <span class="level-status in-progress" style="background:#1a3a2a;color:#4a9">Complete</span>
-      </div>
-      <p>Independently confirm known results, then find new patterns no one has published.</p>
-      <div class="progress-bar"><div class="progress-fill" style="width: 100%"></div></div>
-      <span class="progress-text">14 of 14 checkpoints</span>
-      <ul class="checkpoint-list">
-        <li class="done">ku-ro = "total" confirmed (74 occurrences, 5.3&times; next candidate)</li>
-        <li class="done">ki-ro = "deficit" confirmed &mdash; always follows ku-ro with smaller value</li>
-        <li class="done">po-to-ku-ro = "grand total" confirmed from composite analysis</li>
-        <li class="done">Libation formula: 3-tier structure (core &rarr; ja-sa-sa-ra-me &rarr; i-da-ma-te), 100% ritual-exclusive</li>
-        <li class="done">HT administrative structure detected from data alone</li>
-        <li class="done">Zipf&rsquo;s law validated (exponent 1.103, R&sup2;=0.901) &mdash; confirms natural language</li>
-        <li class="done">Morphological patterns: productive prefixes (a-, da-, ku-) and suffixes (-te, -ja, -me, -ro)</li>
-        <li class="done">Paradigmatic sets: ta-na/ta-na-te/ta-na-su (same root, different case endings)</li>
-        <li class="done">Word boundary preferences: vowels/stops initial (a 91%, qa 96%, ku 87%), liquids/nasals final (ro 95%, na 86%, ne 91%)</li>
-        <li class="done">Site dialect variation: vocabulary overlap near zero (Jaccard 0.000&ndash;0.016), 88&ndash;100% site-exclusive words across 1,880 docs</li>
-        <li class="done">Word classes: 24 administrative terms vs. 63 probable names separated by distributional co-occurrence with ideograms and numerals</li>
-        <li class="done">Commodity distribution: FIC (figs) most common (49 docs), sign A301 on 33 docs, 313 fraction occurrences across corpus</li>
-        <li class="done">Sign co-occurrence: 16% of common bigrams forbidden (no vowel gemination, nasal-liquid restriction, stop harmony avoidance) &mdash; 4,408 pairs</li>
-        <li class="done">Compound words: ku-ro in 21 compounds, a- prefix dominates 8/10 largest families, productive suffixes -ta-na, -mi-na, -sa-ra identified</li>
-      </ul>
-    </div>
-    <div class="level-card active">
-      <div class="level-header">
-        <span class="level-badge l3">M3</span>
-        <h3>Grammar &amp; Vocabulary</h3>
-        <span class="level-status in-progress" style="background:#1a3a2a;color:#4a9">Complete</span>
-      </div>
-      <p>Build a working grammar sketch and expand the readable vocabulary.</p>
-      <div class="progress-bar"><div class="progress-fill" style="width: 100%"></div></div>
-      <span class="progress-text">11 of 11 checkpoints</span>
-      <ul class="checkpoint-list">
-        <li class="done">52-word glossary: 8 HIGH, 32 MEDIUM, 5 LOW, 2 SPECULATIVE, 8 suffix morphemes</li>
-        <li class="done">Libation formula interpreted: &ldquo;[I] dedicate [this to] My Lady, Mother of Ida&rdquo;</li>
-        <li class="done">Luwian <em>ishassara</em> + possessive -me synthesis for ja-sa-sa-ra-me</li>
-        <li class="done">Language isolate hypothesis scored 0.774 vs Semitic 0.226, Anatolian 0.190</li>
-        <li class="done">Case system: 6&ndash;8 cases identified (-ro result, -te dative/locative, -ja adjectival, -ra agentive, -na genitive, -se instrumental, -ne plural?, -me possessive)</li>
-        <li class="done">Verb morphology: not detected in admin texts (nominal sentence structure). Verbs likely confined to ritual/narrative texts.</li>
-        <li class="done">Number marking: no grammatical number on nouns (number-neutral morphology, typical of agglutinative languages)</li>
-        <li class="done">Word order: AGENT-COMMODITY-QUANTITY confirmed. Transaction signs precede commodity lists.</li>
-        <li class="done">Sign A301: 48 documents, dual logogram/syllabogram, 32 standalone nodules. More frequent than grain. Cannot be read but distribution fully mapped.</li>
-        <li class="done">Loanwords: 4 place names (Minoan&rarr;Greek), 2 trade terms (Akkadian&rarr;Minoan), 2 religious terms (Anatolian&harr;Minoan). Supports isolate hypothesis.</li>
-        <li class="done">Cross-script parallels: ku-mi-na/ku-mi-no (cumin), di-pa/depas (cup), te-me-na/temenos, da-pu-ri-to/labyrinth</li>
-      </ul>
-    </div>
-    <div class="level-card active">
-      <div class="level-header">
-        <span class="level-badge l5">M4</span>
-        <h3>Translation</h3>
-        <span class="level-status in-progress">In Progress</span>
-      </div>
-      <p>Translate complete inscriptions with evidence chains and confidence scores on every word.</p>
-      <div class="progress-bar"><div class="progress-fill" style="width: 20%"></div></div>
-      <span class="progress-text">2 of 8 checkpoints</span>
-      <ul class="checkpoint-list">
-        <li class="done">Libation formula translated with per-word confidence</li>
-        <li class="done">Administrative entries readable: name + commodity + number + total</li>
-        <li>Translate a complete short accounting tablet end-to-end</li>
-        <li>Translate a complete roundel inscription</li>
-        <li>Identify at least 3 divine names with probable meanings</li>
-        <li>Transcribe and analyze the ivory scepter (119 signs)</li>
-        <li>Translate ritual text from the scepter ring</li>
-        <li>Produce a reading of a non-administrative, non-formulaic text</li>
+        <li class="done">1,880 documents merged from SigLA + lineara.xyz</li>
+        <li class="done">Canonical data in corpus.json, signs.json, glossary.json</li>
+        <li class="done">Every document tagged by source, object type, linguistic value, site, period</li>
+        <li class="done">Canonical ID mapping across all sources</li>
+        <li class="done">Physical object grouping (1,665 objects from 1,880 document IDs)</li>
+        <li>Incorporate RILA Supplement 2025 (107 new documents)</li>
       </ul>
     </div>
     <div class="level-card">
       <div class="level-header">
-        <span class="level-badge l6">M5</span>
-        <h3>Publication</h3>
-        <span class="level-status not-started">Planned</span>
+        <span class="level-badge l2">2</span>
+        <h3>Corpus Browser</h3>
+        <span class="level-status not-started">Not Started</span>
       </div>
-      <p>Produce publishable-quality results that advance the field.</p>
-      <div class="progress-bar"><div class="progress-fill" style="width: 5%"></div></div>
-      <span class="progress-text">0 of 7 checkpoints</span>
+      <p>Modern web interface to search, view, and compare documents and signs. Replace SigLA and lineara.xyz with something better.</p>
       <ul class="checkpoint-list">
-        <li>Comprehensive online corpus browser (superset of SigLA)</li>
-        <li>Full grammar sketch: word order, case system, verb morphology</li>
-        <li>Glossary of 50+ words with multi-method evidence</li>
-        <li>Language typology paper with statistical framework</li>
-        <li>At least 5 complete inscription translations</li>
-        <li>Methodology paper: computational approaches to ancient scripts</li>
-        <li>Open dataset and tools for other researchers</li>
+        <li>Search by document ID, site, word, sign type, period, object type</li>
+        <li>Document viewer with sign images and SVG overlays</li>
+        <li>Sign explorer showing all attestations across the corpus</li>
+        <li>Side-by-side document comparison</li>
+        <li>Interactive map of sites</li>
+      </ul>
+    </div>
+    <div class="level-card active">
+      <div class="level-header">
+        <span class="level-badge l3">3</span>
+        <h3>Analysis Platform</h3>
+        <span class="level-status in-progress">In Progress</span>
+      </div>
+      <p>Statistical tools for the corpus. Frequency analysis, positional patterns, cross-site comparison, morphological detection. Open for other researchers.</p>
+      <ul class="checkpoint-list">
+        <li class="done">14 reproducible benchmarks with methodology and results</li>
+        <li class="done">Zipf validation, entropy analysis, bigram/phonotactic analysis</li>
+        <li class="done">Cross-site dialect variation analysis</li>
+        <li class="done">Word class detection (admin terms vs. names vs. ritual)</li>
+        <li>Package tools for external use</li>
+        <li>Automated re-run against updated corpus data</li>
+      </ul>
+    </div>
+    <div class="level-card active">
+      <div class="level-header">
+        <span class="level-badge l5">4</span>
+        <h3>Object Catalog</h3>
+        <span class="level-status in-progress">In Progress</span>
+      </div>
+      <p>Every physical object bearing Linear A, with metadata, images, provenance, and object-type tags. Not just linguistic content but archaeological context.</p>
+      <ul class="checkpoint-list">
+        <li class="done">1,880 documents with object type, site, period</li>
+        <li class="done">591 with scribe attribution, 1,062 with findspot</li>
+        <li class="done">Linguistic value tagging (554 high, 289 medium, 1,037 low/ethnographic)</li>
+        <li>Link to GORILA page references for each document</li>
+        <li>Integrate tablet drawing images</li>
+      </ul>
+    </div>
+    <div class="level-card active">
+      <div class="level-header">
+        <span class="level-badge l3">5</span>
+        <h3>Vocabulary &amp; Grammar</h3>
+        <span class="level-status in-progress">Ongoing</span>
+      </div>
+      <p>Maintain a growing glossary with confidence scores and a grammar sketch. Evidence-based, falsifiable, honest about uncertainty.</p>
+      <ul class="checkpoint-list">
+        <li class="done">52-word glossary with confidence scores and evidence chains</li>
+        <li class="done">6&ndash;8 case suffixes identified with distributional evidence</li>
+        <li class="done">Word boundary phonotactics mapped</li>
+        <li class="done">Loanword directionality established</li>
+        <li>Expand glossary as corpus analysis deepens</li>
+        <li>Resolve sign *301</li>
+      </ul>
+    </div>
+    <div class="level-card active">
+      <div class="level-header">
+        <span class="level-badge l1">6</span>
+        <h3>Scholarly Integration</h3>
+        <span class="level-status in-progress">In Progress</span>
+      </div>
+      <p>Cross-reference with GORILA, RILA 2025, published scholarship. Track discrepancies. Maintain provenance. Be useful to working scholars.</p>
+      <ul class="checkpoint-list">
+        <li class="done">Data discrepancy report for expert review</li>
+        <li class="done">Cross-reference report: SigLA vs lineara.xyz vs GORILA</li>
+        <li class="done">Terminology page with standard definitions</li>
+        <li>Review by domain expert (Dr. Salgarella contacted)</li>
+        <li>Incorporate feedback from scholarly review</li>
+      </ul>
+    </div>
+    <div class="level-card active">
+      <div class="level-header">
+        <span class="level-badge l2">7</span>
+        <h3>Open Data</h3>
+        <span class="level-status in-progress" style="background:#1a3a2a;color:#4a9">Mostly Done</span>
+      </div>
+      <p>Everything open source, reproducible, documented. JSON files anyone can use.</p>
+      <ul class="checkpoint-list">
+        <li class="done">All data in open JSON format (corpus.json, signs.json, glossary.json)</li>
+        <li class="done">All analysis scripts in Python, open source on GitHub</li>
+        <li class="done">14 benchmarks with reproducible methodology</li>
+        <li class="done">CC-compatible source data attribution</li>
+        <li>Write a proper README for external contributors</li>
       </ul>
     </div>
   </div>
