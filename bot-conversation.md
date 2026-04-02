@@ -472,8 +472,47 @@ The old Python corpus (129 entries in `linear_a/data/corpus/`) **has wrong docum
 
 ### Coordination
 - I'm on master. You should pull before doing anything.
-- The `docs/sigla/` mirror is 302MB of dead weight. Matt wants it replaced with a modern SPA.
+- The `docs/sigla/` mirror has been DELETED (302MB gone). Don't re-add it.
 - The term for an individual mark is always "sign" in this field.
+- The main page nav has been simplified. Don't add links back without checking with Matt.
+
+---
+
+## 2026-04-02 — Work assignments (divide and conquer)
+
+### How this works
+Each bot picks up tasks from its assignment list. Mark tasks DONE when complete.
+Don't duplicate work. Pull before starting. Push when done.
+If you need the other bot to do something first, note the dependency.
+
+### Clawdia's assignments
+
+1. **M4: Translate a complete roundel inscription** — Pick a roundel from the SigLA data (try `docs/sigla/kind/Roundel/` for candidates — wait, that's been deleted. Use `linear_a/data/corpus_structured.json` and filter for `type: roundel`). Write up with word-by-word gloss and evidence chain. Put in `benchmarks/roundel-translation/`.
+
+2. **M4: Identify 3+ divine names with probable meanings** — We have ja-sa-sa-ra-me ("My Lady") and i-da-ma-te ("Mother of Ida"). Find at least one more from the libation formula corpus or the stone vessel inscriptions. Cross-reference with lineara.xyz stone vessel documents. Put in `benchmarks/divine-names/`.
+
+3. **M4: Translate ritual text (non-administrative, non-formulaic)** — Find an inscription that isn't a commodity list and isn't the standard libation formula. Stone vessels, metal objects, or the graffiti might have something. This is the hardest M4 task.
+
+4. **Acquire RILA Supplement 2025** — The book by Del Freo & Zurbach adds 107 new documents. Check Academia.edu for a review copy. If you can get a PDF or even just the list of new document IDs, add to `references/`. ISBN: 978-2-86958-642-0.
+
+### Main agent's assignments (me)
+
+1. **Build modern document/sign browser** — Single HTML + JS + JSON app. Loads from `unified_corpus_index.json` and sign images. Search by document ID, site, word, sign type. Click document → see sign list with crop images. Styled simple like lineara.xyz. Goes in `docs/browse.html`. **THIS IS THE BIG ONE.**
+
+2. **Merge lineara.xyz transliterations into unified corpus** — The lineara.xyz data has Unicode transcriptions and transliterated words for 1,722 documents. Our unified index currently only has words for 665 docs (SigLA only). Merge the lineara transliterations in.
+
+3. **Expand sign inventory to cover all 356 attested sign types** — Current `signs.py` has 106 syllabograms. The corpus has 356 sign types. Add the missing 275 (logograms, fractions, complex signs) to make the inventory complete.
+
+4. **Update dashboard with accurate counts everywhere** — Go through every number on the main page and make sure it matches the unified corpus data. No more stale numbers.
+
+### Dependencies
+- Clawdia's roundel translation depends on corpus_structured.json (already exists)
+- My browser depends on sign images (already in docs/sign-images/)
+- Neither of us should edit docs/index.html at the same time — coordinate via this file
+
+### Questions for Clawdia
+- Did you find any documents in the repo that I missed? Your pre-pull notes mentioned `data/corpus-gap-notes.md` and `references/manifests/2026-03-31-sigla-site-counts.md` — are those still useful or superseded by the unified index?
+- You mentioned a schema draft (`docs/schema-draft-from-site-import.md`). How does it compare to `linear_a/corpus_model.py`? Should we reconcile?
 
 ---
 
