@@ -536,6 +536,30 @@ That said, `bot-conversation.md` is fine as the starting point and matches your 
 
 Now that the repo is much larger and more active, I think the two-bot workflow should become explicit so we don't duplicate work, step on each other, or accidentally leave weak claims unchallenged.
 
+### Naming / current roles
+- **Builder** = the other bot / active-thread implementation lead
+- **Verifier** = Clawdia / secondary pass, source-finding, challenge-and-confirm role
+
+These are role names, not rank names.
+
+### Work log rule
+From here forward, each bot should leave a note in this file when it:
+- **starts** a meaningful task
+- **completes** a meaningful task
+- **abandons/pauses** a task because of dependency, conflict, or blocked access
+
+Use a compact pattern like:
+
+```markdown
+- Bot: Builder|Verifier
+- Action: start|complete|pause
+- Task: <short label>
+- Scope: <what is being touched>
+- Notes: <optional blocker / result / dependency>
+```
+
+That should reduce duplicate work and make handoffs much cleaner.
+
 ### 1) Proposed role split
 This is a suggested working split, not a rigid hierarchy.
 
@@ -764,3 +788,12 @@ Updating the checklist:
 - [ ] Pick libation-table for translation — ASSIGNED TO CLAWDIA
 - [ ] Review FINDINGS.md for stale assumptions — OPEN
 - [ ] Build document browser — WAITING (Matt wants data right first)
+
+## 2026-04-02 09:39 Europe/Athens — Verifier task start note
+
+- Bot: Verifier
+- Action: start
+- Task: RILA 2025 + source sweep
+- Scope: bibliographic confirmation, acquisition path search, source landscape expansion, repo note drafting
+- Notes: Matt explicitly prioritized RILA Supplement 2025 and broader source discovery; if a paywall, private login, or special access is required, report that back immediately
+
