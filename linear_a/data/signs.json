@@ -1,0 +1,5913 @@
+{
+  "A1000": {
+    "id": "A1000",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A1000/SUS+SI+RE": 1
+    },
+    "category": "compound_logogram",
+    "in_inventory": false,
+    "primary_reading": "A1000/SUS+SI+RE"
+  },
+  "A1001": {
+    "id": "A1001",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A1001/SUS+SI": 1
+    },
+    "category": "compound_logogram",
+    "in_inventory": false,
+    "primary_reading": "A1001/SUS+SI"
+  },
+  "A301": {
+    "id": "A301",
+    "occurrences": 48,
+    "documents": 48,
+    "roles": {
+      "syllabogram": 11,
+      "logogram": 36,
+      "erasure": 1
+    },
+    "corpus_readings": {
+      "A301": 48
+    },
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "none",
+    "name": "?301",
+    "in_inventory": true
+  },
+  "A303": {
+    "id": "A303",
+    "occurrences": 48,
+    "documents": 37,
+    "roles": {
+      "logogram": 46,
+      "syllabogram": 1,
+      "erasure": 1
+    },
+    "corpus_readings": {
+      "A303": 48
+    },
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "none",
+    "name": "?303",
+    "in_inventory": true
+  },
+  "A304": {
+    "id": "A304",
+    "occurrences": 25,
+    "documents": 22,
+    "roles": {
+      "logogram": 24,
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A304": 25
+    },
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "none",
+    "name": "?304",
+    "in_inventory": true
+  },
+  "A305": {
+    "id": "A305",
+    "occurrences": 18,
+    "documents": 17,
+    "roles": {
+      "logogram": 9,
+      "syllabogram": 6,
+      "transaction": 3
+    },
+    "corpus_readings": {
+      "A305": 18
+    },
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "none",
+    "name": "?305",
+    "in_inventory": true
+  },
+  "A306": {
+    "id": "A306",
+    "occurrences": 18,
+    "documents": 17,
+    "roles": {
+      "syllabogram": 12,
+      "logogram": 6
+    },
+    "corpus_readings": {
+      "A306": 18
+    },
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "none",
+    "name": "?306",
+    "in_inventory": true
+  },
+  "A307": {
+    "id": "A307",
+    "occurrences": 5,
+    "documents": 5,
+    "roles": {
+      "logogram": 1,
+      "transaction": 3,
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A307": 5
+    },
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "none",
+    "name": "?307",
+    "in_inventory": true
+  },
+  "A308": {
+    "id": "A308",
+    "occurrences": 13,
+    "documents": 9,
+    "roles": {
+      "logogram": 11,
+      "syllabogram": 2
+    },
+    "corpus_readings": {
+      "A308": 13
+    },
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "none",
+    "name": "?308",
+    "in_inventory": true
+  },
+  "A309a": {
+    "id": "A309a",
+    "occurrences": 5,
+    "documents": 1,
+    "roles": {
+      "syllabogram": 5
+    },
+    "corpus_readings": {
+      "A309": 5
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A309"
+  },
+  "A309b": {
+    "id": "A309b",
+    "occurrences": 5,
+    "documents": 1,
+    "roles": {
+      "syllabogram": 5
+    },
+    "corpus_readings": {
+      "A309": 5
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A309"
+  },
+  "A309c": {
+    "id": "A309c",
+    "occurrences": 2,
+    "documents": 1,
+    "roles": {
+      "syllabogram": 2
+    },
+    "corpus_readings": {
+      "A309": 2
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A309"
+  },
+  "A310": {
+    "id": "A310",
+    "occurrences": 9,
+    "documents": 9,
+    "roles": {
+      "syllabogram": 8,
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A310": 9
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A310"
+  },
+  "A312": {
+    "id": "A312",
+    "occurrences": 8,
+    "documents": 8,
+    "roles": {
+      "logogram": 4,
+      "syllabogram": 4
+    },
+    "corpus_readings": {
+      "A312": 8
+    },
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "none",
+    "name": "?312",
+    "in_inventory": true
+  },
+  "A314": {
+    "id": "A314",
+    "occurrences": 5,
+    "documents": 5,
+    "roles": {
+      "syllabogram": 5
+    },
+    "corpus_readings": {
+      "A314": 5
+    },
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "none",
+    "name": "?314",
+    "in_inventory": true
+  },
+  "A315": {
+    "id": "A315",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A315": 1
+    },
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "none",
+    "name": "?315",
+    "in_inventory": true
+  },
+  "A316": {
+    "id": "A316",
+    "occurrences": 4,
+    "documents": 3,
+    "roles": {
+      "logogram": 4
+    },
+    "corpus_readings": {
+      "A316": 4
+    },
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "none",
+    "name": "?316",
+    "in_inventory": true
+  },
+  "A317": {
+    "id": "A317",
+    "occurrences": 4,
+    "documents": 3,
+    "roles": {
+      "logogram": 3,
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A317": 4
+    },
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "none",
+    "name": "?317",
+    "in_inventory": true
+  },
+  "A318": {
+    "id": "A318",
+    "occurrences": 4,
+    "documents": 4,
+    "roles": {
+      "transaction": 2,
+      "logogram": 1,
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A318": 4
+    },
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "none",
+    "name": "?318",
+    "in_inventory": true
+  },
+  "A319": {
+    "id": "A319",
+    "occurrences": 5,
+    "documents": 4,
+    "roles": {
+      "transaction": 1,
+      "syllabogram": 2,
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "A319": 5
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A319"
+  },
+  "A320": {
+    "id": "A320",
+    "occurrences": 5,
+    "documents": 4,
+    "roles": {
+      "syllabogram": 4,
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A320": 5
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A320"
+  },
+  "A321": {
+    "id": "A321",
+    "occurrences": 3,
+    "documents": 3,
+    "roles": {
+      "syllabogram": 3
+    },
+    "corpus_readings": {
+      "A321": 3
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A321"
+  },
+  "A322": {
+    "id": "A322",
+    "occurrences": 4,
+    "documents": 4,
+    "roles": {
+      "syllabogram": 1,
+      "logogram": 3
+    },
+    "corpus_readings": {
+      "A322": 4
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A322"
+  },
+  "A323": {
+    "id": "A323",
+    "occurrences": 4,
+    "documents": 3,
+    "roles": {
+      "syllabogram": 2,
+      "transaction": 2
+    },
+    "corpus_readings": {
+      "A323": 4
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A323"
+  },
+  "A324": {
+    "id": "A324",
+    "occurrences": 3,
+    "documents": 3,
+    "roles": {
+      "syllabogram": 3
+    },
+    "corpus_readings": {
+      "A324": 3
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A324"
+  },
+  "A325": {
+    "id": "A325",
+    "occurrences": 3,
+    "documents": 2,
+    "roles": {
+      "syllabogram": 3
+    },
+    "corpus_readings": {
+      "A325": 3
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A325"
+  },
+  "A326": {
+    "id": "A326",
+    "occurrences": 3,
+    "documents": 3,
+    "roles": {
+      "transaction": 3
+    },
+    "corpus_readings": {
+      "A326": 3
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A326"
+  },
+  "A327": {
+    "id": "A327",
+    "occurrences": 3,
+    "documents": 2,
+    "roles": {
+      "logogram": 2,
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A327": 3
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A327"
+  },
+  "A328": {
+    "id": "A328",
+    "occurrences": 3,
+    "documents": 3,
+    "roles": {
+      "syllabogram": 1,
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "A328": 3
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A328"
+  },
+  "A329": {
+    "id": "A329",
+    "occurrences": 2,
+    "documents": 2,
+    "roles": {
+      "syllabogram": 2
+    },
+    "corpus_readings": {
+      "A329": 2
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A329"
+  },
+  "A331": {
+    "id": "A331",
+    "occurrences": 2,
+    "documents": 2,
+    "roles": {
+      "syllabogram": 2
+    },
+    "corpus_readings": {
+      "A331": 2
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A331"
+  },
+  "A332": {
+    "id": "A332",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A332": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A332"
+  },
+  "A333": {
+    "id": "A333",
+    "occurrences": 2,
+    "documents": 2,
+    "roles": {
+      "syllabogram": 2
+    },
+    "corpus_readings": {
+      "A333": 2
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A333"
+  },
+  "A334": {
+    "id": "A334",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A334": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A334"
+  },
+  "A335": {
+    "id": "A335",
+    "occurrences": 3,
+    "documents": 3,
+    "roles": {
+      "logogram": 2,
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A335": 3
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A335"
+  },
+  "A336": {
+    "id": "A336",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A336": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A336"
+  },
+  "A338": {
+    "id": "A338",
+    "occurrences": 2,
+    "documents": 2,
+    "roles": {
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "A338": 2
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A338"
+  },
+  "A339": {
+    "id": "A339",
+    "occurrences": 2,
+    "documents": 2,
+    "roles": {
+      "syllabogram": 1,
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A339": 2
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A339"
+  },
+  "A340": {
+    "id": "A340",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A340": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A340"
+  },
+  "A342": {
+    "id": "A342",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A342": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A342"
+  },
+  "A343": {
+    "id": "A343",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A343": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A343"
+  },
+  "A344": {
+    "id": "A344",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A344": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A344"
+  },
+  "A345": {
+    "id": "A345",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A345": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A345"
+  },
+  "A346": {
+    "id": "A346",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "transaction": 1
+    },
+    "corpus_readings": {
+      "A346": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A346"
+  },
+  "A347": {
+    "id": "A347",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A347": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A347"
+  },
+  "A349": {
+    "id": "A349",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A349": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A349"
+  },
+  "A350": {
+    "id": "A350",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A350": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A350"
+  },
+  "A352": {
+    "id": "A352",
+    "occurrences": 2,
+    "documents": 2,
+    "roles": {
+      "syllabogram": 2
+    },
+    "corpus_readings": {
+      "A352": 2
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A352"
+  },
+  "A353": {
+    "id": "A353",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A353": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A353"
+  },
+  "A354": {
+    "id": "A354",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A354": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A354"
+  },
+  "A355": {
+    "id": "A355",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A355": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A355"
+  },
+  "A356": {
+    "id": "A356",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A356": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A356"
+  },
+  "A357": {
+    "id": "A357",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A357": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A357"
+  },
+  "A358": {
+    "id": "A358",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A358": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A358"
+  },
+  "A359": {
+    "id": "A359",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A359": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A359"
+  },
+  "A360": {
+    "id": "A360",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A360": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A360"
+  },
+  "A361": {
+    "id": "A361",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A361": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A361"
+  },
+  "A362": {
+    "id": "A362",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A362": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A362"
+  },
+  "A363": {
+    "id": "A363",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A363": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A363"
+  },
+  "A364": {
+    "id": "A364",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A364": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A364"
+  },
+  "A365": {
+    "id": "A365",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A365": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A365"
+  },
+  "A366": {
+    "id": "A366",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A366": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A366"
+  },
+  "A367": {
+    "id": "A367",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A367": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A367"
+  },
+  "A368": {
+    "id": "A368",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A368": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A368"
+  },
+  "A369": {
+    "id": "A369",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A369": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A369"
+  },
+  "A370": {
+    "id": "A370",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A370": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A370"
+  },
+  "A371": {
+    "id": "A371",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A371": 1
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "A371"
+  },
+  "A402": {
+    "id": "A402",
+    "occurrences": 4,
+    "documents": 1,
+    "roles": {
+      "logogram": 4
+    },
+    "corpus_readings": {
+      "A402": 4
+    },
+    "category": "other",
+    "in_inventory": false,
+    "primary_reading": "A402"
+  },
+  "A403": {
+    "id": "A403",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A403": 1
+    },
+    "category": "other",
+    "in_inventory": false,
+    "primary_reading": "A403"
+  },
+  "A406": {
+    "id": "A406",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A406": 1
+    },
+    "category": "other",
+    "in_inventory": false,
+    "primary_reading": "A406"
+  },
+  "A408": {
+    "id": "A408",
+    "occurrences": 3,
+    "documents": 3,
+    "roles": {
+      "logogram": 3
+    },
+    "corpus_readings": {
+      "A408": 3
+    },
+    "category": "other",
+    "in_inventory": false,
+    "primary_reading": "A408"
+  },
+  "A409": {
+    "id": "A409",
+    "occurrences": 3,
+    "documents": 3,
+    "roles": {
+      "logogram": 3
+    },
+    "corpus_readings": {
+      "A409": 3
+    },
+    "category": "other",
+    "in_inventory": false,
+    "primary_reading": "A409"
+  },
+  "A410": {
+    "id": "A410",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A410": 1
+    },
+    "category": "other",
+    "in_inventory": false,
+    "primary_reading": "A410"
+  },
+  "A411": {
+    "id": "A411",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A411": 1
+    },
+    "category": "other",
+    "in_inventory": false,
+    "primary_reading": "A411"
+  },
+  "A411a": {
+    "id": "A411a",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A411": 1
+    },
+    "category": "other",
+    "in_inventory": false,
+    "primary_reading": "A411"
+  },
+  "A411b": {
+    "id": "A411b",
+    "occurrences": 12,
+    "documents": 12,
+    "roles": {
+      "syllabogram": 2,
+      "logogram": 10
+    },
+    "corpus_readings": {
+      "A411": 12
+    },
+    "category": "other",
+    "in_inventory": false,
+    "primary_reading": "A411"
+  },
+  "A411c": {
+    "id": "A411c",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A411": 1
+    },
+    "category": "other",
+    "in_inventory": false,
+    "primary_reading": "A411"
+  },
+  "A412": {
+    "id": "A412",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A412": 1
+    },
+    "category": "other",
+    "in_inventory": false,
+    "primary_reading": "A412"
+  },
+  "A415": {
+    "id": "A415",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A415": 1
+    },
+    "category": "other",
+    "in_inventory": false,
+    "primary_reading": "A415"
+  },
+  "A416": {
+    "id": "A416",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A416": 1
+    },
+    "category": "other",
+    "in_inventory": false,
+    "primary_reading": "A416"
+  },
+  "A417": {
+    "id": "A417",
+    "occurrences": 3,
+    "documents": 3,
+    "roles": {
+      "logogram": 3
+    },
+    "corpus_readings": {
+      "A417": 3
+    },
+    "category": "other",
+    "in_inventory": false,
+    "primary_reading": "A417"
+  },
+  "A418": {
+    "id": "A418",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A418": 1
+    },
+    "category": "other",
+    "in_inventory": false,
+    "primary_reading": "A418"
+  },
+  "A501": {
+    "id": "A501",
+    "occurrences": 2,
+    "documents": 2,
+    "roles": {
+      "logogram": 1,
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A501": 2
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A501"
+  },
+  "A502": {
+    "id": "A502",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A502": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A502"
+  },
+  "A503": {
+    "id": "A503",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A503": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A503"
+  },
+  "A504": {
+    "id": "A504",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A504": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A504"
+  },
+  "A505": {
+    "id": "A505",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A505": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A505"
+  },
+  "A506": {
+    "id": "A506",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A506": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A506"
+  },
+  "A507": {
+    "id": "A507",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A507": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A507"
+  },
+  "A508": {
+    "id": "A508",
+    "occurrences": 6,
+    "documents": 6,
+    "roles": {
+      "logogram": 6
+    },
+    "corpus_readings": {
+      "A508": 6
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A508"
+  },
+  "A509": {
+    "id": "A509",
+    "occurrences": 3,
+    "documents": 2,
+    "roles": {
+      "logogram": 3
+    },
+    "corpus_readings": {
+      "A509": 3
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A509"
+  },
+  "A510": {
+    "id": "A510",
+    "occurrences": 8,
+    "documents": 8,
+    "roles": {
+      "logogram": 8
+    },
+    "corpus_readings": {
+      "A510": 8
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A510"
+  },
+  "A511": {
+    "id": "A511",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A511": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A511"
+  },
+  "A512": {
+    "id": "A512",
+    "occurrences": 3,
+    "documents": 1,
+    "roles": {
+      "logogram": 3
+    },
+    "corpus_readings": {
+      "A512": 3
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A512"
+  },
+  "A513": {
+    "id": "A513",
+    "occurrences": 2,
+    "documents": 1,
+    "roles": {
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "A513": 2
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A513"
+  },
+  "A514": {
+    "id": "A514",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A514": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A514"
+  },
+  "A515": {
+    "id": "A515",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A515": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A515"
+  },
+  "A516": {
+    "id": "A516",
+    "occurrences": 10,
+    "documents": 10,
+    "roles": {
+      "transaction": 2,
+      "logogram": 7,
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A516": 10
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A516"
+  },
+  "A517": {
+    "id": "A517",
+    "occurrences": 4,
+    "documents": 3,
+    "roles": {
+      "logogram": 4
+    },
+    "corpus_readings": {
+      "A517": 4
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A517"
+  },
+  "A518": {
+    "id": "A518",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A518": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A518"
+  },
+  "A519": {
+    "id": "A519",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A519": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A519"
+  },
+  "A520": {
+    "id": "A520",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A520": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A520"
+  },
+  "A521": {
+    "id": "A521",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A521": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A521"
+  },
+  "A522": {
+    "id": "A522",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A522": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A522"
+  },
+  "A523": {
+    "id": "A523",
+    "occurrences": 2,
+    "documents": 2,
+    "roles": {
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "A523": 2
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A523"
+  },
+  "A524": {
+    "id": "A524",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A524": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A524"
+  },
+  "A525": {
+    "id": "A525",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A525": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A525"
+  },
+  "A526": {
+    "id": "A526",
+    "occurrences": 2,
+    "documents": 2,
+    "roles": {
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "A526": 2
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A526"
+  },
+  "A527": {
+    "id": "A527",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A527": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A527"
+  },
+  "A528": {
+    "id": "A528",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A528": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A528"
+  },
+  "A529": {
+    "id": "A529",
+    "occurrences": 4,
+    "documents": 4,
+    "roles": {
+      "logogram": 3,
+      "transaction": 1
+    },
+    "corpus_readings": {
+      "A529": 4
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A529"
+  },
+  "A530": {
+    "id": "A530",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A530": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A530"
+  },
+  "A531": {
+    "id": "A531",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A531": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A531"
+  },
+  "A532": {
+    "id": "A532",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A532": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A532"
+  },
+  "A533": {
+    "id": "A533",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A533": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A533"
+  },
+  "A534": {
+    "id": "A534",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A534": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A534"
+  },
+  "A535": {
+    "id": "A535",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A535": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A535"
+  },
+  "A536": {
+    "id": "A536",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A536": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A536"
+  },
+  "A537": {
+    "id": "A537",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A537": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A537"
+  },
+  "A538": {
+    "id": "A538",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A538": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A538"
+  },
+  "A539": {
+    "id": "A539",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A539": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A539"
+  },
+  "A540": {
+    "id": "A540",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A540": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A540"
+  },
+  "A541": {
+    "id": "A541",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A541": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A541"
+  },
+  "A542": {
+    "id": "A542",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A542": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A542"
+  },
+  "A543": {
+    "id": "A543",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A543": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A543"
+  },
+  "A545": {
+    "id": "A545",
+    "occurrences": 2,
+    "documents": 2,
+    "roles": {
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "A545": 2
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A545"
+  },
+  "A546": {
+    "id": "A546",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A546": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A546"
+  },
+  "A547": {
+    "id": "A547",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A547": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A547"
+  },
+  "A548": {
+    "id": "A548",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A548": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A548"
+  },
+  "A549": {
+    "id": "A549",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A549": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A549"
+  },
+  "A550": {
+    "id": "A550",
+    "occurrences": 9,
+    "documents": 9,
+    "roles": {
+      "logogram": 8,
+      "transaction": 1
+    },
+    "corpus_readings": {
+      "A550": 9
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A550"
+  },
+  "A551": {
+    "id": "A551",
+    "occurrences": 2,
+    "documents": 2,
+    "roles": {
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "A551": 2
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A551"
+  },
+  "A552": {
+    "id": "A552",
+    "occurrences": 2,
+    "documents": 2,
+    "roles": {
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "A552": 2
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A552"
+  },
+  "A553": {
+    "id": "A553",
+    "occurrences": 2,
+    "documents": 2,
+    "roles": {
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "A553": 2
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A553"
+  },
+  "A554": {
+    "id": "A554",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A554": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A554"
+  },
+  "A555": {
+    "id": "A555",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A555": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A555"
+  },
+  "A556": {
+    "id": "A556",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A556": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A556"
+  },
+  "A557": {
+    "id": "A557",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A557": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A557"
+  },
+  "A558": {
+    "id": "A558",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A558": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A558"
+  },
+  "A559": {
+    "id": "A559",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A559": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A559"
+  },
+  "A560": {
+    "id": "A560",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A560": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A560"
+  },
+  "A561": {
+    "id": "A561",
+    "occurrences": 3,
+    "documents": 1,
+    "roles": {
+      "logogram": 3
+    },
+    "corpus_readings": {
+      "A561": 3
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A561"
+  },
+  "A562": {
+    "id": "A562",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A562": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A562"
+  },
+  "A563": {
+    "id": "A563",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A563": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A563"
+  },
+  "A564": {
+    "id": "A564",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A564": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A564"
+  },
+  "A565": {
+    "id": "A565",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A565": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A565"
+  },
+  "A566": {
+    "id": "A566",
+    "occurrences": 5,
+    "documents": 5,
+    "roles": {
+      "logogram": 5
+    },
+    "corpus_readings": {
+      "A566": 5
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A566"
+  },
+  "A567": {
+    "id": "A567",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A567": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A567"
+  },
+  "A568": {
+    "id": "A568",
+    "occurrences": 9,
+    "documents": 9,
+    "roles": {
+      "logogram": 9
+    },
+    "corpus_readings": {
+      "A568": 9
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A568"
+  },
+  "A569": {
+    "id": "A569",
+    "occurrences": 2,
+    "documents": 2,
+    "roles": {
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "A569": 2
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A569"
+  },
+  "A570": {
+    "id": "A570",
+    "occurrences": 2,
+    "documents": 2,
+    "roles": {
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "A570": 2
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A570"
+  },
+  "A571": {
+    "id": "A571",
+    "occurrences": 4,
+    "documents": 2,
+    "roles": {
+      "logogram": 4
+    },
+    "corpus_readings": {
+      "A571": 4
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A571"
+  },
+  "A572": {
+    "id": "A572",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A572": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A572"
+  },
+  "A573": {
+    "id": "A573",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A573": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A573"
+  },
+  "A574": {
+    "id": "A574",
+    "occurrences": 17,
+    "documents": 11,
+    "roles": {
+      "logogram": 17
+    },
+    "corpus_readings": {
+      "A574": 17
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A574"
+  },
+  "A575": {
+    "id": "A575",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A575": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A575"
+  },
+  "A576": {
+    "id": "A576",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A576": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A576"
+  },
+  "A577": {
+    "id": "A577",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A577": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A577"
+  },
+  "A578": {
+    "id": "A578",
+    "occurrences": 5,
+    "documents": 5,
+    "roles": {
+      "logogram": 5
+    },
+    "corpus_readings": {
+      "A578": 5
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A578"
+  },
+  "A579": {
+    "id": "A579",
+    "occurrences": 7,
+    "documents": 3,
+    "roles": {
+      "logogram": 6,
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A579": 7
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A579"
+  },
+  "A580": {
+    "id": "A580",
+    "occurrences": 2,
+    "documents": 2,
+    "roles": {
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "A580": 2
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A580"
+  },
+  "A581": {
+    "id": "A581",
+    "occurrences": 2,
+    "documents": 2,
+    "roles": {
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "A581": 2
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A581"
+  },
+  "A582": {
+    "id": "A582",
+    "occurrences": 3,
+    "documents": 3,
+    "roles": {
+      "logogram": 3
+    },
+    "corpus_readings": {
+      "A582": 3
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A582"
+  },
+  "A583": {
+    "id": "A583",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A583": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A583"
+  },
+  "A584": {
+    "id": "A584",
+    "occurrences": 3,
+    "documents": 3,
+    "roles": {
+      "logogram": 3
+    },
+    "corpus_readings": {
+      "A584": 3
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A584"
+  },
+  "A585": {
+    "id": "A585",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A585": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A585"
+  },
+  "A586": {
+    "id": "A586",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A586": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A586"
+  },
+  "A587": {
+    "id": "A587",
+    "occurrences": 3,
+    "documents": 3,
+    "roles": {
+      "logogram": 3
+    },
+    "corpus_readings": {
+      "A587": 3
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A587"
+  },
+  "A588": {
+    "id": "A588",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A588": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A588"
+  },
+  "A589": {
+    "id": "A589",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A589": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A589"
+  },
+  "A590": {
+    "id": "A590",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A590": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A590"
+  },
+  "A591": {
+    "id": "A591",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A591": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A591"
+  },
+  "A592": {
+    "id": "A592",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A592": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A592"
+  },
+  "A593": {
+    "id": "A593",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A593": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A593"
+  },
+  "A594": {
+    "id": "A594",
+    "occurrences": 2,
+    "documents": 2,
+    "roles": {
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "A594": 2
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A594"
+  },
+  "A595": {
+    "id": "A595",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A595": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A595"
+  },
+  "A596": {
+    "id": "A596",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A596": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A596"
+  },
+  "A597": {
+    "id": "A597",
+    "occurrences": 2,
+    "documents": 1,
+    "roles": {
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "A597": 2
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A597"
+  },
+  "A598": {
+    "id": "A598",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A598": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A598"
+  },
+  "A599": {
+    "id": "A599",
+    "occurrences": 2,
+    "documents": 1,
+    "roles": {
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "A599": 2
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "A599"
+  },
+  "A600": {
+    "id": "A600",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A600": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A600"
+  },
+  "A601": {
+    "id": "A601",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A601": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A601"
+  },
+  "A602": {
+    "id": "A602",
+    "occurrences": 3,
+    "documents": 3,
+    "roles": {
+      "logogram": 3
+    },
+    "corpus_readings": {
+      "A602": 3
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A602"
+  },
+  "A603": {
+    "id": "A603",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A603": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A603"
+  },
+  "A604": {
+    "id": "A604",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A604": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A604"
+  },
+  "A605": {
+    "id": "A605",
+    "occurrences": 3,
+    "documents": 3,
+    "roles": {
+      "logogram": 3
+    },
+    "corpus_readings": {
+      "A605": 3
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A605"
+  },
+  "A606": {
+    "id": "A606",
+    "occurrences": 10,
+    "documents": 10,
+    "roles": {
+      "logogram": 10
+    },
+    "corpus_readings": {
+      "A606": 10
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A606"
+  },
+  "A607": {
+    "id": "A607",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A607": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A607"
+  },
+  "A608": {
+    "id": "A608",
+    "occurrences": 12,
+    "documents": 8,
+    "roles": {
+      "logogram": 12
+    },
+    "corpus_readings": {
+      "A608": 12
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A608"
+  },
+  "A609": {
+    "id": "A609",
+    "occurrences": 2,
+    "documents": 1,
+    "roles": {
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "A609": 2
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A609"
+  },
+  "A610": {
+    "id": "A610",
+    "occurrences": 22,
+    "documents": 12,
+    "roles": {
+      "logogram": 21,
+      "erasure": 1
+    },
+    "corpus_readings": {
+      "A610": 22
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A610"
+  },
+  "A611": {
+    "id": "A611",
+    "occurrences": 2,
+    "documents": 1,
+    "roles": {
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "A611": 2
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A611"
+  },
+  "A612": {
+    "id": "A612",
+    "occurrences": 5,
+    "documents": 4,
+    "roles": {
+      "logogram": 5
+    },
+    "corpus_readings": {
+      "A612": 5
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A612"
+  },
+  "A613": {
+    "id": "A613",
+    "occurrences": 4,
+    "documents": 4,
+    "roles": {
+      "logogram": 4
+    },
+    "corpus_readings": {
+      "A613": 4
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A613"
+  },
+  "A614": {
+    "id": "A614",
+    "occurrences": 4,
+    "documents": 4,
+    "roles": {
+      "logogram": 4
+    },
+    "corpus_readings": {
+      "A614": 4
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A614"
+  },
+  "A615": {
+    "id": "A615",
+    "occurrences": 8,
+    "documents": 7,
+    "roles": {
+      "logogram": 8
+    },
+    "corpus_readings": {
+      "A615": 8
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A615"
+  },
+  "A616": {
+    "id": "A616",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A616": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A616"
+  },
+  "A617": {
+    "id": "A617",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A617": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A617"
+  },
+  "A618": {
+    "id": "A618",
+    "occurrences": 20,
+    "documents": 15,
+    "roles": {
+      "logogram": 20
+    },
+    "corpus_readings": {
+      "A618": 20
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A618"
+  },
+  "A619": {
+    "id": "A619",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A619": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A619"
+  },
+  "A620": {
+    "id": "A620",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A620": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A620"
+  },
+  "A621": {
+    "id": "A621",
+    "occurrences": 3,
+    "documents": 3,
+    "roles": {
+      "logogram": 3
+    },
+    "corpus_readings": {
+      "A621": 3
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A621"
+  },
+  "A622": {
+    "id": "A622",
+    "occurrences": 19,
+    "documents": 13,
+    "roles": {
+      "logogram": 19
+    },
+    "corpus_readings": {
+      "A622": 19
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A622"
+  },
+  "A623": {
+    "id": "A623",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A623": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A623"
+  },
+  "A624": {
+    "id": "A624",
+    "occurrences": 18,
+    "documents": 9,
+    "roles": {
+      "logogram": 18
+    },
+    "corpus_readings": {
+      "A624": 18
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A624"
+  },
+  "A625": {
+    "id": "A625",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A625": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A625"
+  },
+  "A626": {
+    "id": "A626",
+    "occurrences": 15,
+    "documents": 12,
+    "roles": {
+      "logogram": 15
+    },
+    "corpus_readings": {
+      "A626": 15
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A626"
+  },
+  "A627": {
+    "id": "A627",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A627": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A627"
+  },
+  "A628": {
+    "id": "A628",
+    "occurrences": 2,
+    "documents": 1,
+    "roles": {
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "A628": 2
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A628"
+  },
+  "A629": {
+    "id": "A629",
+    "occurrences": 6,
+    "documents": 6,
+    "roles": {
+      "logogram": 4,
+      "syllabogram": 2
+    },
+    "corpus_readings": {
+      "A629": 6
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A629"
+  },
+  "A630": {
+    "id": "A630",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A630": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A630"
+  },
+  "A631": {
+    "id": "A631",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A631": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A631"
+  },
+  "A632": {
+    "id": "A632",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A632": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A632"
+  },
+  "A633": {
+    "id": "A633",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A633": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A633"
+  },
+  "A634": {
+    "id": "A634",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A634": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A634"
+  },
+  "A635": {
+    "id": "A635",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A635": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A635"
+  },
+  "A636": {
+    "id": "A636",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A636": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A636"
+  },
+  "A637": {
+    "id": "A637",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A637": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A637"
+  },
+  "A638": {
+    "id": "A638",
+    "occurrences": 3,
+    "documents": 3,
+    "roles": {
+      "logogram": 1,
+      "transaction": 2
+    },
+    "corpus_readings": {
+      "A638": 3
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A638"
+  },
+  "A639": {
+    "id": "A639",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A639": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A639"
+  },
+  "A640": {
+    "id": "A640",
+    "occurrences": 2,
+    "documents": 2,
+    "roles": {
+      "logogram": 1,
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A640": 2
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A640"
+  },
+  "A641": {
+    "id": "A641",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A641": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A641"
+  },
+  "A642": {
+    "id": "A642",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A642": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A642"
+  },
+  "A643": {
+    "id": "A643",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A643": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A643"
+  },
+  "A644": {
+    "id": "A644",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A644": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A644"
+  },
+  "A645": {
+    "id": "A645",
+    "occurrences": 2,
+    "documents": 2,
+    "roles": {
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "A645": 2
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A645"
+  },
+  "A646": {
+    "id": "A646",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A646": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A646"
+  },
+  "A647": {
+    "id": "A647",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A647": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A647"
+  },
+  "A648": {
+    "id": "A648",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A648": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A648"
+  },
+  "A649": {
+    "id": "A649",
+    "occurrences": 3,
+    "documents": 3,
+    "roles": {
+      "logogram": 3
+    },
+    "corpus_readings": {
+      "A649": 3
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A649"
+  },
+  "A650": {
+    "id": "A650",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A650": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A650"
+  },
+  "A651": {
+    "id": "A651",
+    "occurrences": 7,
+    "documents": 6,
+    "roles": {
+      "logogram": 6,
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A651": 7
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A651"
+  },
+  "A652": {
+    "id": "A652",
+    "occurrences": 3,
+    "documents": 3,
+    "roles": {
+      "logogram": 3
+    },
+    "corpus_readings": {
+      "A652": 3
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A652"
+  },
+  "A653": {
+    "id": "A653",
+    "occurrences": 3,
+    "documents": 3,
+    "roles": {
+      "logogram": 3
+    },
+    "corpus_readings": {
+      "A653": 3
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A653"
+  },
+  "A654": {
+    "id": "A654",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A654": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A654"
+  },
+  "A655": {
+    "id": "A655",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A655": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A655"
+  },
+  "A656": {
+    "id": "A656",
+    "occurrences": 2,
+    "documents": 2,
+    "roles": {
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "A656": 2
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A656"
+  },
+  "A657": {
+    "id": "A657",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A657": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A657"
+  },
+  "A658": {
+    "id": "A658",
+    "occurrences": 3,
+    "documents": 3,
+    "roles": {
+      "logogram": 3
+    },
+    "corpus_readings": {
+      "A658": 3
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A658"
+  },
+  "A659": {
+    "id": "A659",
+    "occurrences": 2,
+    "documents": 2,
+    "roles": {
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "A659": 2
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A659"
+  },
+  "A660": {
+    "id": "A660",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A660": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A660"
+  },
+  "A661": {
+    "id": "A661",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A661": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A661"
+  },
+  "A662": {
+    "id": "A662",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A662": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A662"
+  },
+  "A684": {
+    "id": "A684",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "A684": 1
+    },
+    "category": "ligature",
+    "in_inventory": false,
+    "primary_reading": "A684"
+  },
+  "A701": {
+    "id": "A701",
+    "occurrences": 14,
+    "documents": 7,
+    "roles": {
+      "fraction": 14
+    },
+    "corpus_readings": {
+      "A701": 14
+    },
+    "category": "fraction",
+    "in_inventory": false,
+    "primary_reading": "A701"
+  },
+  "A702": {
+    "id": "A702",
+    "occurrences": 19,
+    "documents": 12,
+    "roles": {
+      "fraction": 19
+    },
+    "corpus_readings": {
+      "A702": 19
+    },
+    "category": "fraction",
+    "in_inventory": false,
+    "primary_reading": "A702"
+  },
+  "A703": {
+    "id": "A703",
+    "occurrences": 27,
+    "documents": 13,
+    "roles": {
+      "fraction": 26,
+      "erasure": 1
+    },
+    "corpus_readings": {
+      "A703": 27
+    },
+    "category": "fraction",
+    "in_inventory": false,
+    "primary_reading": "A703"
+  },
+  "A704": {
+    "id": "A704",
+    "occurrences": 68,
+    "documents": 44,
+    "roles": {
+      "fraction": 68
+    },
+    "corpus_readings": {
+      "A704": 68
+    },
+    "category": "fraction",
+    "in_inventory": false,
+    "primary_reading": "A704"
+  },
+  "A705": {
+    "id": "A705",
+    "occurrences": 14,
+    "documents": 11,
+    "roles": {
+      "fraction": 14
+    },
+    "corpus_readings": {
+      "A705": 14
+    },
+    "category": "fraction",
+    "in_inventory": false,
+    "primary_reading": "A705"
+  },
+  "A706": {
+    "id": "A706",
+    "occurrences": 16,
+    "documents": 12,
+    "roles": {
+      "fraction": 16
+    },
+    "corpus_readings": {
+      "A706": 16
+    },
+    "category": "fraction",
+    "in_inventory": false,
+    "primary_reading": "A706"
+  },
+  "A707": {
+    "id": "A707",
+    "occurrences": 112,
+    "documents": 65,
+    "roles": {
+      "fraction": 111,
+      "erasure": 1
+    },
+    "corpus_readings": {
+      "A707": 112
+    },
+    "category": "fraction",
+    "in_inventory": false,
+    "primary_reading": "A707"
+  },
+  "A708": {
+    "id": "A708",
+    "occurrences": 22,
+    "documents": 16,
+    "roles": {
+      "fraction": 22
+    },
+    "corpus_readings": {
+      "A708": 22
+    },
+    "category": "fraction",
+    "in_inventory": false,
+    "primary_reading": "A708"
+  },
+  "A709": {
+    "id": "A709",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "fraction": 1
+    },
+    "corpus_readings": {
+      "A709": 1
+    },
+    "category": "fraction",
+    "in_inventory": false,
+    "primary_reading": "A709"
+  },
+  "A7092": {
+    "id": "A7092",
+    "occurrences": 12,
+    "documents": 10,
+    "roles": {
+      "fraction": 12
+    },
+    "corpus_readings": {
+      "A709": 12
+    },
+    "category": "compound_logogram",
+    "in_inventory": false,
+    "primary_reading": "A709"
+  },
+  "A7093": {
+    "id": "A7093",
+    "occurrences": 2,
+    "documents": 1,
+    "roles": {
+      "fraction": 2
+    },
+    "corpus_readings": {
+      "A709": 2
+    },
+    "category": "compound_logogram",
+    "in_inventory": false,
+    "primary_reading": "A709"
+  },
+  "A7094": {
+    "id": "A7094",
+    "occurrences": 2,
+    "documents": 2,
+    "roles": {
+      "fraction": 2
+    },
+    "corpus_readings": {
+      "A709": 2
+    },
+    "category": "compound_logogram",
+    "in_inventory": false,
+    "primary_reading": "A709"
+  },
+  "A7096": {
+    "id": "A7096",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "fraction": 1
+    },
+    "corpus_readings": {
+      "A709": 1
+    },
+    "category": "compound_logogram",
+    "in_inventory": false,
+    "primary_reading": "A709"
+  },
+  "A710": {
+    "id": "A710",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "fraction": 1
+    },
+    "corpus_readings": {
+      "A710": 1
+    },
+    "category": "fraction",
+    "in_inventory": false,
+    "primary_reading": "A710"
+  },
+  "A711": {
+    "id": "A711",
+    "occurrences": 3,
+    "documents": 2,
+    "roles": {
+      "fraction": 3
+    },
+    "corpus_readings": {
+      "A711": 3
+    },
+    "category": "fraction",
+    "in_inventory": false,
+    "primary_reading": "A711"
+  },
+  "A713": {
+    "id": "A713",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "fraction": 1
+    },
+    "corpus_readings": {
+      "A713": 1
+    },
+    "category": "fraction",
+    "in_inventory": false,
+    "primary_reading": "A713"
+  },
+  "A717": {
+    "id": "A717",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A717": 1
+    },
+    "category": "fraction",
+    "in_inventory": false,
+    "primary_reading": "A717"
+  },
+  "A718": {
+    "id": "A718",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "A718": 1
+    },
+    "category": "fraction",
+    "in_inventory": false,
+    "primary_reading": "A718"
+  },
+  "AB01": {
+    "id": "AB01",
+    "occurrences": 101,
+    "documents": 72,
+    "roles": {
+      "syllabogram": 99,
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "da": 99,
+      "AB01": 2
+    },
+    "category": "syllabogram",
+    "phonetic": "da",
+    "linear_b": "B001",
+    "unicode": "𐘀",
+    "confidence": "high",
+    "name": "DA",
+    "in_inventory": true
+  },
+  "AB02": {
+    "id": "AB02",
+    "occurrences": 91,
+    "documents": 72,
+    "roles": {
+      "syllabogram": 89,
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "ro": 89,
+      "AB02": 2
+    },
+    "category": "syllabogram",
+    "phonetic": "ro",
+    "linear_b": "B002",
+    "unicode": "𐘁",
+    "confidence": "high",
+    "name": "RO",
+    "in_inventory": true
+  },
+  "AB03": {
+    "id": "AB03",
+    "occurrences": 91,
+    "documents": 84,
+    "roles": {
+      "syllabogram": 81,
+      "transaction": 1,
+      "logogram": 9
+    },
+    "corpus_readings": {
+      "pa": 81,
+      "AB03": 10
+    },
+    "category": "syllabogram",
+    "phonetic": "pa",
+    "linear_b": "B003",
+    "unicode": "𐘂",
+    "confidence": "high",
+    "name": "PA",
+    "in_inventory": true
+  },
+  "AB04": {
+    "id": "AB04",
+    "occurrences": 79,
+    "documents": 68,
+    "roles": {
+      "syllabogram": 56,
+      "logogram": 4,
+      "transaction": 19
+    },
+    "corpus_readings": {
+      "te": 56,
+      "AB04": 23
+    },
+    "category": "syllabogram",
+    "phonetic": "te",
+    "linear_b": "B004",
+    "unicode": "𐘃",
+    "confidence": "high",
+    "name": "TE",
+    "in_inventory": true
+  },
+  "AB05": {
+    "id": "AB05",
+    "occurrences": 11,
+    "documents": 10,
+    "roles": {
+      "syllabogram": 11
+    },
+    "corpus_readings": {
+      "to": 11
+    },
+    "category": "syllabogram",
+    "phonetic": "to",
+    "linear_b": "B005",
+    "unicode": "𐘄",
+    "confidence": "high",
+    "name": "TO",
+    "in_inventory": true
+  },
+  "AB06": {
+    "id": "AB06",
+    "occurrences": 97,
+    "documents": 79,
+    "roles": {
+      "syllabogram": 97
+    },
+    "corpus_readings": {
+      "na": 97
+    },
+    "category": "syllabogram",
+    "phonetic": "na",
+    "linear_b": "B006",
+    "unicode": "𐘅",
+    "confidence": "high",
+    "name": "NA",
+    "in_inventory": true
+  },
+  "AB07": {
+    "id": "AB07",
+    "occurrences": 91,
+    "documents": 68,
+    "roles": {
+      "syllabogram": 79,
+      "logogram": 10,
+      "erasure": 2
+    },
+    "corpus_readings": {
+      "di": 79,
+      "AB07": 12
+    },
+    "category": "syllabogram",
+    "phonetic": "di",
+    "linear_b": "B007",
+    "unicode": "𐘆",
+    "confidence": "high",
+    "name": "DI",
+    "in_inventory": true
+  },
+  "AB08": {
+    "id": "AB08",
+    "occurrences": 139,
+    "documents": 103,
+    "roles": {
+      "syllabogram": 136,
+      "erasure": 1,
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "a": 136,
+      "AB08": 3
+    },
+    "category": "syllabogram",
+    "phonetic": "a",
+    "linear_b": "B008",
+    "unicode": "𐘇",
+    "confidence": "high",
+    "name": "A",
+    "in_inventory": true
+  },
+  "AB09": {
+    "id": "AB09",
+    "occurrences": 50,
+    "documents": 41,
+    "roles": {
+      "syllabogram": 47,
+      "erasure": 1,
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "se": 47,
+      "AB09": 3
+    },
+    "category": "syllabogram",
+    "phonetic": "se",
+    "linear_b": "B009",
+    "unicode": "𐘈",
+    "confidence": "high",
+    "name": "SE",
+    "in_inventory": true
+  },
+  "AB10": {
+    "id": "AB10",
+    "occurrences": 47,
+    "documents": 39,
+    "roles": {
+      "syllabogram": 46,
+      "erasure": 1
+    },
+    "corpus_readings": {
+      "u": 46,
+      "AB10": 1
+    },
+    "category": "syllabogram",
+    "phonetic": "u",
+    "linear_b": null,
+    "unicode": "𐘉",
+    "confidence": "high",
+    "name": "U",
+    "in_inventory": true
+  },
+  "AB100": {
+    "id": "AB100",
+    "occurrences": 31,
+    "documents": 27,
+    "roles": {
+      "logogram": 23,
+      "syllabogram": 7,
+      "transaction": 1
+    },
+    "corpus_readings": {
+      "AB100/VIR": 23,
+      "*100": 7,
+      "AB100": 1
+    },
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "none",
+    "name": "?100",
+    "in_inventory": true
+  },
+  "AB11": {
+    "id": "AB11",
+    "occurrences": 6,
+    "documents": 6,
+    "roles": {
+      "syllabogram": 6
+    },
+    "corpus_readings": {
+      "po": 6
+    },
+    "category": "syllabogram",
+    "phonetic": "po",
+    "linear_b": "B011",
+    "unicode": "𐘊",
+    "confidence": "high",
+    "name": "PO",
+    "in_inventory": true
+  },
+  "AB118": {
+    "id": "AB118",
+    "occurrences": 24,
+    "documents": 22,
+    "roles": {
+      "syllabogram": 18,
+      "logogram": 6
+    },
+    "corpus_readings": {
+      "*118": 18,
+      "AB118": 6
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "*118"
+  },
+  "AB120": {
+    "id": "AB120",
+    "occurrences": 56,
+    "documents": 44,
+    "roles": {
+      "logogram": 54,
+      "erasure": 2
+    },
+    "corpus_readings": {
+      "AB120/GRA": 54,
+      "AB120": 2
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "AB120/GRA"
+  },
+  "AB120b": {
+    "id": "AB120b",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "AB120/GRA": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "AB120/GRA"
+  },
+  "AB122": {
+    "id": "AB122",
+    "occurrences": 23,
+    "documents": 16,
+    "roles": {
+      "logogram": 23
+    },
+    "corpus_readings": {
+      "AB122/OLIV": 23
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "AB122/OLIV"
+  },
+  "AB123": {
+    "id": "AB123",
+    "occurrences": 7,
+    "documents": 7,
+    "roles": {
+      "syllabogram": 7
+    },
+    "corpus_readings": {
+      "*123": 7
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "*123"
+  },
+  "AB13": {
+    "id": "AB13",
+    "occurrences": 19,
+    "documents": 19,
+    "roles": {
+      "syllabogram": 19
+    },
+    "corpus_readings": {
+      "me": 19
+    },
+    "category": "syllabogram",
+    "phonetic": "me",
+    "linear_b": "B013",
+    "unicode": "𐘌",
+    "confidence": "high",
+    "name": "ME",
+    "in_inventory": true
+  },
+  "AB130": {
+    "id": "AB130",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "AB130": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "AB130"
+  },
+  "AB131": {
+    "id": "AB131",
+    "occurrences": 3,
+    "documents": 3,
+    "roles": {
+      "logogram": 3
+    },
+    "corpus_readings": {
+      "AB131/VIN": 3
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "AB131/VIN"
+  },
+  "AB131a": {
+    "id": "AB131a",
+    "occurrences": 44,
+    "documents": 38,
+    "roles": {
+      "logogram": 41,
+      "syllabogram": 3
+    },
+    "corpus_readings": {
+      "AB131/VIN": 41,
+      "*131": 3
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "AB131/VIN"
+  },
+  "AB131b": {
+    "id": "AB131b",
+    "occurrences": 4,
+    "documents": 4,
+    "roles": {
+      "syllabogram": 1,
+      "logogram": 3
+    },
+    "corpus_readings": {
+      "*131": 1,
+      "AB131/VIN": 3
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "AB131/VIN"
+  },
+  "AB131c": {
+    "id": "AB131c",
+    "occurrences": 4,
+    "documents": 3,
+    "roles": {
+      "logogram": 4
+    },
+    "corpus_readings": {
+      "AB131/VIN": 4
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "AB131/VIN"
+  },
+  "AB16": {
+    "id": "AB16",
+    "occurrences": 28,
+    "documents": 25,
+    "roles": {
+      "logogram": 1,
+      "syllabogram": 27
+    },
+    "corpus_readings": {
+      "AB16": 1,
+      "qa": 27
+    },
+    "category": "syllabogram",
+    "phonetic": "qa",
+    "linear_b": "B016",
+    "unicode": "𐘏",
+    "confidence": "high",
+    "name": "QA",
+    "in_inventory": true
+  },
+  "AB164a": {
+    "id": "AB164a",
+    "occurrences": 5,
+    "documents": 5,
+    "roles": {
+      "syllabogram": 2,
+      "logogram": 3
+    },
+    "corpus_readings": {
+      "*164": 2,
+      "AB164": 3
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "AB164"
+  },
+  "AB164b": {
+    "id": "AB164b",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "AB164": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "AB164"
+  },
+  "AB164c": {
+    "id": "AB164c",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "AB164": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "AB164"
+  },
+  "AB164d": {
+    "id": "AB164d",
+    "occurrences": 5,
+    "documents": 5,
+    "roles": {
+      "logogram": 5
+    },
+    "corpus_readings": {
+      "AB164": 5
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "AB164"
+  },
+  "AB17": {
+    "id": "AB17",
+    "occurrences": 31,
+    "documents": 27,
+    "roles": {
+      "syllabogram": 30,
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "za": 30,
+      "AB17": 1
+    },
+    "category": "syllabogram",
+    "phonetic": "za",
+    "linear_b": "B017",
+    "unicode": "𐘐",
+    "confidence": "high",
+    "name": "ZA",
+    "in_inventory": true
+  },
+  "AB171": {
+    "id": "AB171",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "AB171": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "AB171"
+  },
+  "AB180": {
+    "id": "AB180",
+    "occurrences": 9,
+    "documents": 9,
+    "roles": {
+      "logogram": 8,
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "AB180": 8,
+      "*180": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "AB180"
+  },
+  "AB188": {
+    "id": "AB188",
+    "occurrences": 14,
+    "documents": 11,
+    "roles": {
+      "logogram": 6,
+      "syllabogram": 6,
+      "transaction": 2
+    },
+    "corpus_readings": {
+      "AB188": 8,
+      "*188": 6
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "AB188"
+  },
+  "AB191": {
+    "id": "AB191",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "AB191": 1
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "AB191"
+  },
+  "AB20": {
+    "id": "AB20",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "zo": 1
+    },
+    "category": "syllabogram",
+    "phonetic": "zo",
+    "linear_b": "B020",
+    "unicode": "𐘓",
+    "confidence": "high",
+    "name": "ZO",
+    "in_inventory": true
+  },
+  "AB21": {
+    "id": "AB21",
+    "occurrences": 3,
+    "documents": 3,
+    "roles": {
+      "logogram": 3
+    },
+    "corpus_readings": {
+      "AB21/OVIS": 3
+    },
+    "category": "syllabogram",
+    "phonetic": "qi",
+    "linear_b": "B021",
+    "unicode": "𐘔",
+    "confidence": "medium",
+    "name": "QI",
+    "in_inventory": true
+  },
+  "AB21f": {
+    "id": "AB21f",
+    "occurrences": 34,
+    "documents": 30,
+    "roles": {
+      "syllabogram": 18,
+      "logogram": 16
+    },
+    "corpus_readings": {
+      "qi": 18,
+      "AB21/OVIS": 16
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "qi"
+  },
+  "AB21m": {
+    "id": "AB21m",
+    "occurrences": 6,
+    "documents": 3,
+    "roles": {
+      "logogram": 6
+    },
+    "corpus_readings": {
+      "AB21/OVIS": 6
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "AB21/OVIS"
+  },
+  "AB22": {
+    "id": "AB22",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "AB22/CAP": 1
+    },
+    "category": "syllabogram",
+    "phonetic": "pi2",
+    "linear_b": null,
+    "unicode": "𐘕",
+    "confidence": "low",
+    "name": "PI2",
+    "in_inventory": true
+  },
+  "AB22f": {
+    "id": "AB22f",
+    "occurrences": 4,
+    "documents": 3,
+    "roles": {
+      "syllabogram": 1,
+      "logogram": 3
+    },
+    "corpus_readings": {
+      "*22": 1,
+      "AB22/CAP": 3
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "AB22/CAP"
+  },
+  "AB22m": {
+    "id": "AB22m",
+    "occurrences": 5,
+    "documents": 4,
+    "roles": {
+      "logogram": 5
+    },
+    "corpus_readings": {
+      "AB22/CAP": 5
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "AB22/CAP"
+  },
+  "AB23": {
+    "id": "AB23",
+    "occurrences": 9,
+    "documents": 9,
+    "roles": {
+      "syllabogram": 8,
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "mu": 8,
+      "AB23/BOS": 1
+    },
+    "category": "syllabogram",
+    "phonetic": "mu",
+    "linear_b": "B023",
+    "unicode": "𐘖",
+    "confidence": "high",
+    "name": "MU",
+    "in_inventory": true
+  },
+  "AB23m": {
+    "id": "AB23m",
+    "occurrences": 7,
+    "documents": 6,
+    "roles": {
+      "logogram": 7
+    },
+    "corpus_readings": {
+      "AB23/BOS": 7
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "AB23/BOS"
+  },
+  "AB24": {
+    "id": "AB24",
+    "occurrences": 46,
+    "documents": 41,
+    "roles": {
+      "logogram": 4,
+      "syllabogram": 42
+    },
+    "corpus_readings": {
+      "AB24": 4,
+      "ne": 42
+    },
+    "category": "syllabogram",
+    "phonetic": "ne",
+    "linear_b": "B024",
+    "unicode": "𐘗",
+    "confidence": "high",
+    "name": "NE",
+    "in_inventory": true
+  },
+  "AB26": {
+    "id": "AB26",
+    "occurrences": 71,
+    "documents": 58,
+    "roles": {
+      "syllabogram": 69,
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "ru": 69,
+      "AB26": 2
+    },
+    "category": "syllabogram",
+    "phonetic": "ru",
+    "linear_b": "B026",
+    "unicode": "𐘙",
+    "confidence": "high",
+    "name": "RU",
+    "in_inventory": true
+  },
+  "AB27": {
+    "id": "AB27",
+    "occurrences": 95,
+    "documents": 76,
+    "roles": {
+      "syllabogram": 87,
+      "logogram": 3,
+      "erasure": 1,
+      "transaction": 4
+    },
+    "corpus_readings": {
+      "re": 87,
+      "AB27": 8
+    },
+    "category": "syllabogram",
+    "phonetic": "re",
+    "linear_b": "B027",
+    "unicode": "𐘚",
+    "confidence": "high",
+    "name": "RE",
+    "in_inventory": true
+  },
+  "AB28": {
+    "id": "AB28",
+    "occurrences": 99,
+    "documents": 84,
+    "roles": {
+      "syllabogram": 93,
+      "transaction": 2,
+      "erasure": 1,
+      "logogram": 3
+    },
+    "corpus_readings": {
+      "i": 93,
+      "AB28": 6
+    },
+    "category": "syllabogram",
+    "phonetic": "i",
+    "linear_b": "B028",
+    "unicode": "𐘛",
+    "confidence": "high",
+    "name": "I",
+    "in_inventory": true
+  },
+  "AB28b": {
+    "id": "AB28b",
+    "occurrences": 5,
+    "documents": 5,
+    "roles": {
+      "syllabogram": 5
+    },
+    "corpus_readings": {
+      "i": 5
+    },
+    "category": "syllabogram",
+    "in_inventory": false,
+    "primary_reading": "i"
+  },
+  "AB29": {
+    "id": "AB29",
+    "occurrences": 7,
+    "documents": 7,
+    "roles": {
+      "syllabogram": 7
+    },
+    "corpus_readings": {
+      "pu": 7
+    },
+    "category": "syllabogram",
+    "phonetic": "pu2",
+    "linear_b": "B029",
+    "unicode": "𐘜",
+    "confidence": "medium",
+    "name": "PU2",
+    "in_inventory": true
+  },
+  "AB30": {
+    "id": "AB30",
+    "occurrences": 114,
+    "documents": 91,
+    "roles": {
+      "syllabogram": 48,
+      "logogram": 65,
+      "erasure": 1
+    },
+    "corpus_readings": {
+      "ni": 48,
+      "AB30/FIC": 66
+    },
+    "category": "syllabogram",
+    "phonetic": "ni",
+    "linear_b": "B030",
+    "unicode": "𐘝",
+    "confidence": "high",
+    "name": "NI",
+    "in_inventory": true
+  },
+  "AB302": {
+    "id": "AB302",
+    "occurrences": 15,
+    "documents": 15,
+    "roles": {
+      "logogram": 15
+    },
+    "corpus_readings": {
+      "AB302/OLE": 15
+    },
+    "category": "logogram",
+    "in_inventory": false,
+    "primary_reading": "AB302/OLE"
+  },
+  "AB31": {
+    "id": "AB31",
+    "occurrences": 87,
+    "documents": 71,
+    "roles": {
+      "syllabogram": 79,
+      "transaction": 4,
+      "erasure": 1,
+      "logogram": 3
+    },
+    "corpus_readings": {
+      "sa": 79,
+      "AB31": 8
+    },
+    "category": "syllabogram",
+    "phonetic": "sa",
+    "linear_b": "B031",
+    "unicode": "𐘞",
+    "confidence": "high",
+    "name": "SA",
+    "in_inventory": true
+  },
+  "AB34": {
+    "id": "AB34",
+    "occurrences": 9,
+    "documents": 8,
+    "roles": {
+      "syllabogram": 9
+    },
+    "corpus_readings": {
+      "*34": 9
+    },
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "low",
+    "name": "?34",
+    "in_inventory": true
+  },
+  "AB37": {
+    "id": "AB37",
+    "occurrences": 74,
+    "documents": 57,
+    "roles": {
+      "syllabogram": 71,
+      "logogram": 3
+    },
+    "corpus_readings": {
+      "ti": 71,
+      "AB37": 3
+    },
+    "category": "syllabogram",
+    "phonetic": "ti",
+    "linear_b": "B037",
+    "unicode": "𐘤",
+    "confidence": "high",
+    "name": "TI",
+    "in_inventory": true
+  },
+  "AB38": {
+    "id": "AB38",
+    "occurrences": 25,
+    "documents": 20,
+    "roles": {
+      "logogram": 9,
+      "transaction": 1,
+      "syllabogram": 15
+    },
+    "corpus_readings": {
+      "AB38": 10,
+      "e": 15
+    },
+    "category": "syllabogram",
+    "phonetic": "e",
+    "linear_b": "B038",
+    "unicode": "𐘥",
+    "confidence": "high",
+    "name": "E",
+    "in_inventory": true
+  },
+  "AB39": {
+    "id": "AB39",
+    "occurrences": 37,
+    "documents": 33,
+    "roles": {
+      "syllabogram": 37
+    },
+    "corpus_readings": {
+      "pi": 37
+    },
+    "category": "syllabogram",
+    "phonetic": "pi",
+    "linear_b": "B039",
+    "unicode": "𐘦",
+    "confidence": "high",
+    "name": "PI",
+    "in_inventory": true
+  },
+  "AB40": {
+    "id": "AB40",
+    "occurrences": 21,
+    "documents": 19,
+    "roles": {
+      "logogram": 1,
+      "syllabogram": 20
+    },
+    "corpus_readings": {
+      "AB40": 1,
+      "wi": 20
+    },
+    "category": "syllabogram",
+    "phonetic": "wi",
+    "linear_b": "B040",
+    "unicode": "𐘧",
+    "confidence": "high",
+    "name": "WI",
+    "in_inventory": true
+  },
+  "AB41": {
+    "id": "AB41",
+    "occurrences": 103,
+    "documents": 86,
+    "roles": {
+      "syllabogram": 86,
+      "logogram": 16,
+      "erasure": 1
+    },
+    "corpus_readings": {
+      "si": 86,
+      "AB41": 17
+    },
+    "category": "syllabogram",
+    "phonetic": "si",
+    "linear_b": "B041",
+    "unicode": "𐘨",
+    "confidence": "high",
+    "name": "SI",
+    "in_inventory": true
+  },
+  "AB43": {
+    "id": "AB43",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "*43": 1
+    },
+    "category": "syllabogram",
+    "phonetic": "a3",
+    "linear_b": "B043",
+    "unicode": null,
+    "confidence": "medium",
+    "name": "A3",
+    "in_inventory": true
+  },
+  "AB44": {
+    "id": "AB44",
+    "occurrences": 9,
+    "documents": 9,
+    "roles": {
+      "syllabogram": 9
+    },
+    "corpus_readings": {
+      "ke": 9
+    },
+    "category": "syllabogram",
+    "phonetic": "ke",
+    "linear_b": "B044",
+    "unicode": "𐘫",
+    "confidence": "high",
+    "name": "KE",
+    "in_inventory": true
+  },
+  "AB45": {
+    "id": "AB45",
+    "occurrences": 30,
+    "documents": 27,
+    "roles": {
+      "syllabogram": 30
+    },
+    "corpus_readings": {
+      "de": 30
+    },
+    "category": "syllabogram",
+    "phonetic": "de",
+    "linear_b": "B045",
+    "unicode": "𐘬",
+    "confidence": "high",
+    "name": "DE",
+    "in_inventory": true
+  },
+  "AB46": {
+    "id": "AB46",
+    "occurrences": 9,
+    "documents": 9,
+    "roles": {
+      "syllabogram": 9
+    },
+    "corpus_readings": {
+      "je": 9
+    },
+    "category": "syllabogram",
+    "phonetic": "je",
+    "linear_b": "B046",
+    "unicode": "𐘭",
+    "confidence": "high",
+    "name": "JE",
+    "in_inventory": true
+  },
+  "AB47": {
+    "id": "AB47",
+    "occurrences": 7,
+    "documents": 7,
+    "roles": {
+      "syllabogram": 5,
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "*47": 5,
+      "AB47": 2
+    },
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": "𐘰",
+    "confidence": "low",
+    "name": "?47",
+    "in_inventory": true
+  },
+  "AB48": {
+    "id": "AB48",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "nwa": 1
+    },
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "low",
+    "name": "?48",
+    "in_inventory": true
+  },
+  "AB49": {
+    "id": "AB49",
+    "occurrences": 3,
+    "documents": 3,
+    "roles": {
+      "syllabogram": 3
+    },
+    "corpus_readings": {
+      "*49": 3
+    },
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": "𐘰",
+    "confidence": "none",
+    "name": "?49",
+    "in_inventory": true
+  },
+  "AB50": {
+    "id": "AB50",
+    "occurrences": 21,
+    "documents": 18,
+    "roles": {
+      "syllabogram": 20,
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "pu": 20,
+      "AB50": 1
+    },
+    "category": "syllabogram",
+    "phonetic": "pu",
+    "linear_b": "B050",
+    "unicode": "𐘱",
+    "confidence": "high",
+    "name": "PU",
+    "in_inventory": true
+  },
+  "AB51": {
+    "id": "AB51",
+    "occurrences": 68,
+    "documents": 60,
+    "roles": {
+      "syllabogram": 67,
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "du": 67,
+      "AB51": 1
+    },
+    "category": "syllabogram",
+    "phonetic": "du",
+    "linear_b": "B051",
+    "unicode": "𐘲",
+    "confidence": "high",
+    "name": "DU",
+    "in_inventory": true
+  },
+  "AB53": {
+    "id": "AB53",
+    "occurrences": 71,
+    "documents": 51,
+    "roles": {
+      "syllabogram": 70,
+      "erasure": 1
+    },
+    "corpus_readings": {
+      "ri": 70,
+      "AB53": 1
+    },
+    "category": "syllabogram",
+    "phonetic": "ri",
+    "linear_b": "B053",
+    "unicode": "𐘴",
+    "confidence": "high",
+    "name": "RI",
+    "in_inventory": true
+  },
+  "AB54": {
+    "id": "AB54",
+    "occurrences": 21,
+    "documents": 20,
+    "roles": {
+      "syllabogram": 17,
+      "logogram": 3,
+      "erasure": 1
+    },
+    "corpus_readings": {
+      "wa": 17,
+      "AB54/TELA": 3,
+      "AB54": 1
+    },
+    "category": "syllabogram",
+    "phonetic": "wa",
+    "linear_b": "B054",
+    "unicode": "𐘵",
+    "confidence": "high",
+    "name": "WA",
+    "in_inventory": true
+  },
+  "AB55": {
+    "id": "AB55",
+    "occurrences": 44,
+    "documents": 39,
+    "roles": {
+      "syllabogram": 44
+    },
+    "corpus_readings": {
+      "nu": 44
+    },
+    "category": "syllabogram",
+    "phonetic": "nu",
+    "linear_b": "B055",
+    "unicode": "𐘶",
+    "confidence": "high",
+    "name": "NU",
+    "in_inventory": true
+  },
+  "AB56": {
+    "id": "AB56",
+    "occurrences": 41,
+    "documents": 33,
+    "roles": {
+      "syllabogram": 38,
+      "transaction": 2,
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "*56": 38,
+      "AB56": 3
+    },
+    "category": "syllabogram",
+    "phonetic": "pa3",
+    "linear_b": null,
+    "unicode": "𐘷",
+    "confidence": "medium",
+    "name": "PA3",
+    "in_inventory": true
+  },
+  "AB57": {
+    "id": "AB57",
+    "occurrences": 88,
+    "documents": 72,
+    "roles": {
+      "syllabogram": 87,
+      "erasure": 1
+    },
+    "corpus_readings": {
+      "ja": 87,
+      "AB57": 1
+    },
+    "category": "syllabogram",
+    "phonetic": "ja",
+    "linear_b": "B057",
+    "unicode": "𐘸",
+    "confidence": "high",
+    "name": "JA",
+    "in_inventory": true
+  },
+  "AB58": {
+    "id": "AB58",
+    "occurrences": 46,
+    "documents": 42,
+    "roles": {
+      "syllabogram": 40,
+      "erasure": 2,
+      "logogram": 4
+    },
+    "corpus_readings": {
+      "su": 40,
+      "AB58": 6
+    },
+    "category": "syllabogram",
+    "phonetic": "su",
+    "linear_b": "B058",
+    "unicode": "𐘹",
+    "confidence": "high",
+    "name": "SU",
+    "in_inventory": true
+  },
+  "AB59": {
+    "id": "AB59",
+    "occurrences": 114,
+    "documents": 94,
+    "roles": {
+      "syllabogram": 106,
+      "logogram": 7,
+      "erasure": 1
+    },
+    "corpus_readings": {
+      "ta": 106,
+      "AB59": 8
+    },
+    "category": "syllabogram",
+    "phonetic": "ta",
+    "linear_b": "B059",
+    "unicode": "𐘺",
+    "confidence": "high",
+    "name": "TA",
+    "in_inventory": true
+  },
+  "AB60": {
+    "id": "AB60",
+    "occurrences": 87,
+    "documents": 70,
+    "roles": {
+      "syllabogram": 85,
+      "erasure": 1,
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "ra": 85,
+      "AB60": 2
+    },
+    "category": "syllabogram",
+    "phonetic": "ra",
+    "linear_b": "B060",
+    "unicode": "𐘻",
+    "confidence": "high",
+    "name": "RA",
+    "in_inventory": true
+  },
+  "AB61": {
+    "id": "AB61",
+    "occurrences": 24,
+    "documents": 24,
+    "roles": {
+      "logogram": 14,
+      "syllabogram": 10
+    },
+    "corpus_readings": {
+      "AB61": 14,
+      "o": 10
+    },
+    "category": "syllabogram",
+    "phonetic": "o",
+    "linear_b": "B061",
+    "unicode": "𐘼",
+    "confidence": "high",
+    "name": "O",
+    "in_inventory": true
+  },
+  "AB65": {
+    "id": "AB65",
+    "occurrences": 35,
+    "documents": 30,
+    "roles": {
+      "syllabogram": 33,
+      "logogram": 1,
+      "transaction": 1
+    },
+    "corpus_readings": {
+      "ju": 33,
+      "AB65": 2
+    },
+    "category": "syllabogram",
+    "phonetic": "ju",
+    "linear_b": "B065",
+    "unicode": "𐙀",
+    "confidence": "medium",
+    "name": "JU",
+    "in_inventory": true
+  },
+  "AB66": {
+    "id": "AB66",
+    "occurrences": 12,
+    "documents": 12,
+    "roles": {
+      "syllabogram": 11,
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "ta": 11,
+      "AB66": 1
+    },
+    "category": "syllabogram",
+    "phonetic": "ta2",
+    "linear_b": "B066",
+    "unicode": "𐙁",
+    "confidence": "medium",
+    "name": "TA2",
+    "in_inventory": true
+  },
+  "AB67": {
+    "id": "AB67",
+    "occurrences": 103,
+    "documents": 77,
+    "roles": {
+      "syllabogram": 92,
+      "logogram": 9,
+      "erasure": 2
+    },
+    "corpus_readings": {
+      "ki": 92,
+      "AB67": 11
+    },
+    "category": "syllabogram",
+    "phonetic": "ki",
+    "linear_b": "B067",
+    "unicode": "𐙂",
+    "confidence": "high",
+    "name": "KI",
+    "in_inventory": true
+  },
+  "AB69": {
+    "id": "AB69",
+    "occurrences": 61,
+    "documents": 51,
+    "roles": {
+      "syllabogram": 57,
+      "logogram": 4
+    },
+    "corpus_readings": {
+      "tu": 57,
+      "AB69": 4
+    },
+    "category": "syllabogram",
+    "phonetic": "tu",
+    "linear_b": "B069",
+    "unicode": "𐙄",
+    "confidence": "high",
+    "name": "TU",
+    "in_inventory": true
+  },
+  "AB70": {
+    "id": "AB70",
+    "occurrences": 11,
+    "documents": 11,
+    "roles": {
+      "syllabogram": 11
+    },
+    "corpus_readings": {
+      "ko": 11
+    },
+    "category": "syllabogram",
+    "phonetic": "ko",
+    "linear_b": "B070",
+    "unicode": "𐙅",
+    "confidence": "high",
+    "name": "KO",
+    "in_inventory": true
+  },
+  "AB72": {
+    "id": "AB72",
+    "occurrences": 1,
+    "documents": 1,
+    "roles": {
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "*72": 1
+    },
+    "category": "syllabogram",
+    "phonetic": "pe",
+    "linear_b": "B072",
+    "unicode": null,
+    "confidence": "high",
+    "name": "PE",
+    "in_inventory": true
+  },
+  "AB73": {
+    "id": "AB73",
+    "occurrences": 69,
+    "documents": 56,
+    "roles": {
+      "syllabogram": 68,
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "mi": 68,
+      "AB73": 1
+    },
+    "category": "syllabogram",
+    "phonetic": "mi",
+    "linear_b": "B073",
+    "unicode": "𐙈",
+    "confidence": "high",
+    "name": "MI",
+    "in_inventory": true
+  },
+  "AB74": {
+    "id": "AB74",
+    "occurrences": 22,
+    "documents": 22,
+    "roles": {
+      "logogram": 21,
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "AB74": 21,
+      "ze": 1
+    },
+    "category": "syllabogram",
+    "phonetic": "ze",
+    "linear_b": "B074",
+    "unicode": "𐙉",
+    "confidence": "high",
+    "name": "ZE",
+    "in_inventory": true
+  },
+  "AB76": {
+    "id": "AB76",
+    "occurrences": 43,
+    "documents": 40,
+    "roles": {
+      "syllabogram": 43
+    },
+    "corpus_readings": {
+      "ra": 43
+    },
+    "category": "syllabogram",
+    "phonetic": "ra2",
+    "linear_b": "B076",
+    "unicode": "𐙋",
+    "confidence": "medium",
+    "name": "RA2",
+    "in_inventory": true
+  },
+  "AB77": {
+    "id": "AB77",
+    "occurrences": 107,
+    "documents": 88,
+    "roles": {
+      "syllabogram": 92,
+      "logogram": 15
+    },
+    "corpus_readings": {
+      "ka": 92,
+      "AB77": 15
+    },
+    "category": "syllabogram",
+    "phonetic": "ka",
+    "linear_b": "B077",
+    "unicode": null,
+    "confidence": "high",
+    "name": "KA",
+    "in_inventory": true
+  },
+  "AB78": {
+    "id": "AB78",
+    "occurrences": 36,
+    "documents": 34,
+    "roles": {
+      "syllabogram": 36
+    },
+    "corpus_readings": {
+      "qe": 36
+    },
+    "category": "syllabogram",
+    "phonetic": "qe",
+    "linear_b": "B078",
+    "unicode": "𐙍",
+    "confidence": "high",
+    "name": "QE",
+    "in_inventory": true
+  },
+  "AB79": {
+    "id": "AB79",
+    "occurrences": 30,
+    "documents": 30,
+    "roles": {
+      "syllabogram": 28,
+      "transaction": 1,
+      "logogram": 1
+    },
+    "corpus_readings": {
+      "*79": 28,
+      "AB79": 2
+    },
+    "category": "syllabogram",
+    "phonetic": "zu",
+    "linear_b": null,
+    "unicode": "𐙎",
+    "confidence": "medium",
+    "name": "ZU",
+    "in_inventory": true
+  },
+  "AB80": {
+    "id": "AB80",
+    "occurrences": 87,
+    "documents": 70,
+    "roles": {
+      "syllabogram": 84,
+      "logogram": 2,
+      "erasure": 1
+    },
+    "corpus_readings": {
+      "ma": 84,
+      "AB80": 3
+    },
+    "category": "syllabogram",
+    "phonetic": "ma",
+    "linear_b": "B080",
+    "unicode": "𐙏",
+    "confidence": "high",
+    "name": "MA",
+    "in_inventory": true
+  },
+  "AB81": {
+    "id": "AB81",
+    "occurrences": 175,
+    "documents": 132,
+    "roles": {
+      "syllabogram": 138,
+      "logogram": 37
+    },
+    "corpus_readings": {
+      "ku": 138,
+      "AB81": 37
+    },
+    "category": "syllabogram",
+    "phonetic": "ku",
+    "linear_b": "B081",
+    "unicode": "𐙐",
+    "confidence": "high",
+    "name": "KU",
+    "in_inventory": true
+  },
+  "AB82": {
+    "id": "AB82",
+    "occurrences": 3,
+    "documents": 3,
+    "roles": {
+      "logogram": 2,
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "AB82": 2,
+      "*82": 1
+    },
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "none",
+    "name": "?82",
+    "in_inventory": true
+  },
+  "AB85": {
+    "id": "AB85",
+    "occurrences": 3,
+    "documents": 3,
+    "roles": {
+      "logogram": 2,
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "AB85/SUS": 2,
+      "au": 1
+    },
+    "category": "syllabogram",
+    "phonetic": "au",
+    "linear_b": "B085",
+    "unicode": null,
+    "confidence": "medium",
+    "name": "AU",
+    "in_inventory": true
+  },
+  "AB86": {
+    "id": "AB86",
+    "occurrences": 11,
+    "documents": 11,
+    "roles": {
+      "syllabogram": 7,
+      "logogram": 2,
+      "transaction": 2
+    },
+    "corpus_readings": {
+      "*86": 7,
+      "AB86": 4
+    },
+    "category": "syllabogram",
+    "phonetic": "nwa",
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "medium",
+    "name": "NWA",
+    "in_inventory": true
+  },
+  "AB87": {
+    "id": "AB87",
+    "occurrences": 2,
+    "documents": 1,
+    "roles": {
+      "logogram": 2
+    },
+    "corpus_readings": {
+      "AB87": 2
+    },
+    "category": "syllabogram",
+    "phonetic": "twe",
+    "linear_b": "B087",
+    "unicode": null,
+    "confidence": "medium",
+    "name": "TWE",
+    "in_inventory": true
+  },
+  "N800": {
+    "id": "N800",
+    "occurrences": 4,
+    "documents": 4,
+    "roles": {
+      "erasure": 3,
+      "syllabogram": 1
+    },
+    "corpus_readings": {
+      "N800": 4
+    },
+    "category": "other",
+    "in_inventory": false,
+    "primary_reading": "N800"
+  },
+  "AB14": {
+    "id": "AB14",
+    "occurrences": 0,
+    "documents": 0,
+    "roles": {},
+    "corpus_readings": {},
+    "category": "syllabogram",
+    "phonetic": "do",
+    "linear_b": "B014",
+    "unicode": null,
+    "confidence": "high",
+    "name": "DO",
+    "in_inventory": true,
+    "note": "In inventory but zero attestations in SigLA corpus"
+  },
+  "AB36": {
+    "id": "AB36",
+    "occurrences": 0,
+    "documents": 0,
+    "roles": {},
+    "corpus_readings": {},
+    "category": "syllabogram",
+    "phonetic": "jo",
+    "linear_b": "B036",
+    "unicode": null,
+    "confidence": "high",
+    "name": "JO",
+    "in_inventory": true,
+    "note": "In inventory but zero attestations in SigLA corpus"
+  },
+  "AB15": {
+    "id": "AB15",
+    "occurrences": 0,
+    "documents": 0,
+    "roles": {},
+    "corpus_readings": {},
+    "category": "syllabogram",
+    "phonetic": "mo",
+    "linear_b": "B015",
+    "unicode": null,
+    "confidence": "high",
+    "name": "MO",
+    "in_inventory": true,
+    "note": "In inventory but zero attestations in SigLA corpus"
+  },
+  "AB52": {
+    "id": "AB52",
+    "occurrences": 0,
+    "documents": 0,
+    "roles": {},
+    "corpus_readings": {},
+    "category": "syllabogram",
+    "phonetic": "no",
+    "linear_b": "B052",
+    "unicode": null,
+    "confidence": "high",
+    "name": "NO",
+    "in_inventory": true,
+    "note": "In inventory but zero attestations in SigLA corpus"
+  },
+  "AB32": {
+    "id": "AB32",
+    "occurrences": 0,
+    "documents": 0,
+    "roles": {},
+    "corpus_readings": {},
+    "category": "syllabogram",
+    "phonetic": "qo",
+    "linear_b": "B032",
+    "unicode": null,
+    "confidence": "medium",
+    "name": "QO",
+    "in_inventory": true,
+    "note": "In inventory but zero attestations in SigLA corpus"
+  },
+  "AB12": {
+    "id": "AB12",
+    "occurrences": 0,
+    "documents": 0,
+    "roles": {},
+    "corpus_readings": {},
+    "category": "syllabogram",
+    "phonetic": "so",
+    "linear_b": "B012",
+    "unicode": null,
+    "confidence": "high",
+    "name": "SO",
+    "in_inventory": true,
+    "note": "In inventory but zero attestations in SigLA corpus"
+  },
+  "AB75": {
+    "id": "AB75",
+    "occurrences": 0,
+    "documents": 0,
+    "roles": {},
+    "corpus_readings": {},
+    "category": "syllabogram",
+    "phonetic": "we",
+    "linear_b": "B075",
+    "unicode": "𐙊",
+    "confidence": "high",
+    "name": "WE",
+    "in_inventory": true,
+    "note": "In inventory but zero attestations in SigLA corpus"
+  },
+  "AB42": {
+    "id": "AB42",
+    "occurrences": 0,
+    "documents": 0,
+    "roles": {},
+    "corpus_readings": {},
+    "category": "syllabogram",
+    "phonetic": "wo",
+    "linear_b": "B042",
+    "unicode": null,
+    "confidence": "high",
+    "name": "WO",
+    "in_inventory": true,
+    "note": "In inventory but zero attestations in SigLA corpus"
+  },
+  "AB25": {
+    "id": "AB25",
+    "occurrences": 0,
+    "documents": 0,
+    "roles": {},
+    "corpus_readings": {},
+    "category": "syllabogram",
+    "phonetic": "a2",
+    "linear_b": "B025",
+    "unicode": "𐘘",
+    "confidence": "medium",
+    "name": "A2",
+    "in_inventory": true,
+    "note": "In inventory but zero attestations in SigLA corpus"
+  },
+  "AB33": {
+    "id": "AB33",
+    "occurrences": 0,
+    "documents": 0,
+    "roles": {},
+    "corpus_readings": {},
+    "category": "syllabogram",
+    "phonetic": "ra3",
+    "linear_b": "B033",
+    "unicode": null,
+    "confidence": "medium",
+    "name": "RA3",
+    "in_inventory": true,
+    "note": "In inventory but zero attestations in SigLA corpus"
+  },
+  "AB62": {
+    "id": "AB62",
+    "occurrences": 0,
+    "documents": 0,
+    "roles": {},
+    "corpus_readings": {},
+    "category": "syllabogram",
+    "phonetic": "pte",
+    "linear_b": "B062",
+    "unicode": null,
+    "confidence": "low",
+    "name": "PTE",
+    "in_inventory": true,
+    "note": "In inventory but zero attestations in SigLA corpus"
+  },
+  "AB68": {
+    "id": "AB68",
+    "occurrences": 0,
+    "documents": 0,
+    "roles": {},
+    "corpus_readings": {},
+    "category": "syllabogram",
+    "phonetic": "ro2",
+    "linear_b": "B068",
+    "unicode": null,
+    "confidence": "medium",
+    "name": "RO2",
+    "in_inventory": true,
+    "note": "In inventory but zero attestations in SigLA corpus"
+  },
+  "AB71": {
+    "id": "AB71",
+    "occurrences": 0,
+    "documents": 0,
+    "roles": {},
+    "corpus_readings": {},
+    "category": "syllabogram",
+    "phonetic": "dwe",
+    "linear_b": "B071",
+    "unicode": null,
+    "confidence": "medium",
+    "name": "DWE",
+    "in_inventory": true,
+    "note": "In inventory but zero attestations in SigLA corpus"
+  },
+  "AB91": {
+    "id": "AB91",
+    "occurrences": 0,
+    "documents": 0,
+    "roles": {},
+    "corpus_readings": {},
+    "category": "syllabogram",
+    "phonetic": "two",
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "low",
+    "name": "TWO",
+    "in_inventory": true,
+    "note": "In inventory but zero attestations in SigLA corpus"
+  },
+  "AB35": {
+    "id": "AB35",
+    "occurrences": 0,
+    "documents": 0,
+    "roles": {},
+    "corpus_readings": {},
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "low",
+    "name": "?35",
+    "in_inventory": true,
+    "note": "In inventory but zero attestations in SigLA corpus"
+  },
+  "AB63": {
+    "id": "AB63",
+    "occurrences": 0,
+    "documents": 0,
+    "roles": {},
+    "corpus_readings": {},
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "low",
+    "name": "?63",
+    "in_inventory": true,
+    "note": "In inventory but zero attestations in SigLA corpus"
+  },
+  "AB64": {
+    "id": "AB64",
+    "occurrences": 0,
+    "documents": 0,
+    "roles": {},
+    "corpus_readings": {},
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "low",
+    "name": "?64",
+    "in_inventory": true,
+    "note": "In inventory but zero attestations in SigLA corpus"
+  },
+  "AB83": {
+    "id": "AB83",
+    "occurrences": 0,
+    "documents": 0,
+    "roles": {},
+    "corpus_readings": {},
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "low",
+    "name": "?83",
+    "in_inventory": true,
+    "note": "In inventory but zero attestations in SigLA corpus"
+  },
+  "AB84": {
+    "id": "AB84",
+    "occurrences": 0,
+    "documents": 0,
+    "roles": {},
+    "corpus_readings": {},
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "low",
+    "name": "?84",
+    "in_inventory": true,
+    "note": "In inventory but zero attestations in SigLA corpus"
+  },
+  "A171": {
+    "id": "A171",
+    "occurrences": 0,
+    "documents": 0,
+    "roles": {},
+    "corpus_readings": {},
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "none",
+    "name": "?171",
+    "in_inventory": true,
+    "note": "In inventory but zero attestations in SigLA corpus"
+  },
+  "A180": {
+    "id": "A180",
+    "occurrences": 0,
+    "documents": 0,
+    "roles": {},
+    "corpus_readings": {},
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "none",
+    "name": "?180",
+    "in_inventory": true,
+    "note": "In inventory but zero attestations in SigLA corpus"
+  },
+  "A188": {
+    "id": "A188",
+    "occurrences": 0,
+    "documents": 0,
+    "roles": {},
+    "corpus_readings": {},
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "none",
+    "name": "?188",
+    "in_inventory": true,
+    "note": "In inventory but zero attestations in SigLA corpus"
+  },
+  "A191": {
+    "id": "A191",
+    "occurrences": 0,
+    "documents": 0,
+    "roles": {},
+    "corpus_readings": {},
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "none",
+    "name": "?191",
+    "in_inventory": true,
+    "note": "In inventory but zero attestations in SigLA corpus"
+  },
+  "A302": {
+    "id": "A302",
+    "occurrences": 0,
+    "documents": 0,
+    "roles": {},
+    "corpus_readings": {},
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "none",
+    "name": "?302",
+    "in_inventory": true,
+    "note": "In inventory but zero attestations in SigLA corpus"
+  },
+  "A309": {
+    "id": "A309",
+    "occurrences": 0,
+    "documents": 0,
+    "roles": {},
+    "corpus_readings": {},
+    "category": "syllabogram",
+    "phonetic": null,
+    "linear_b": null,
+    "unicode": null,
+    "confidence": "none",
+    "name": "?309",
+    "in_inventory": true,
+    "note": "In inventory but zero attestations in SigLA corpus"
+  },
+  "N1": {
+    "id": "N1",
+    "category": "numeral",
+    "value": 1,
+    "description": "Single unit stroke",
+    "shape": "vertical stroke",
+    "in_inventory": true,
+    "occurrences": 0,
+    "documents": 0
+  },
+  "N10": {
+    "id": "N10",
+    "category": "numeral",
+    "value": 10,
+    "description": "Ten, horizontal bar or large dot",
+    "shape": "horizontal stroke/dot",
+    "in_inventory": true,
+    "occurrences": 0,
+    "documents": 0
+  },
+  "N100": {
+    "id": "N100",
+    "category": "numeral",
+    "value": 100,
+    "description": "Hundred, open circle",
+    "shape": "circle",
+    "in_inventory": true,
+    "occurrences": 0,
+    "documents": 0
+  },
+  "N1000": {
+    "id": "N1000",
+    "category": "numeral",
+    "value": 1000,
+    "description": "Thousand, rayed circle",
+    "shape": "circle with rays",
+    "in_inventory": true,
+    "occurrences": 0,
+    "documents": 0
+  },
+  "N10000": {
+    "id": "N10000",
+    "category": "numeral",
+    "value": 10000,
+    "description": "Ten thousand (rare)",
+    "shape": "circle with dots",
+    "in_inventory": true,
+    "occurrences": 0,
+    "documents": 0
+  }
+}
