@@ -23,7 +23,7 @@
 .sign-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 0.8rem; }
 .sign-card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 0.6rem; text-align: center; cursor: pointer; transition: all 0.2s; }
 .sign-card:hover { border-color: var(--accent); transform: translateY(-2px); }
-.sign-card img { width: 80px; height: 80px; object-fit: contain; display: block; margin: 0 auto 0.4rem; }
+.sign-card img { width: 80px; height: 80px; object-fit: contain; display: block; margin: 0 auto 0.4rem; background: #e8e0d0; border-radius: 4px; }
 .sign-card .sign-code { font-size: 0.75rem; color: var(--text2); font-family: monospace; }
 .sign-card .sign-reading { font-size: 1rem; color: var(--accent); font-weight: 700; min-height: 1.4em; }
 .sign-card .sign-cat { font-size: 0.6rem; color: var(--text2); text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.7; }
@@ -34,7 +34,7 @@
 .sign-detail-card { background: var(--bg); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; max-width: 500px; width: 90vw; max-height: 90vh; overflow-y: auto; position: relative; }
 .sign-detail-close { position: absolute; top: 1rem; right: 1rem; background: none; border: none; color: var(--text2); font-size: 1.5rem; cursor: pointer; }
 .sign-detail-close:hover { color: var(--text); }
-.sign-detail-img { width: 160px; height: 160px; object-fit: contain; display: block; margin: 0 auto 1.5rem; }
+.sign-detail-img { width: 160px; height: 160px; object-fit: contain; display: block; margin: 0 auto 1.5rem; background: #e8e0d0; border-radius: 8px; padding: 0.5rem; }
 .sign-detail-code { text-align: center; font-family: monospace; color: var(--text2); font-size: 1rem; margin-bottom: 0.3rem; }
 .sign-detail-reading { text-align: center; color: var(--accent); font-size: 1.8rem; font-weight: 700; margin-bottom: 0.3rem; }
 .sign-detail-cat { text-align: center; color: var(--text2); font-size: 0.85rem; text-transform: capitalize; margin-bottom: 1.5rem; }
@@ -42,7 +42,7 @@
 .sign-detail-section h4 { color: var(--text2); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.5rem; }
 .sign-detail-section p { color: var(--text); font-size: 0.9rem; line-height: 1.6; }
 .similar-signs { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.5rem; }
-.similar-sign { width: 50px; height: 50px; object-fit: contain; background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 2px; cursor: pointer; }
+.similar-sign { width: 50px; height: 50px; object-fit: contain; background: #e8e0d0; border: 1px solid var(--border); border-radius: 4px; padding: 2px; cursor: pointer; }
 .similar-sign:hover { border-color: var(--accent); }
 
 @media (max-width: 768px) {

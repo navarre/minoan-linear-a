@@ -27,7 +27,7 @@
 .doc-card { display: flex; align-items: center; gap: 0.8rem; padding: 0.6rem 0.8rem; background: var(--surface); border: 1px solid var(--border); border-radius: 6px; margin-bottom: 0.4rem; cursor: pointer; transition: border-color 0.15s; }
 .doc-card:hover { border-color: var(--accent); }
 .doc-card.selected { border-color: var(--accent); background: var(--surface2); }
-.doc-thumb { width: 40px; height: 40px; object-fit: contain; background: var(--surface2); border-radius: 3px; }
+.doc-thumb { width: 40px; height: 40px; object-fit: contain; background: #e8e0d0; border-radius: 3px; }
 .doc-info { flex: 1; min-width: 0; }
 .doc-name { font-weight: 600; color: var(--accent); font-size: 0.85rem; }
 .doc-meta { font-size: 0.7rem; color: var(--text2); }
@@ -39,18 +39,18 @@
 .detail-header { margin-bottom: 1.5rem; }
 .detail-header h2 { color: var(--accent); font-size: 1.5rem; margin-bottom: 0.3rem; }
 .detail-header .detail-site { color: var(--text2); font-size: 0.9rem; }
-.detail-doc-img { max-width: 100%; max-height: 500px; object-fit: contain; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; display: block; margin: 0 auto 1.5rem; }
+.detail-doc-img { max-width: 100%; max-height: 500px; object-fit: contain; background: #e8e0d0; border: 1px solid var(--border); border-radius: 8px; padding: 1rem; display: block; margin: 0 auto 1.5rem; }
 .signs-section h3 { color: var(--text2); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.8rem; }
 .signs-grid { display: flex; flex-wrap: wrap; gap: 0.6rem; }
 .sign-crop-card { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 0.4rem; text-align: center; cursor: pointer; transition: border-color 0.15s; width: 80px; }
 .sign-crop-card:hover { border-color: var(--accent); }
-.sign-crop-card img { width: 64px; height: 64px; object-fit: contain; }
+.sign-crop-card img { width: 64px; height: 64px; object-fit: contain; background: #e8e0d0; border-radius: 3px; }
 .sign-crop-card .crop-label { font-size: 0.65rem; color: var(--text2); margin-top: 0.2rem; }
 
 /* Lightbox */
 .lightbox { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.9); z-index: 2000; justify-content: center; align-items: center; cursor: pointer; }
 .lightbox.open { display: flex; }
-.lightbox img { max-width: 90vw; max-height: 90vh; object-fit: contain; }
+.lightbox img { max-width: 90vw; max-height: 90vh; object-fit: contain; background: #e8e0d0; border-radius: 8px; padding: 1rem; }
 
 @media (max-width: 900px) {
   .gallery-layout { flex-direction: column; }
