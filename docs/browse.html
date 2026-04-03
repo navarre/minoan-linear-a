@@ -115,7 +115,7 @@
 var DATA = null;
 var allDocs = [];
 var currentFilters = { type: 'all', lv: 'all', site: 'all', query: '' };
-var IMG_BASE = 'https://raw.githubusercontent.com/navarre/minoan-linear-a/master/imported/lineara-website/site/document/';
+var IMG_BASE = 'images/documents/';
 
 fetch('browser-data.json').then(r => r.json()).then(function(data) {
   DATA = data;
@@ -251,9 +251,10 @@ function showDoc(id) {
     html += '</div>';
   }
 
-  // Tablet drawing image (try GitHub raw URL)
+  // Tablet drawing image
   var siglaId = d.sid || id;
-  var imgUrl = IMG_BASE + encodeURIComponent(siglaId) + '/' + encodeURIComponent(siglaId) + '.png';
+  var safeId = siglaId.replace(/ /g, '-').replace(/\+/g, '_plus_').replace(/α/g, 'alpha').replace(/β/g, 'beta').replace(/γ/g, 'gamma');
+  var imgUrl = IMG_BASE + safeId + '/' + safeId + '.png';
   html += '<div style="margin-top:1rem"><h3 style="color:var(--text2);font-size:0.85rem;margin-bottom:0.3rem">Tablet Drawing</h3>';
   html += '<img class="tablet-img" src="' + imgUrl + '" alt="Drawing of ' + id + '" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'block\'" />';
   html += '<p style="display:none;color:var(--text2);font-size:0.85rem">No drawing available for this document.</p></div>';
@@ -262,7 +263,7 @@ function showDoc(id) {
   if (d.sc > 0) {
     html += '<div style="margin-top:1rem"><h3 style="color:var(--text2);font-size:0.85rem;margin-bottom:0.3rem">Individual Signs</h3><div class="sign-grid">';
     for (var i = 1; i <= Math.min(d.sc, 30); i++) {
-      var cropUrl = IMG_BASE + encodeURIComponent(siglaId) + '/' + encodeURIComponent(siglaId + '_' + i) + '.png';
+      var cropUrl = IMG_BASE + safeId + '/' + safeId + '_' + i + '.png';
       html += '<img class="sign-crop" src="' + cropUrl + '" alt="Sign ' + i + '" title="Sign #' + i + '" onerror="this.style.display=\'none\'" loading="lazy" />';
     }
     if (d.sc > 30) html += '<span style="color:var(--text2);font-size:0.8rem;padding:0.5rem">+ ' + (d.sc - 30) + ' more</span>';
