@@ -122,6 +122,14 @@ async function init() {
   buildSiteFilters();
   filterAndRender();
 
+  // Check URL params for site filter
+  const params = new URLSearchParams(window.location.search);
+  if (params.get('site')) {
+    selectedSite = params.get('site');
+    filterAndRender();
+    updateSiteButtons();
+  }
+
   // Check URL hash for direct link
   if (window.location.hash) {
     const id = decodeURIComponent(window.location.hash.slice(1));

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Linear A Inscription Sites</title>
+<link rel="stylesheet" href="style.css">
+<script src="nav.js" defer></script>
+<style>
+.map-page { max-width: 1200px; margin: 0 auto; padding: 1.5rem 2rem; }
+.map-container { position: relative; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; margin-bottom: 1.5rem; }
+.map-container svg { width: 100%; height: auto; display: block; }
+
+/* Site dots */
+.site-dot { cursor: pointer; transition: all 0.2s; }
+.site-dot:hover circle { stroke: var(--accent, #c49b5c); stroke-width: 2; }
+.site-dot text { pointer-events: none; }
+
+/* Tooltip */
+.map-tooltip { position: absolute; background: var(--bg, #0a0a0f); border: 1px solid var(--accent, #c49b5c); border-radius: 6px; padding: 0.6rem 0.9rem; pointer-events: none; opacity: 0; transition: opacity 0.15s; z-index: 10; white-space: nowrap; }
+.map-tooltip .tt-name { color: var(--accent, #c49b5c); font-weight: 700; font-size: 0.9rem; }
+.map-tooltip .tt-count { color: var(--text2, #9090a0); font-size: 0.8rem; }
+.map-tooltip .tt-desc { color: var(--text, #e0e0e8); font-size: 0.75rem; margin-top: 0.2rem; }
+
+/* Site cards below map */
+.sites-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
+.site-card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 1.2rem; cursor: pointer; transition: border-color 0.2s; }
+.site-card:hover { border-color: var(--accent); }
+.site-card h3 { color: var(--accent); font-size: 1rem; margin-bottom: 0.3rem; }
+.site-card .site-count { color: var(--text); font-size: 1.5rem; font-weight: 700; }
+.site-card .site-desc { color: var(--text2); font-size: 0.8rem; margin-top: 0.3rem; line-height: 1.5; }
+.site-card .site-link { color: var(--accent); font-size: 0.8rem; text-decoration: none; margin-top: 0.5rem; display: inline-block; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-content">
+    <div class="title-block">
+      <h1>Inscription Sites</h1>
+      <p class="subtitle">Where Linear A was written, 1700-1450 BCE</p>
+    </div>
+  </div>
+</header>
+
+<div class="map-page">
+
+<div class="map-container" id="mapContainer">
+  <div class="map-tooltip" id="tooltip"></div>
+  <svg viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <radialGradient id="sea" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#0f1a2a"/>
+        <stop offset="100%" stop-color="#0a1020"/>
+      </radialGradient>
+      <filter id="glow">
+        <feGaussianBlur stdDeviation="3" result="blur"/>
+        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+    </defs>
+
+    <!-- Sea background -->
+    <rect width="1000" height="600" fill="url(#sea)"/>
+
+    <!-- Grid lines for atmosphere -->
+    <g stroke="#1a2535" stroke-width="0.5" opacity="0.4">
+      <line x1="0" y1="150" x2="1000" y2="150"/>
+      <line x1="0" y1="300" x2="1000" y2="300"/>
+      <line x1="0" y1="450" x2="1000" y2="450"/>
+      <line x1="250" y1="0" x2="250" y2="600"/>
+      <line x1="500" y1="0" x2="500" y2="600"/>
+      <line x1="750" y1="0" x2="750" y2="600"/>
+    </g>
+
+    <!-- Crete - main island shape -->
+    <path d="M 80,340 C 100,320 140,310 180,305 C 220,300 260,295 300,290
+             C 340,285 370,275 400,270 C 430,265 460,258 490,255
+             C 520,252 550,248 580,250 C 610,252 640,258 670,265
+             C 700,272 720,280 740,275 C 760,270 780,268 800,272
+             C 820,276 835,282 845,290 C 855,298 860,308 855,318
+             C 850,328 840,335 825,340 C 810,345 790,348 770,350
+             C 750,352 730,355 710,358 C 690,361 670,365 650,368
+             C 630,371 610,374 590,375 C 570,376 550,378 530,380
+             C 510,382 490,383 470,382 C 450,381 430,378 410,375
+             C 390,372 370,370 350,368 C 330,366 310,365 290,365
+             C 270,365 250,366 230,368 C 210,370 190,372 170,370
+             C 150,368 130,362 115,355 C 100,348 88,342 80,340 Z"
+          fill="#1a1a25" stroke="#2a2a3a" stroke-width="1.5"/>
+
+    <!-- Messara plain (south central Crete) -->
+    <path d="M 280,350 C 300,345 340,342 380,340 C 420,338 450,340 470,345
+             C 460,350 430,355 400,358 C 370,361 340,360 310,358 C 290,356 282,353 280,350 Z"
+          fill="#1f1f2a" stroke="none"/>
+
+    <!-- Thera (Santorini) - north of Crete -->
+    <path d="M 620,130 C 628,120 640,118 648,125 C 652,132 650,142 643,148
+             C 636,150 628,148 624,142 C 620,138 618,134 620,130 Z"
+          fill="#1a1a25" stroke="#2a2a3a" stroke-width="1"/>
+    <!-- Thera caldera opening -->
+    <path d="M 650,128 C 656,126 660,130 658,136" fill="none" stroke="#2a2a3a" stroke-width="1"/>
+
+    <!-- Kea island -->
+    <path d="M 480,80 C 486,72 496,70 502,76 C 506,82 504,92 498,96
+             C 492,98 484,94 482,88 C 480,84 479,82 480,80 Z"
+          fill="#1a1a25" stroke="#2a2a3a" stroke-width="1"/>
+
+    <!-- Miletos (Anatolian coast - east) -->
+    <path d="M 920,100 C 940,90 960,85 980,80 L 1000,78 L 1000,180
+             C 980,175 960,170 940,160 C 925,150 920,130 920,100 Z"
+          fill="#1a1a25" stroke="#2a2a3a" stroke-width="1"/>
+
+    <!-- Peloponnese hint (northwest) -->
+    <path d="M 0,80 C 30,90 60,100 80,120 C 90,135 85,155 70,170
+             C 55,180 35,185 15,182 L 0,180 Z"
+          fill="#1a1a25" stroke="#2a2a3a" stroke-width="1"/>
+
+    <!-- Mycenae area hint -->
+    <path d="M 280,20 C 310,15 340,10 370,8 L 370,0 L 240,0 L 240,30 C 255,25 268,22 280,20 Z"
+          fill="#1a1a25" stroke="#2a2a3a" stroke-width="1"/>
+
+    <!-- Island labels -->
+    <text x="635" y="165" fill="#3a3a4a" font-size="11" text-anchor="middle" font-style="italic">Thera</text>
+    <text x="490" y="110" fill="#3a3a4a" font-size="10" text-anchor="middle" font-style="italic">Kea</text>
+    <text x="960" y="140" fill="#3a3a4a" font-size="10" text-anchor="middle" font-style="italic">Miletos</text>
+    <text x="450" y="420" fill="#2a2a3a" font-size="14" text-anchor="middle" font-style="italic" letter-spacing="8">C R E T E</text>
+
+    <!-- Compass -->
+    <g transform="translate(50,520)">
+      <line x1="0" y1="0" x2="0" y2="-30" stroke="#3a3a4a" stroke-width="1.5"/>
+      <polygon points="0,-35 -4,-28 4,-28" fill="#3a3a4a"/>
+      <text x="0" y="-40" fill="#3a3a4a" font-size="10" text-anchor="middle">N</text>
+    </g>
+
+    <!-- Scale bar -->
+    <g transform="translate(850,560)">
+      <line x1="0" y1="0" x2="80" y2="0" stroke="#3a3a4a" stroke-width="1.5"/>
+      <line x1="0" y1="-3" x2="0" y2="3" stroke="#3a3a4a" stroke-width="1.5"/>
+      <line x1="80" y1="-3" x2="80" y2="3" stroke="#3a3a4a" stroke-width="1.5"/>
+      <text x="40" y="14" fill="#3a3a4a" font-size="9" text-anchor="middle">50 km</text>
+    </g>
+
+    <!-- Site dots - positioned on real locations -->
+    <!-- Coordinates mapped: lon 23.5-28°E → x 80-860, lat 34.8-37.5°N → y 400-60 -->
+
+    <g class="site-dot" data-site="HT" data-name="Haghia Triada" data-count="373" data-desc="Palace administrative center. Largest cache of Linear A tablets.">
+      <circle cx="305" cy="360" r="18" fill="#c49b5c" opacity="0.3"/>
+      <circle cx="305" cy="360" r="10" fill="#c49b5c" opacity="0.7" filter="url(#glow)"/>
+      <text x="305" y="364" fill="#fff" font-size="8" text-anchor="middle" font-weight="700">373</text>
+    </g>
+
+    <g class="site-dot" data-site="PH" data-name="Phaistos" data-count="63" data-desc="Major palace. Home of the Phaistos Disc. Administrative tablets.">
+      <circle cx="320" cy="348" r="12" fill="#c49b5c" opacity="0.3"/>
+      <circle cx="320" cy="348" r="7" fill="#c49b5c" opacity="0.7" filter="url(#glow)"/>
+      <text x="320" y="351" fill="#fff" font-size="7" text-anchor="middle" font-weight="700">63</text>
+    </g>
+
+    <g class="site-dot" data-site="KN" data-name="Knossos" data-count="31" data-desc="Largest Minoan palace. Mostly Linear B, but some Linear A survives.">
+      <circle cx="430" cy="280" r="9" fill="#c49b5c" opacity="0.3"/>
+      <circle cx="430" cy="280" r="6" fill="#c49b5c" opacity="0.7" filter="url(#glow)"/>
+      <text x="430" y="283" fill="#fff" font-size="6" text-anchor="middle" font-weight="700">31</text>
+    </g>
+
+    <g class="site-dot" data-site="MA" data-name="Mallia" data-count="20" data-desc="Palace site on north coast. Administrative tablets and a famous sword.">
+      <circle cx="500" cy="272" r="8" fill="#c49b5c" opacity="0.3"/>
+      <circle cx="500" cy="272" r="5.5" fill="#c49b5c" opacity="0.7" filter="url(#glow)"/>
+      <text x="500" y="275" fill="#fff" font-size="6" text-anchor="middle" font-weight="700">20</text>
+    </g>
+
+    <g class="site-dot" data-site="KH" data-name="Khania" data-count="213" data-desc="Ancient Kydonia. Second largest Linear A archive. Western Crete.">
+      <circle cx="235" cy="300" r="15" fill="#c49b5c" opacity="0.3"/>
+      <circle cx="235" cy="300" r="9" fill="#c49b5c" opacity="0.7" filter="url(#glow)"/>
+      <text x="235" y="303" fill="#fff" font-size="7" text-anchor="middle" font-weight="700">213</text>
+    </g>
+
+    <g class="site-dot" data-site="ZA" data-name="Zakros" data-count="44" data-desc="Easternmost palace. Administrative tablets from the palace archive.">
+      <circle cx="790" cy="310" r="10" fill="#c49b5c" opacity="0.3"/>
+      <circle cx="790" cy="310" r="6.5" fill="#c49b5c" opacity="0.7" filter="url(#glow)"/>
+      <text x="790" y="313" fill="#fff" font-size="7" text-anchor="middle" font-weight="700">44</text>
+    </g>
+
+    <g class="site-dot" data-site="ARKH" data-name="Arkhanes" data-count="10" data-desc="South of Knossos. Palatial and funerary contexts.">
+      <circle cx="445" cy="300" r="6" fill="#c49b5c" opacity="0.3"/>
+      <circle cx="445" cy="300" r="4.5" fill="#c49b5c" opacity="0.7" filter="url(#glow)"/>
+      <text x="445" y="303" fill="#fff" font-size="5" text-anchor="middle" font-weight="700">10</text>
+    </g>
+
+    <g class="site-dot" data-site="TY" data-name="Tylissos" data-count="3" data-desc="Three villas west of Knossos. Small number of inscriptions.">
+      <circle cx="400" cy="282" r="5" fill="#c49b5c" opacity="0.3"/>
+      <circle cx="400" cy="282" r="3.5" fill="#c49b5c" opacity="0.7"/>
+    </g>
+
+    <g class="site-dot" data-site="SY" data-name="Syme Viannou" data-count="1" data-desc="Mountain peak sanctuary in eastern Crete. Ritual inscriptions.">
+      <circle cx="660" cy="320" r="5" fill="#c49b5c" opacity="0.3"/>
+      <circle cx="660" cy="320" r="3.5" fill="#c49b5c" opacity="0.7"/>
+    </g>
+
+    <g class="site-dot" data-site="GO" data-name="Gournia" data-count="2" data-desc="Small Minoan town. One of the few non-palatial sites with inscriptions.">
+      <circle cx="700" cy="298" r="5" fill="#c49b5c" opacity="0.3"/>
+      <circle cx="700" cy="298" r="3.5" fill="#c49b5c" opacity="0.7"/>
+    </g>
+
+    <g class="site-dot" data-site="PYR" data-name="Pyrgos" data-count="2" data-desc="South-central Crete. Minor site with few inscriptions.">
+      <circle cx="350" cy="350" r="5" fill="#c49b5c" opacity="0.3"/>
+      <circle cx="350" cy="350" r="3.5" fill="#c49b5c" opacity="0.7"/>
+    </g>
+
+    <!-- Off-Crete sites -->
+    <g class="site-dot" data-site="KE" data-name="Kea" data-count="5" data-desc="Aegean island. Ayia Irini excavations. Evidence of Minoan contact.">
+      <circle cx="490" cy="82" r="5" fill="#5a8fc4" opacity="0.3"/>
+      <circle cx="490" cy="82" r="3.5" fill="#5a8fc4" opacity="0.7"/>
+    </g>
+
+    <g class="site-dot" data-site="MI" data-name="Miletos" data-count="1" data-desc="Anatolian coast. Minoan trading post. Westernmost Linear A find outside Crete.">
+      <circle cx="950" cy="120" r="5" fill="#5a8fc4" opacity="0.3"/>
+      <circle cx="950" cy="120" r="3.5" fill="#5a8fc4" opacity="0.7"/>
+    </g>
+
+    <g class="site-dot" data-site="MY" data-name="Mycenae" data-count="1" data-desc="Mainland Greece. Single Linear A inscription found at the citadel.">
+      <circle cx="310" cy="15" r="5" fill="#5a8fc4" opacity="0.3"/>
+      <circle cx="310" cy="15" r="3.5" fill="#5a8fc4" opacity="0.7"/>
+    </g>
+
+    <!-- Site labels (major sites only) -->
+    <text x="305" y="385" fill="#c49b5c" font-size="10" text-anchor="middle" font-weight="600">Haghia Triada</text>
+    <text x="320" y="338" fill="#9090a0" font-size="9" text-anchor="middle">Phaistos</text>
+    <text x="430" y="270" fill="#9090a0" font-size="9" text-anchor="middle">Knossos</text>
+    <text x="500" y="263" fill="#9090a0" font-size="8" text-anchor="middle">Mallia</text>
+    <text x="235" y="290" fill="#9090a0" font-size="9" text-anchor="middle">Khania</text>
+    <text x="790" y="300" fill="#9090a0" font-size="9" text-anchor="middle">Zakros</text>
+    <text x="460" cy="298" y="312" fill="#9090a0" font-size="8" text-anchor="start">Arkhanes</text>
+    <text x="700" y="290" fill="#9090a0" font-size="8" text-anchor="middle">Gournia</text>
+
+    <!-- Legend -->
+    <g transform="translate(30,30)">
+      <rect x="0" y="0" width="180" height="70" rx="6" fill="#0a0a0f" opacity="0.8" stroke="#2a2a3a"/>
+      <circle cx="20" cy="22" r="6" fill="#c49b5c" opacity="0.7"/>
+      <text x="34" y="26" fill="#e0e0e8" font-size="10">Cretan sites</text>
+      <circle cx="20" cy="45" r="6" fill="#5a8fc4" opacity="0.7"/>
+      <text x="34" y="49" fill="#e0e0e8" font-size="10">Aegean / mainland</text>
+      <text x="20" y="62" fill="#9090a0" font-size="8">Dot size = inscription count</text>
+    </g>
+  </svg>
+</div>
+
+<!-- Site cards -->
+<h2 style="color:var(--accent);font-size:1.3rem;margin-bottom:1rem;">Major Sites</h2>
+<div class="sites-grid" id="sitesGrid"></div>
+
+</div>
+
+<script>
+const siteData = [
+  { code: 'HT', name: 'Haghia Triada', count: 373, desc: 'The single richest source of Linear A. A palatial administrative center in the Messara plain of south-central Crete. Hundreds of clay tablets recording commodity transactions, personnel lists, and totals. Most of what we know about Minoan bookkeeping comes from here.' },
+  { code: 'KH', name: 'Khania (Kydonia)', count: 213, desc: 'Ancient Kydonia in western Crete. The second largest archive, discovered in modern excavations beneath the city of Chania. Includes tablets, nodules, and roundels. Important for showing that Linear A administration was island-wide, not just in the Messara.' },
+  { code: 'PH', name: 'Phaistos', count: 63, desc: 'Major Minoan palace near Haghia Triada. Home of the famous Phaistos Disc (which may not be Linear A). Administrative tablets and clay documents from palatial contexts.' },
+  { code: 'ZA', name: 'Zakros', count: 44, desc: 'The easternmost Minoan palace, on the far east coast of Crete. A complete palace archive was found here, sealed by the destruction that ended the Neopalatial period around 1450 BCE.' },
+  { code: 'KN', name: 'Knossos', count: 31, desc: 'The largest and most famous Minoan palace. Knossos is better known for Linear B (the later Greek script), but some Linear A tablets and ritual inscriptions survive from the earlier period.' },
+  { code: 'MA', name: 'Mallia', count: 20, desc: 'A Minoan palace on the north coast, east of Heraklion. Known for the famous gold bee pendant. Administrative tablets and a ceremonial sword with inscriptions.' },
+  { code: 'ARKH', name: 'Arkhanes', count: 10, desc: 'A town south of Knossos with both palatial and funerary architecture. Inscriptions from burial and ritual contexts, including the remarkable ivory scepter find.' },
+  { code: 'KE', name: 'Kea (Ayia Irini)', count: 5, desc: 'An Aegean island north of Crete. The Ayia Irini settlement shows strong Minoan cultural influence. Linear A inscriptions here prove the script traveled beyond Crete.' },
+  { code: 'TY', name: 'Tylissos', count: 3, desc: 'Three Minoan villas west of Knossos. A small but significant site showing that Linear A was used outside the major palaces.' },
+  { code: 'MI', name: 'Miletos', count: 1, desc: 'On the Anatolian coast (modern Turkey). A Minoan trading colony. The single Linear A find here marks the easternmost extent of the script.' },
+  { code: 'MY', name: 'Mycenae', count: 1, desc: 'The famous citadel on mainland Greece. A single Linear A inscription found here suggests contact between Minoans and Mycenaeans before the script was replaced by Linear B.' }
+];
+
+// Build site cards
+const grid = document.getElementById('sitesGrid');
+for (const s of siteData) {
+  const card = document.createElement('div');
+  card.className = 'site-card';
+  card.innerHTML = `
+    <h3>${s.name}</h3>
+    <div class="site-count">${s.count} <span style="font-size:0.7rem;color:var(--text2);font-weight:400">documents</span></div>
+    <div class="site-desc">${s.desc}</div>
+    <a class="site-link" href="gallery.html?site=${s.code}">View inscriptions →</a>
+  `;
+  card.onclick = (e) => {
+    if (e.target.tagName !== 'A') window.location = `gallery.html?site=${s.code}`;
+  };
+  grid.appendChild(card);
+}
+
+// Tooltip handling
+const tooltip = document.getElementById('tooltip');
+const container = document.getElementById('mapContainer');
+
+document.querySelectorAll('.site-dot').forEach(dot => {
+  dot.addEventListener('mouseenter', (e) => {
+    const name = dot.dataset.name;
+    const count = dot.dataset.count;
+    const desc = dot.dataset.desc;
+    tooltip.innerHTML = `<div class="tt-name">${name}</div><div class="tt-count">${count} inscriptions</div><div class="tt-desc">${desc}</div>`;
+    tooltip.style.opacity = '1';
+  });
+  dot.addEventListener('mousemove', (e) => {
+    const rect = container.getBoundingClientRect();
+    tooltip.style.left = (e.clientX - rect.left + 15) + 'px';
+    tooltip.style.top = (e.clientY - rect.top - 10) + 'px';
+  });
+  dot.addEventListener('mouseleave', () => {
+    tooltip.style.opacity = '0';
+  });
+  dot.addEventListener('click', () => {
+    const code = dot.dataset.site;
+    window.location = `gallery.html?site=${code}`;
+  });
+});
+</script>
+</body>
+</html>

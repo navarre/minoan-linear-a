@@ -4,9 +4,11 @@
 (function() {
   const pages = [
     { id: 'home', label: 'Home', href: 'index.html', icon: '𐘇' },
-    { id: 'browse', label: 'Browse Corpus', href: 'browse.html', icon: '📜' },
-    { id: 'gallery', label: 'Document Gallery', href: 'gallery.html', icon: '🏛' },
-    { id: 'signs', label: 'Sign Explorer', href: 'sign-explorer.html', icon: '𐘀' },
+    { id: 'sites', label: 'Inscription Sites', href: 'sites.html', icon: '🗺' },
+    { id: 'gallery', label: 'Documents', href: 'gallery.html', icon: '🏛' },
+    { id: 'signs', label: 'Signs', href: 'sign-explorer.html', icon: '𐘀' },
+    { id: 'divider1' },
+    { id: 'browse', label: 'Corpus Search', href: 'browse.html', icon: '📜' },
     { id: 'terms', label: 'Terminology', href: 'terminology.html', icon: '📖' },
     { id: 'audit', label: 'Data Audit', href: 'discrepancies.html', icon: '🔍' }
   ];
@@ -136,6 +138,10 @@
 
   let linksHtml = '';
   for (const p of pages) {
+    if (p.id.startsWith('divider')) {
+      linksHtml += '<div style="border-top:1px solid var(--border,#2a2a3a);margin:0.5rem 1.2rem;"></div><div style="padding:0.2rem 1.2rem;font-size:0.65rem;text-transform:uppercase;letter-spacing:0.1em;color:var(--text2,#9090a0);opacity:0.6;">Research</div>';
+      continue;
+    }
     const isActive = currentFile === p.href || (currentFile === '' && p.href === 'index.html');
     linksHtml += `<a href="${p.href}"${isActive ? ' class="active"' : ''}><span class="nav-icon">${p.icon}</span>${p.label}</a>`;
   }
