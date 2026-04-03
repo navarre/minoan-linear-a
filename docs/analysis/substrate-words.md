@@ -62,6 +62,21 @@ Robert Beekes identified phonological rules for pre-Greek substrate words. They 
 | s-mobile | Initial s- appears/disappears | su-ki-ri-ta / ki-re-ta- alternation | Possible |
 | a/o alternation | Vowels unstable across dialects | Some LA words show vowel variation | Possible |
 
+## Semantic Domains: What the Minoans Gave Greek
+
+Pre-Greek substrate words cluster in the domains where Minoan civilization was most distinctive:
+
+- **Maritime**: thalassa (sea), pelagos (open sea) — the Minoans were the first thalassocracy
+- **Architecture**: plinthos (brick), keramis (tile), labyrinthos — the palace builders
+- **Plants/Agriculture**: kyparissos (cypress), terebinthos (turpentine tree), hyakinthos, narkissos — Minoan agricultural expertise
+- **Religion**: the -nthos words often have ritual associations; DU-PU₂-RE appears exclusively in ritual contexts
+
+This isn't random borrowing. It's the vocabulary of a civilization.
+
+## The Tabarna Connection
+
+An academic paper specifically investigates the link between LA **du-pu₂-re** ("lord/master"), the Hittite royal title ***Tabarna***, and **labyrinthos** — suggesting all three may share a common Anatolian root meaning "ruler/lord." This adds to the Anatolian contact evidence alongside ja-sa-sa-ra-me (Luwian "My Lady").
+
 ## What This Means
 
 The pre-Greek substrate in Greek is not random borrowing — it follows systematic phonological rules that map directly to Linear A orthographic conventions. This is strong circumstantial evidence that:
