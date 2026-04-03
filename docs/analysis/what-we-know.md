@@ -199,9 +199,7 @@ This **progressive suffix stacking without stem modification** is the hallmark o
 
 ### The Script-Language Disconnect
 
-A critical finding: **70% of Linear B signs have Linear A antecedents** (Steele), but **less than 1% of Linear A words have Linear B parallels** (11 out of ~1,463 word forms in Younger's Lexicon). The scripts are genetically related but the languages are not. This is exactly what we'd expect if Linear B was adapted from Linear A to write a completely different language (Greek), just as the Latin alphabet was adapted for Turkish, Finnish, Vietnamese, and other unrelated languages.
-
-The 11 words with LB parallels are mostly **personal names and place names** — exactly the category of words that survives across language changes (substrate vocabulary).
+A critical finding: **70% of Linear B signs have Linear A antecedents** (Steele), but **only ~21 of ~1,463 Linear A word forms have Linear B parallels** (~1.4%, per Younger's Lexicon). The scripts are genetically related but the languages are not. The 21 shared words are mostly **personal names and place names** — exactly the category of words that survives across language changes (substrate vocabulary).
 
 ### The Emerging Picture
 
