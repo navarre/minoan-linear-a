@@ -1,0 +1,1 @@
+Second test write - confirming session works after move and return.
