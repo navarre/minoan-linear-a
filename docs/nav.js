@@ -7,7 +7,8 @@
     { id: 'sites', label: 'Inscription Sites', href: 'sites.html', icon: '🗺' },
     { id: 'gallery', label: 'Documents', href: 'gallery.html', icon: '🏛' },
     { id: 'signs', label: 'Signs', href: 'sign-explorer.html', icon: '𐘀' },
-    { id: 'terms', label: 'Terminology', href: 'terminology.html', icon: '📖' }
+    { id: 'terms', label: 'Terminology', href: 'terminology.html', icon: '📖' },
+    { id: 'about', label: 'About', href: 'about.html', icon: 'ℹ' }
   ];
 
   const research = [
@@ -17,7 +18,8 @@
     { id: 'signs', label: 'Sign Catalog', href: 'sign-explorer.html', icon: '𐘀' },
     { id: 'sites', label: 'Sites & Map', href: 'sites.html', icon: '🗺' },
     { id: 'terms', label: 'Terminology', href: 'terminology.html', icon: '📖' },
-    { id: 'audit', label: 'Data Audit', href: 'discrepancies.html', icon: '🔍' }
+    { id: 'audit', label: 'Data Audit', href: 'discrepancies.html', icon: '🔍' },
+    { id: 'about', label: 'About', href: 'about.html', icon: 'ℹ' }
   ];
 
   // Mode management
