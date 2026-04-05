@@ -70,3 +70,16 @@
   - Round 2 remains historically useful but is now superseded in breadth
 - Output written:
   - `docs/analysis/verifier-301-phonotactics-round3.md`
+
+## Checkpoint 2026-04-06 00:xx EEST
+- Status: V3 COMPLETE
+- Task: Audit Cowork's GORILA extraction files
+- Main results:
+  - `gorila_sign_variants.json`: A 301 spot-check confirmed (11 variants across vol. 5 pp. 45-46)
+  - `gorila_sign_index_rows.json`: 4/4 sampled rows were visually consistent with cited sign-index pages
+  - `gorila_page_map.json`: mostly right, but sample included real boundary-type misclassifications (`prelim` / `section_divider` / `blank`)
+  - `gorila_concordances_full.json`: main verifier problem is missing direct source-page provenance for each entry, making random-entry audit hard to reproduce from the JSON alone
+- Main caution/blocker:
+  - concordance extraction is not shown false by this pass, but it is **insufficiently source-addressable** for clean verifier auditing
+- Output written:
+  - `docs/analysis/verifier-gorila-extraction-audit.md`
