@@ -97,7 +97,7 @@ let meta = {};
 
 async function load() {
   try {
-    const res = await fetch('../linear_a/data/gorila_sign_index_rows.json');
+    const res = await fetch('data/gorila_sign_index_rows.json');
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
     allRows = data.rows || [];
@@ -109,7 +109,7 @@ async function load() {
     render();
   } catch (e) {
     document.getElementById('rows-container').innerHTML =
-      '<div class="loading">Unable to load <code>gorila_sign_index_rows.json</code> — this page expects the data layer to be served at <code>../linear_a/data/</code>. Details: ' + e.message + '</div>';
+      '<div class="loading">Unable to load <code>gorila_sign_index_rows.json</code> — this page expects the data layer to be served at <code>data/</code>. Details: ' + e.message + '</div>';
   }
 }
 
