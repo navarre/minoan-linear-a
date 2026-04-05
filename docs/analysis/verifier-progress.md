@@ -51,3 +51,21 @@
   - exact total attestation count should remain approximate unless explicitly deduped across sign rows
 - Output updated:
   - `docs/analysis/gorila-301-findings.md` (appended verifier audit section)
+
+## Checkpoint 2026-04-05 10:xx EEST
+- Status: V2 COMPLETE
+- Task: Re-run *301 phonotactics using the full GORILA sign-index dataset
+- Dataset size:
+  - 102 relevant rows selected
+  - 91 rows parseable for positional context
+- Main results:
+  - positional distribution = 16 initial / 65 medial / 10 final
+  - strongest left context remains sign 28
+  - strongest right contexts are 54, 10, and 64
+  - 11 ligature/compound rows now visible in the broader dataset
+- Superseded Round 2 claims:
+  - *301 is not non-initial
+  - final-position examples are more numerous than the small Round 2 sample suggested
+  - Round 2 remains historically useful but is now superseded in breadth
+- Output written:
+  - `docs/analysis/verifier-301-phonotactics-round3.md`
