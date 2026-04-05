@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How This Project Came Together — Linear A Research Project</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="favicon.png">
+<script src="nav.js" defer></script>
+<style>
+.story { max-width: 760px; margin: 0 auto; padding: 2rem 1.5rem; }
+.story h2 { color: var(--accent); font-size: 1.4rem; margin-top: 2.5rem; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; }
+.story h3 { color: var(--text); font-size: 1.05rem; margin-top: 1.8rem; }
+.story p { color: var(--text2); line-height: 1.85; margin: 0.9rem 0; font-size: 1rem; }
+.story strong { color: var(--text); }
+.story em { color: var(--text); }
+.story a { color: var(--accent); text-decoration: none; }
+.story a:hover { text-decoration: underline; }
+.story blockquote { border-left: 3px solid var(--accent); padding: 0.2rem 0 0.2rem 1.2rem; margin: 1.5rem 0; color: var(--text); font-style: italic; }
+.story .aside { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 1rem 1.3rem; margin: 1.5rem 0; font-size: 0.92rem; }
+.story .aside strong { color: var(--accent); }
+
+@media (max-width: 768px) {
+  .story { padding: 1.2rem 0.8rem; }
+  .story h2 { font-size: 1.2rem; }
+  .story p { font-size: 0.95rem; line-height: 1.75; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-content" style="display:flex;align-items:center;gap:1.5rem;">
+    <a href="index.html" title="Sign *301 — the undeciphered key" style="display:block;flex-shrink:0;">
+      <img src="images/signs/A301.png" alt="Linear A sign *301" style="width:72px; height:72px; background:#e8e0d0; border:2px solid var(--accent); border-radius:10px; padding:6px; display:block;" />
+    </a>
+    <div class="title-block">
+      <h1>How This Project Came Together</h1>
+      <p class="subtitle">A discovery story, told honestly</p>
+    </div>
+  </div>
+</header>
+
+<div class="story">
+
+<p><em>This is the story of how <a href="index.html">lineara.eu</a> was built. It is short because the project is young. It is honest because the project is not a decipherment claim, and the story should not pretend otherwise. Three people did the work: Matt Navarre (director, based in Heraklion), and two AI collaborators &mdash; Builder and Verifier (Clawdia) &mdash; working side by side through a long, strange, fast week.</em></p>
+
+<h2>Day one: the corpus problem</h2>
+
+<p>Matt started with a simple question: <strong>why is Linear A so hard to access?</strong> The data exists. Scholars have been working on it for over a century. Arthur Evans named the script in 1909. Godart and Olivier published the canonical five-volume corpus (<em>GORILA</em>) between 1976 and 1985. Ester Salgarella and Simon Castellan built SigLA, an open palaeographic database. Robert Hogan built <a href="https://lineara.xyz/" target="_blank">lineara.xyz</a>. John Younger maintains his Linear A Lexicon, updated monthly.</p>
+
+<p>But nothing put it all together. The data sat in silos. Different naming conventions. Different totals. A researcher wanting to check whether our glossary word <em>ku-ro</em> (&ldquo;total&rdquo;) was really attested 36 times had to look in three databases and cross-reference by hand. And if you wanted to see the actual inscription drawing alongside the transliteration, you had to know which volume of GORILA it was in and which page.</p>
+
+<p>The project started there: <strong>unify the existing digital sources into one structured, searchable, open corpus.</strong> Not to decipher the script. Not to announce a breakthrough. Just to make the data usable, so that analytical work &mdash; by us or anyone else &mdash; could happen on a clean foundation.</p>
+
+<h2>Merging the sources</h2>
+
+<p>The first technical task was mechanical: take SigLA (772 documents with sign-level palaeographic data), lineara.xyz (1,722 documents with Unicode transliterations), and the old Python corpus (129 documents with word-level data), and figure out which documents corresponded across all three.</p>
+
+<p>This sounds trivial. It wasn&rsquo;t. SigLA writes <em>HT 1</em>. lineara.xyz writes <em>HT1</em>. The old corpus uses Younger&rsquo;s numbering. When we discovered that the old corpus&rsquo;s <em>HT 1</em> was actually SigLA&rsquo;s <em>HT 13</em>, we had to audit every old-corpus ID. A canonical ID map had to be built from scratch.</p>
+
+<p>We ended up with <strong>1,880 document records</strong> across all sources, cross-referenced, tagged by site, document type, period, and linguistic value. That is the foundation under everything else. Nothing else worked until it worked.</p>
+
+<h2>Milestones, benchmarks, and the difference between finding and knowing</h2>
+
+<p>With the corpus assembled, we ran computational benchmarks against it. Fourteen of them. Zipf&rsquo;s law check: does word frequency follow the same statistical distribution as real languages? It does, confirming Linear A is a natural language and not a code or symbolic system. Entropy analysis. Bigram patterns. Cross-site vocabulary overlap. Phonotactic constraints. Word boundary preferences. Distributional analysis of administrative terms.</p>
+
+<p>The benchmarks were not surprising in their conclusions &mdash; most of what we found had been observed by Salgarella, Younger, and others in the existing literature. What was new was that we could now run any of these analyses reproducibly, against the full unified corpus, in minutes. What had been a months-long manual project was now a <code>python benchmark.py</code>.</p>
+
+<p>But the real shift came when we started reading the reference literature systematically.</p>
+
+<h2>The reference intake and the 36 papers</h2>
+
+<p>Matt downloaded a large dump of Linear A scholarship from Academia.edu and pushed it into the project. Fifty-four files, ranging across serious academic scholarship, speculative decipherment attempts, book chapters, and a few cranks. We read every one.</p>
+
+<p>Eight papers by Ester Salgarella (the leading active scholar on Linear A palaeography and digital methods). The complete Younger Lexicon, 2024 edition. José Melena&rsquo;s definitive 186-page reference on Linear B. Philippa Steele on cross-script relationships. Diether Schurr&rsquo;s 1973 paper on the morphology of <em>ki-ro</em> (&ldquo;deficit&rdquo;) &mdash; which turned out to contain the most important single observation we had not internalized: Linear A uses different suffixes for people (<em>-ja</em>) and things (<em>-ra</em>). This is now the grammatical DNA of our morphology doc.</p>
+
+<p>Eight volumes by Peter van Soesbergen arguing that Linear A is Hurrian. We treated the Hurrian hypothesis seriously, tested it against the corpus, and concluded it was morphologically plausible but lexically unsupported. The most common words in Linear A (<em>ku-ro</em>, <em>ki-ro</em>, <em>sa-ra</em>) have no Hurrian cognates. This was a useful negative result.</p>
+
+<p>We also spent time ruling things out. <strong>Greek is not the language of Linear A.</strong> The morphology is agglutinative (suffixes stack 4&ndash;5 deep), Greek is fusional. The core administrative vocabulary has no Greek etymologies. The best-attested ritual phrase &mdash; <em>ja-sa-sa-ra-me</em>, &ldquo;My Lady&rdquo; &mdash; is almost certainly Luwian (<em>ishassara</em> + possessive <em>-me</em>), not Greek. The Greek hypothesis has been around since Georgiev in the 1960s; we did not overturn it, but we documented why the morphological profile alone makes it very hard to defend.</p>
+
+<h2>The prayer and *301</h2>
+
+<p>The most important single text in Linear A is the libation formula, inscribed on stone offering tables at mountain-top sanctuaries across Crete. It is a prayer. Priests poured wine, oil, and honey into carved depressions while reciting it. We can partially read it. Parts of it &mdash; <em>ja-sa-sa-ra-me</em> (&ldquo;My Lady&rdquo;), <em>i-da-ma-te</em> (&ldquo;Mother of Ida&rdquo;) &mdash; are cross-script anchors, borrowed or shared with Anatolian.</p>
+
+<p>But the opening word contains a sign we cannot read: <strong>*301</strong>. It has no Linear B equivalent, meaning whatever sound it represents is not a sound that Mycenaean Greek had. It appears on 48 documents. It is more common than the sign for grain. It sits at the exact center of the most important phrase we have.</p>
+
+<p>Solving *301 has become the project&rsquo;s guiding puzzle. Not because we expect to solve it &mdash; honest project: we do not &mdash; but because every analytical technique we have built generates better data about *301. Distributional analysis narrows the phonotactic space. Cross-script comparison fails in interesting ways. The Mavrospelio gold ring from Knossos (a different object from the Anetaki scepter, though both are at the Heraklion museum) has *301 at position six of a 19-sign spiral inscription. If that inscription can be parsed, *301&rsquo;s phonetic value falls out as a constraint.</p>
+
+<div class="aside">
+<strong>Where Matt lives.</strong> Matt lived for years in Archanes, the town 10 km south of Knossos where the Phourni cemetery sits on a wooded hill. In the 1960s, Sakellarakis excavated 136 seal stones there. Fifteen of them carry the earliest deliberate writing found anywhere in Europe &mdash; a system scholars now call the Arkhanes script. Several of these seals bear the sign group <strong>A-SA-SA-RA</strong>, the same sequence that ends up in the later libation formula as <em>ja-sa-sa-ra-me</em>. Writing on Crete may have begun for religious purposes around 2000 BCE. Matt walked past Phourni regularly without knowing it.
+</div>
+
+<h2>The bots, and how they work together</h2>
+
+<p>Two AI collaborators work on this project continuously. <strong>Builder</strong> (the primary synthesis role) handles corpus assembly, reference reading, analysis document drafting, site development, and the overall project narrative. <strong>Verifier / Clawdia</strong> (the adversarial check) runs independent audits, challenges conclusions, tests falsifiable hypotheses, and refuses to let claims slip through without evidence.</p>
+
+<p>This split matters more than it sounds. When Builder wrote the first pass of the *301 findings document after Cowork extracted the GORILA sign index, Builder made a forgivable but real mistake: confusing distinct words that happen to contain *301 with &ldquo;regional variants&rdquo; of the libation formula. Clawdia caught it immediately. The document was rewritten with proper caveats. The project&rsquo;s credibility is higher because of that audit than it would have been without.</p>
+
+<p>Every major claim on this site has been checked, challenged, or explicitly labeled as provisional. When we say the libation formula is confirmed, we mean Clawdia has been through the evidence and signed off. When we say *301 remains undeciphered, we mean we tried every available analytical method and none of them produced a secure phonetic value. We do not overclaim. We try not to underclaim either.</p>
+
+<h2>The GORILA problem, and the day we finally solved it</h2>
+
+<p>For most of the project&rsquo;s first week, we were working with secondary sources. SigLA and lineara.xyz are both derivatives of GORILA. Younger&rsquo;s Lexicon cites GORILA on every page. Everyone in Linear A scholarship treats the five GORILA volumes (1976&ndash;1985) as the primary reference. We did not have them.</p>
+
+<p>This was an embarrassing gap, and Matt caught it. The GORILA volumes are available for free, page by page, on the French School at Athens&rsquo;s CEFAEL digital library. They are not downloadable as PDFs. They are a page-by-page image viewer that most modern scholars have never scraped.</p>
+
+<p>Matt got Claude Cowork to write a downloader and pull the full five-volume image set &mdash; 1,516 pages in total. Then came a nearly comic series of git problems: files accidentally deleted from the Mac, partially pushed, HTTP 400 errors on large commits, volumes scattered across two different GitHub organizations, Time Machine searches, SSH key regeneration at 2 AM. The files were eventually recovered intact, pushed in volume-by-volume chunks, and processed by Cowork in structured extraction passes.</p>
+
+<p>The result: for the first time in open digital form, the entire GORILA sign index is structured JSON. Every word containing every sign. Every cross-reference. Every museum inventory number. Godart and Olivier&rsquo;s 1985 editorial commentary, page-mapped and searchable. This is the primary-source layer the project had been missing. Integration into the glossary and sign catalog is ongoing.</p>
+
+<h2>What we actually found</h2>
+
+<p>Nothing in the project constitutes a decipherment. We want to be extremely clear about that. What we have is:</p>
+
+<ul>
+<li>The most complete unified digital Linear A corpus currently available (1,880 documents).</li>
+<li>Nine original analysis documents covering morphology, hypothesis testing, the libation formula, sign *301, substrate survival, and the death-and-afterlife of the language.</li>
+<li>A growing body of primary-source integration with GORILA.</li>
+<li>An interactive site map, a document gallery with inscription drawings, a sign explorer, and a glossary with confidence scores on every entry.</li>
+<li>An honest adversarial check from a second AI collaborator on every major claim.</li>
+</ul>
+
+<p>The findings worth highlighting are, in order of significance:</p>
+
+<ol>
+<li><strong>The libation formula is confirmed primary-source</strong> against GORILA Vol 5 at multiple sanctuary sites (Iouktas, Kophinas, Palaikastro, Syme, Troullos, Apodoulou).</li>
+<li><strong>Linear A morphology is agglutinative</strong>, with eight productive suffixes that stack in fixed order up to three deep. This is incompatible with Greek and Semitic.</li>
+<li><strong>The script&rsquo;s relationship to Linear B is 70% graphic, 1.4% lexical.</strong> Linear B borrowed most of its signs from Linear A to write a completely different language (Greek). Of about 1,463 attested Linear A words, only 21 have parallels in Linear B, and those are mostly personal names and place names &mdash; substrate vocabulary.</li>
+<li><strong>&ldquo;Labyrinth&rdquo; is a Minoan word.</strong> Linear A <em>du-pu&#x2082;-re</em> (&ldquo;lord, master&rdquo;) became Linear B <em>da-pu&#x2082;-ri-to</em>, which became Greek <em>labyrinthos</em>.</li>
+<li><strong>Sign *301 has the most complete contextual distribution ever assembled</strong> in open digital form.</li>
+</ol>
+
+<h2>What comes next</h2>
+
+<p>Three things, in order.</p>
+
+<p>First, <strong>integrate the GORILA data-layer fully</strong>. Every document gets its GORILA page reference and museum inventory number. Every glossary entry gets a primary-source citation. The sign explorer gains a &ldquo;every context where this sign appears&rdquo; tab. This is invisible work that makes everything else more trustworthy.</p>
+
+<p>Second, <strong>acquire the RILA Supplement 1</strong> (Del Freo &amp; Zurbach, 2025), which adds 107 new documents and 427 new signs to the canonical corpus. It is a recent academic publication. We have the index only. We need the full volume to integrate the new material.</p>
+
+<p>Third, <strong>invite expert review</strong>. The site now has real substance and an honest framing. It is ready for a scholar to read it, challenge it, correct it, and ideally help shape what comes next. If you are reading this and you work on Aegean scripts, we want to hear from you: <a href="mailto:matt@navarre.ai">matt@navarre.ai</a>.</p>
+
+<h2>A note on the collaboration</h2>
+
+<p>This project is directed by someone (Matt) who does not have a degree in classics, linguistics, or archaeology. It is built almost entirely out of tools &mdash; AI collaborators, computational analysis, data pipelines &mdash; that did not exist five years ago. It would not have been possible for one person to read 36 reference papers in a weekend, cross-reference them against a 1,880-document corpus, and produce nine original analysis documents without AI assistance. It also would not have been worth doing without the human direction and judgment that kept the project honest.</p>
+
+<p>The work is scholarly in its caution and computational in its execution. The hope is that this is a useful new shape for humanities research: a non-specialist director working with AI collaborators, grounded in primary sources, checked by adversarial review, open-data by default, honest about what can and cannot be known. Linear A happens to be the subject. The approach is the real experiment.</p>
+
+<p>If the experiment works, we end up with a resource that is useful to scholars who have been grinding at this script for decades. If it works even better than that, we end up with something that moves the needle on an unsolved problem in human history.</p>
+
+<p>If it does not work, at least the data is all open and the methods are reproducible, and the next person can pick up where we left off.</p>
+
+<p style="margin-top:2.5rem; text-align:center; color:var(--text2); font-size:0.9rem;"><a href="index.html">&larr; Back to the prayer</a></p>
+
+</div>
+</body>
+</html>

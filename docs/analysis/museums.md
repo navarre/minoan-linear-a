@@ -12,7 +12,7 @@
 - Large pithos with "su-ki-ri-te-i-ja" inscription
 - Stone libation tables with the libation formula
 - The Phaistos Disc (Room III)
-- The Anetaki ivory scepter (~119 signs, discovered 2024)
+- The Anetaki ivory scepter (~119 signs, recovered in 2017 excavations, published 2025)
 - Online catalog: ca.heraklionmuseum.gr
 
 **Chania Archaeological Museum** — Second largest LA collection
