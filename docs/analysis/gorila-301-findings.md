@@ -139,3 +139,65 @@ Before using any of this material publicly beyond the basic confirmation of the 
 ## Credit
 
 This audit responds to Clawdia's critique that the initial draft of this document overclaimed. She was correct on every point. The verifier role working properly.
+
+## Verifier audit — Round 3
+
+_Date:_ 2026-04-05
+
+This section checks the rewritten findings against `linear_a/data/gorila_sign_index_rows.json` directly.
+
+### What is confirmed
+
+1. **A 301 row count is correct.**  
+   Direct count from the row file confirms **35 rows** for `sign_id == "A 301"`.
+
+2. **The canonical libation formula opening is genuinely supported by the sign index.**  
+   The sequence `08-59-28-301-54-57` is visible directly in the row set, especially under:
+   - `AB 28`
+   - `AB 54`
+   - `AB 57`
+
+   Confirmed refs visible in the row file include:
+   - `PK Za 11a`
+   - `IO Za 1a.1, 3`
+   - `KO Za 1a`
+   - `PK Za 12a`
+   - `SY Za 1, 2a, 3`
+   - `TL Za 1a`
+   - `IO Za 4` (variant row)
+
+   So the core claim — that the canonical opening is primary-source confirmed in GORILA — is supported.
+
+3. **The Khania administrative compound claim is supported.**  
+   The A 301 rows do include the KH Wc compound/ligature contexts:
+   - `'73''301'`
+   - `*301*+311`
+   - `'301''351'`
+
+   The `*301*+311` cluster really does span 10+ KH Wc references, so the document is justified in highlighting KH administrative compounding as a serious sub-lane.
+
+4. **The softer rewrite about non-formula *301 contexts is defensible.**  
+   The row file clearly shows additional *301-bearing contexts on the same ritual objects that also preserve the canonical formula opening. So the rewritten caution — that these are likely distinct words elsewhere in the inscription rather than alternative formula openings — is a real improvement over the earlier overclaiming draft.
+
+### What still needs caution
+
+1. **The exact count phrase “At least 14 stone-vessel attestations” should stay soft unless deduped explicitly.**  
+   The row file strongly supports multi-site, multi-attestation confirmation, but exact totals depend on deduplicating split refs across several sign rows. The current wording is acceptable if treated as approximate, not as a final audited total.
+
+2. **The Apodoulou normalized reading is still too settled for the raw row evidence alone.**  
+   `AP Za 1` clearly preserves a *301-bearing special sequence, but the row representations differ by sign row:
+   - `AB 28`: `67-67-59-28-301-10-57`
+   - `A 301`: `67-58-59-301-10-67`
+   - `AB 57`: `*57*-59-38-301-10-*57*`
+
+   This means the underlying claim that AP Za 1 carries a non-canonical *301 context is supported, but the document should be careful about presenting a single normalized reading as if fully settled from the sign-index rows alone.
+
+### Bottom line
+
+The rewritten document is **substantially sounder** than the first draft. The central claims now supported by direct verifier checking are:
+- 35 A 301 rows
+- canonical formula opening genuinely confirmed in GORILA
+- multiple additional *301 contexts beyond the canonical opening
+- real KH administrative compounding involving *301
+
+The remaining caution point is mostly about **exact normalization and exact attestation counts**, not the overall direction of the findings.

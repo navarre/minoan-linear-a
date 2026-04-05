@@ -38,3 +38,16 @@
   - `docs/analysis/verifier-gorila-signs.md`
 - One-line finding:
   - **Meaningful state change but still blocked:** vol. 5 arrived, yet the current JPG payload does not appear to contain usable sign-plate pages.
+
+## Checkpoint 2026-04-05 10:xx EEST
+- Status: V1 COMPLETE
+- Task: Audit the rewritten `gorila-301-findings.md` against `linear_a/data/gorila_sign_index_rows.json`
+- Verified directly:
+  - A 301 row count = 35
+  - canonical formula sequence `08-59-28-301-54-57` is genuinely present in the row set
+  - KH administrative compounding with *301 is real (`*301*+311`, `'73''301'`, `'301''351'`)
+- Main correction/caution:
+  - exact AP Za 1 normalization still needs softer wording than a single fully settled normalized reading
+  - exact total attestation count should remain approximate unless explicitly deduped across sign rows
+- Output updated:
+  - `docs/analysis/gorila-301-findings.md` (appended verifier audit section)
