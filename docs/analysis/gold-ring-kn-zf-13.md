@@ -36,7 +36,7 @@ a-re-ne-si-di-*301-pi-ke-pa-ja-ta-ri-se-te-ri-mu-a-ja-ku
 
 ## This is NOT the Ivory Scepter
 
-**KN Zf 13** (gold ring, 19 signs, 1926) is a **different object** from the **Anetaki ivory scepter** (~119 signs, discovered 2024, published 2025 by Kanta, Nakassis, Palaima & Perna). Both are from Knossos, both are exceptionally long for LA, both are prestige objects. But they are distinct.
+**KN Zf 13** (gold ring, 19 signs, 1926) is a **different object** from the **Anetaki ivory scepter** (~119 signs, recovered in 2017 excavations, presented at a 2021 conference, published 2025 by Kanta, Nakassis, Palaima & Perna). Both are from Knossos, both are exceptionally long for LA, both are prestige objects. But they are distinct.
 
 The ivory scepter's full sign-by-sign transcription has NOT yet been published.
 

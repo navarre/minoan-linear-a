@@ -184,11 +184,95 @@ footer a { color: var(--accent); text-decoration: none; }
 .banner-link a { color: var(--accent); text-decoration: none; font-size: 0.9rem; }
 .banner-link a:hover { text-decoration: underline; }
 
+/* ===== HERO — THE PRAYER ===== */
+.hero-section { border-bottom: none; padding-bottom: 1rem; }
+.hero-wrap { max-width: 1000px; margin: 0 auto; }
+.hero-eyebrow { color: var(--text2); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 1.5rem; text-align: center; }
+.hero-box {
+  background: linear-gradient(135deg, #1a1510 0%, #2a1f10 50%, #1a1510 100%);
+  border: 1px solid var(--accent);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+.hero-image { text-align: center; }
+.hero-image img { max-width: 100%; height: auto; background: #e8e0d0; border-radius: 8px; padding: 0.8rem; }
+.hero-caption { color: var(--text2); font-size: 0.75rem; margin-top: 0.6rem; font-style: italic; }
+.hero-formula { text-align: center; }
+
+.formula-line { display: flex; justify-content: center; margin: 0.4rem 0 0.3rem; }
+.sign-row { display: flex; gap: 0.5rem; flex-wrap: wrap; justify-content: center; align-items: flex-end; }
+.sign-unit { display: flex; flex-direction: column; align-items: center; }
+.sign-unit img { width: 44px; height: 44px; object-fit: contain; background: #e8e0d0; border-radius: 4px; padding: 3px; }
+.sign-unit .syl { color: var(--accent); font-family: monospace; font-size: 0.85rem; margin-top: 0.3rem; letter-spacing: 0.02em; }
+.sign-unit.sign-unknown img { border: 2px solid #c45a5a; }
+.sign-unit.sign-unknown .syl { color: #c45a5a; font-weight: 700; }
+
+.formula-transliteration { color: var(--accent); font-family: monospace; font-size: 1.2rem; letter-spacing: 0.08em; }
+.formula-gloss { color: var(--text); font-style: italic; font-size: 0.95rem; margin-bottom: 1rem; }
+
+.hero-text { max-width: 800px; margin: 0 auto; }
+.hero-text p { color: var(--text2); font-size: 0.95rem; line-height: 1.8; margin-top: 0.8rem; }
+.hero-text strong { color: var(--text); }
+.hero-text strong.accent { color: var(--accent); }
+.hero-text strong.unknown { color: #c45a5a; }
+
+/* ===== MOBILE BREAKPOINTS ===== */
 @media (max-width: 768px) {
-  .header-content { flex-direction: column; text-align: center; }
+  .header-content { flex-direction: column; text-align: center; gap: 0.8rem !important; }
   .header-stats { justify-content: center; }
+  .title-block h1 { font-size: 1.4rem; }
+  .subtitle { font-size: 0.9rem; }
+
+  main { padding: 0 1rem; }
+  .section { padding: 1.5rem 0; }
+
+  /* Hero: stack image over formula */
+  .hero-section { padding-top: 1rem; }
+  .hero-wrap { padding: 0 0.5rem; }
+  .hero-eyebrow { font-size: 0.7rem; margin-bottom: 1rem; letter-spacing: 0.1em; }
+  .hero-box { grid-template-columns: 1fr; gap: 1.2rem; padding: 1.2rem; }
+  .hero-image img { max-width: 240px; }
+  .sign-row { gap: 0.3rem; }
+  .sign-unit img { width: 34px; height: 34px; }
+  .sign-unit .syl { font-size: 0.7rem; }
+  .formula-transliteration { font-size: 1.05rem; letter-spacing: 0.04em; }
+  .formula-gloss { font-size: 0.85rem; }
+  .hero-text p { font-size: 0.9rem; line-height: 1.7; }
+
+  /* Overview cards stack */
+  .overview-grid { grid-template-columns: 1fr !important; gap: 1rem; }
+  .findings-grid { grid-template-columns: 1fr !important; gap: 1rem; }
+  .levels-grid { grid-template-columns: 1fr !important; gap: 1rem; }
+  .stats-row { flex-direction: column; gap: 0.8rem; }
+  .corpus-details { grid-template-columns: 1fr !important; gap: 1.5rem; }
+  .sites-grid { grid-template-columns: 1fr !important; }
+
+  /* Benchmarks and findings */
   .site-card.major { grid-column: span 1; }
   .bar-label { min-width: 90px; font-size: 0.7rem; }
   .benchmark-grid { grid-template-columns: 1fr; }
   .bench-results { flex-direction: column; align-items: center; }
+
+  /* Tables horizontal scroll */
+  .sequences-table, .report table { overflow-x: auto; display: block; white-space: nowrap; }
+
+  /* Section headings smaller */
+  .section h2 { font-size: 1.3rem; }
+  .section h3 { font-size: 1rem; }
+}
+
+@media (max-width: 480px) {
+  .hero-box { padding: 0.9rem; }
+  .sign-unit img { width: 28px; height: 28px; }
+  .sign-unit .syl { font-size: 0.6rem; }
+  .formula-transliteration { font-size: 0.95rem; }
+  .formula-gloss { font-size: 0.8rem; }
+  .hero-text p { font-size: 0.85rem; }
+  .title-block h1 { font-size: 1.2rem; }
+  .hero-image img { max-width: 200px; }
 }
