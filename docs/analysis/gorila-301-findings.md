@@ -151,46 +151,48 @@ This section checks the rewritten findings against `linear_a/data/gorila_sign_in
 1. **A 301 row count is correct.**  
    Direct count from the row file confirms **35 rows** for `sign_id == "A 301"`.
 
-2. **The canonical libation formula opening is genuinely supported by the sign index.**  
-   The sequence `08-59-28-301-54-57` is visible directly in the row set, especially under:
-   - `AB 28`
-   - `AB 54`
-   - `AB 57`
+2. **The canonical libation-formula opening is genuinely supported by the sign index.**  
+   The exact full sequence is distributed across the sign rows rather than appearing as one plain unstarred string, but the row set clearly supports the canonical opening `08-59-28-301-54-57` via converging evidence from:
+   - `AB 28` rows: `08-59-*28*-301-54-57`
+   - `AB 54` rows: `08-59-28-301-*54*-57`
+   - `AB 57` rows: `08-59-28-301-54-*57*`
 
    Confirmed refs visible in the row file include:
    - `PK Za 11a`
-   - `IO Za 1a.1, 3`
+   - `IO Za 1a.1, 3, 7`
    - `KO Za 1a`
    - `PK Za 12a`
-   - `SY Za 1, 2a, 3`
+   - `SY Za 1, 2a, 3` (one extracted row writes this as `SY Zm 1, 2a, 3` and likely needs normalization)
    - `TL Za 1a`
-   - `IO Za 4` (variant row)
 
    So the core claim — that the canonical opening is primary-source confirmed in GORILA — is supported.
 
 3. **The Khania administrative compound claim is supported.**  
-   The A 301 rows do include the KH Wc compound/ligature contexts:
-   - `'73''301'`
-   - `*301*+311`
-   - `'301''351'`
+   The KH Wc rows do include the key compound/ligature contexts:
+   - `'73''301'` (`KH Wc 2064`, `2099`)
+   - `*301*+311` (`KH Wc 2046`, `2047`, `2048`, `2049`, `2050`, `2051`, `2052`, `2053`, `2113`, and in the A 301 row also `2065`)
+   - `'301''351'` (`KH Wc 2065`)
 
-   The `*301*+311` cluster really does span 10+ KH Wc references, so the document is justified in highlighting KH administrative compounding as a serious sub-lane.
+   So the document is justified in highlighting KH administrative compounding as a serious sub-lane.
 
 4. **The softer rewrite about non-formula *301 contexts is defensible.**  
-   The row file clearly shows additional *301-bearing contexts on the same ritual objects that also preserve the canonical formula opening. So the rewritten caution — that these are likely distinct words elsewhere in the inscription rather than alternative formula openings — is a real improvement over the earlier overclaiming draft.
+   The row file clearly shows additional *301-bearing contexts on the same ritual objects that also preserve the canonical formula opening. The rewritten caution — that these are likely distinct words elsewhere in the inscription rather than alternative openings of the same word — is a real improvement over the earlier overclaiming draft.
 
 ### What still needs caution
 
-1. **The exact count phrase “At least 14 stone-vessel attestations” should stay soft unless deduped explicitly.**  
-   The row file strongly supports multi-site, multi-attestation confirmation, but exact totals depend on deduplicating split refs across several sign rows. The current wording is acceptable if treated as approximate, not as a final audited total.
+1. **The exact phrase “At least 14 stone-vessel attestations” should stay approximate unless explicitly deduped.**  
+   The row file strongly supports multi-site, multi-attestation confirmation, but exact totals depend on deduplicating grouped refs and split references across several sign rows.
 
-2. **The Apodoulou normalized reading is still too settled for the raw row evidence alone.**  
-   `AP Za 1` clearly preserves a *301-bearing special sequence, but the row representations differ by sign row:
-   - `AB 28`: `67-67-59-28-301-10-57`
-   - `A 301`: `67-58-59-301-10-67`
-   - `AB 57`: `*57*-59-38-301-10-*57*`
+2. **The Apodoulou normalized reading is still too settled for the raw sign-index evidence alone.**  
+   `AP Za 1` clearly preserves a non-canonical *301-bearing sequence, but the extracted row representations differ materially by sign row:
+   - `AB 28`: `67-67-59-*28*-301-10-57`
+   - `A 301`: `67-58-59-*301*-10-67`
+   - `AB 57`: `*57*-59-38-301-10-67` and `*57*-59-38-301-10-*57*`
 
-   This means the underlying claim that AP Za 1 carries a non-canonical *301 context is supported, but the document should be careful about presenting a single normalized reading as if fully settled from the sign-index rows alone.
+   That supports the claim that `AP Za 1` preserves a special *301 context, but **not** a single fully settled normalized reading from sign-index rows alone.
+
+3. **A few extraction-normalization artifacts remain visible in the raw row data.**  
+   Examples include `SY Zm` where the project prose expects `SY Za`, and grouped refs like `IO Za 1a.1 3 7`. These do not overturn the findings, but they are a reminder that exact citation wording should be normalized before strong public-facing count claims are made.
 
 ### Bottom line
 
@@ -200,4 +202,4 @@ The rewritten document is **substantially sounder** than the first draft. The ce
 - multiple additional *301 contexts beyond the canonical opening
 - real KH administrative compounding involving *301
 
-The remaining caution point is mostly about **exact normalization and exact attestation counts**, not the overall direction of the findings.
+The remaining caution points are about **exact normalization, grouped-reference deduplication, and extraction artifacts**, not about the overall direction of the findings.

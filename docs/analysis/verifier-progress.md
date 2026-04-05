@@ -44,13 +44,14 @@
 - Task: Audit the rewritten `gorila-301-findings.md` against `linear_a/data/gorila_sign_index_rows.json`
 - Verified directly:
   - A 301 row count = 35
-  - canonical formula sequence `08-59-28-301-54-57` is genuinely present in the row set
+  - the canonical formula opening is supported by converging `AB 28` / `AB 54` / `AB 57` rows rather than one single plain-string row
   - KH administrative compounding with *301 is real (`*301*+311`, `'73''301'`, `'301''351'`)
 - Main correction/caution:
   - exact AP Za 1 normalization still needs softer wording than a single fully settled normalized reading
   - exact total attestation count should remain approximate unless explicitly deduped across sign rows
+  - some extraction-normalization artifacts remain visible in raw refs (for example `SY Zm` vs expected `SY Za`)
 - Output updated:
-  - `docs/analysis/gorila-301-findings.md` (appended verifier audit section)
+  - `docs/analysis/gorila-301-findings.md` (verifier audit section corrected to match raw row evidence)
 
 ## Checkpoint 2026-04-05 10:xx EEST
 - Status: V2 COMPLETE
